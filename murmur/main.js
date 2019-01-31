@@ -128,7 +128,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!--The content below is only a placeholder and can be replaced.-->\n<!-- <div style=\"text-align:center\">\n  <h1>\n    Welcome to {{ title }}!\n  </h1>\n  <img width=\"300\" alt=\"Angular Logo\" src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==\">\n</div>\n<h2>Here are some links to help you start: </h2>\n<ul>\n  <li>\n    <h2><a target=\"_blank\" rel=\"noopener\" href=\"https://angular.io/tutorial\">Tour of Heroes</a></h2>\n  </li>\n  <li>\n    <h2><a target=\"_blank\" rel=\"noopener\" href=\"https://github.com/angular/angular-cli/wiki\">CLI Documentation</a></h2>\n  </li>\n  <li>\n    <h2><a target=\"_blank\" rel=\"noopener\" href=\"https://blog.angular.io/\">Angular blog</a></h2>\n  </li>\n</ul> -->\n<app-mainapp></app-mainapp>\n\n<router-outlet></router-outlet>\n"
+module.exports = "<app-mainapp></app-mainapp>"
 
 /***/ }),
 
@@ -308,7 +308,7 @@ var AppModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".styleone{\n    /*display: flex;*/\n    /*flex-direction: column;*/\n    height: 100%;\n    font: inherit;\n    font-size: 100%;\n    vertical-align: baseline;\n    outline: none;\n    margin: 0;\n    padding: 0;\n    border: 0;\n}\n.headerone{\n    background-color: #ffffff;\n    padding: 10px 16px;\n    height: 6%;\n    width: 100%;\n    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);\n    margin-bottom: 10px;\n}\n.userimage {\n    width: 40px;\n    height: 40px;\n    border-radius: 50%;\n}\n.userimage1 {\n    width: 40px;\n    height: 40px;\n    border-radius: 50%;\n}\n.footerone {\n    background-color: #dcdcdc;\n    position: absolute;\n    bottom: 0;\n    min-height: 80px;\n    width: 100%;\n}\n.formcolor{\n    background-color: #f7f8fa;\n    border: 1px solid #f7f8fa;\n}\n.threeicons {\n    font-size: 20px;\n}\n.threeicons:hover {\n    color: #a09fed;\n}\n.icon {\n    max-width: 80%;\n}\n.countdiv {\n    padding: 0;\n    margin: auto;\n    text-align: left;\n}\n.countdivp{\n    margin: 0;\n}\n.icondiv {\n    padding-right: 0;\n}\n.countselected {\n    color: #a09fed;\n}\n.cursor{\n    cursor: pointer;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tbWVudHBvc3QvY29tbWVudHBvc3QuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGtCQUFrQjtJQUNsQiwyQkFBMkI7SUFDM0IsYUFBYTtJQUNiLGNBQWM7SUFDZCxnQkFBZ0I7SUFDaEIseUJBQXlCO0lBQ3pCLGNBQWM7SUFDZCxVQUFVO0lBQ1YsV0FBVztJQUNYLFVBQVU7Q0FDYjtBQUNEO0lBQ0ksMEJBQTBCO0lBQzFCLG1CQUFtQjtJQUNuQixXQUFXO0lBQ1gsWUFBWTtJQUNaLDRFQUE0RTtJQUM1RSxvQkFBb0I7Q0FDdkI7QUFDRDtJQUNJLFlBQVk7SUFDWixhQUFhO0lBQ2IsbUJBQW1CO0NBQ3RCO0FBQ0Q7SUFDSSxZQUFZO0lBQ1osYUFBYTtJQUNiLG1CQUFtQjtDQUN0QjtBQUNEO0lBQ0ksMEJBQTBCO0lBQzFCLG1CQUFtQjtJQUNuQixVQUFVO0lBQ1YsaUJBQWlCO0lBQ2pCLFlBQVk7Q0FDZjtBQUNEO0lBQ0ksMEJBQTBCO0lBQzFCLDBCQUEwQjtDQUM3QjtBQUNEO0lBQ0ksZ0JBQWdCO0NBQ25CO0FBQ0Q7SUFDSSxlQUFlO0NBQ2xCO0FBQ0Q7SUFDSSxlQUFlO0NBQ2xCO0FBQ0Q7SUFDSSxXQUFXO0lBQ1gsYUFBYTtJQUNiLGlCQUFpQjtDQUNwQjtBQUNEO0lBQ0ksVUFBVTtDQUNiO0FBQ0Q7SUFDSSxpQkFBaUI7Q0FDcEI7QUFDRDtJQUNJLGVBQWU7Q0FDbEI7QUFDRDtJQUNJLGdCQUFnQjtDQUNuQiIsImZpbGUiOiJzcmMvYXBwL2NvbW1lbnRwb3N0L2NvbW1lbnRwb3N0LmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuc3R5bGVvbmV7XG4gICAgLypkaXNwbGF5OiBmbGV4OyovXG4gICAgLypmbGV4LWRpcmVjdGlvbjogY29sdW1uOyovXG4gICAgaGVpZ2h0OiAxMDAlO1xuICAgIGZvbnQ6IGluaGVyaXQ7XG4gICAgZm9udC1zaXplOiAxMDAlO1xuICAgIHZlcnRpY2FsLWFsaWduOiBiYXNlbGluZTtcbiAgICBvdXRsaW5lOiBub25lO1xuICAgIG1hcmdpbjogMDtcbiAgICBwYWRkaW5nOiAwO1xuICAgIGJvcmRlcjogMDtcbn1cbi5oZWFkZXJvbmV7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogI2ZmZmZmZjtcbiAgICBwYWRkaW5nOiAxMHB4IDE2cHg7XG4gICAgaGVpZ2h0OiA2JTtcbiAgICB3aWR0aDogMTAwJTtcbiAgICBib3gtc2hhZG93OiAwIDFweCAxcHggMCByZ2JhKDAsIDAsIDAsIDAuMDYpLCAwIDJweCA1cHggMCByZ2JhKDAsIDAsIDAsIDAuMik7XG4gICAgbWFyZ2luLWJvdHRvbTogMTBweDtcbn1cbi51c2VyaW1hZ2Uge1xuICAgIHdpZHRoOiA0MHB4O1xuICAgIGhlaWdodDogNDBweDtcbiAgICBib3JkZXItcmFkaXVzOiA1MCU7XG59XG4udXNlcmltYWdlMSB7XG4gICAgd2lkdGg6IDQwcHg7XG4gICAgaGVpZ2h0OiA0MHB4O1xuICAgIGJvcmRlci1yYWRpdXM6IDUwJTtcbn1cbi5mb290ZXJvbmUge1xuICAgIGJhY2tncm91bmQtY29sb3I6ICNkY2RjZGM7XG4gICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgIGJvdHRvbTogMDtcbiAgICBtaW4taGVpZ2h0OiA4MHB4O1xuICAgIHdpZHRoOiAxMDAlO1xufVxuLmZvcm1jb2xvcntcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZjdmOGZhO1xuICAgIGJvcmRlcjogMXB4IHNvbGlkICNmN2Y4ZmE7XG59XG4udGhyZWVpY29ucyB7XG4gICAgZm9udC1zaXplOiAyMHB4O1xufVxuLnRocmVlaWNvbnM6aG92ZXIge1xuICAgIGNvbG9yOiAjYTA5ZmVkO1xufVxuLmljb24ge1xuICAgIG1heC13aWR0aDogODAlO1xufVxuLmNvdW50ZGl2IHtcbiAgICBwYWRkaW5nOiAwO1xuICAgIG1hcmdpbjogYXV0bztcbiAgICB0ZXh0LWFsaWduOiBsZWZ0O1xufVxuLmNvdW50ZGl2cHtcbiAgICBtYXJnaW46IDA7XG59XG4uaWNvbmRpdiB7XG4gICAgcGFkZGluZy1yaWdodDogMDtcbn1cbi5jb3VudHNlbGVjdGVkIHtcbiAgICBjb2xvcjogI2EwOWZlZDtcbn1cbi5jdXJzb3J7XG4gICAgY3Vyc29yOiBwb2ludGVyO1xufSJdfQ== */"
+module.exports = ".styleone{\n    /*display: flex;*/\n    /*flex-direction: column;*/\n    height: 100%;\n    font: inherit;\n    font-size: 100%;\n    vertical-align: baseline;\n    outline: none;\n    margin: 0;\n    padding: 0;\n    border: 0;\n}\n.headerone{\n    background-color: #ffffff;\n    padding: 10px 16px;\n    height: 6%;\n    width: 100%;\n    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);\n    margin-bottom: 10px;\n}\n.userimage {\n    width: 40px;\n    height: 40px;\n    border-radius: 50%;\n}\n.userimage1 {\n    width: 40px;\n    height: 40px;\n    border-radius: 50%;\n}\n.footerone {\n    background-color: #dcdcdc;\n    position: absolute;\n    bottom: 0;\n    min-height: 80px;\n    width: 100%;\n}\n.formcolor{\n    background-color: #f7f8fa;\n    border: 1px solid #f7f8fa;\n}\n.threeicons {\n    font-size: 20px;\n}\n.threeicons:hover {\n    color: #a09fed;\n}\n.icon {\n    max-width: 70%;\n}\n.countdiv {\n    padding: 0;\n    margin: auto;\n    text-align: left;\n}\n.countdivp{\n    margin: 0;\n}\n.icondiv {\n    padding-right: 0;\n}\n.countselected {\n    color: #a09fed;\n}\n.cursor{\n    cursor: pointer;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tbWVudHBvc3QvY29tbWVudHBvc3QuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGtCQUFrQjtJQUNsQiwyQkFBMkI7SUFDM0IsYUFBYTtJQUNiLGNBQWM7SUFDZCxnQkFBZ0I7SUFDaEIseUJBQXlCO0lBQ3pCLGNBQWM7SUFDZCxVQUFVO0lBQ1YsV0FBVztJQUNYLFVBQVU7Q0FDYjtBQUNEO0lBQ0ksMEJBQTBCO0lBQzFCLG1CQUFtQjtJQUNuQixXQUFXO0lBQ1gsWUFBWTtJQUNaLDRFQUE0RTtJQUM1RSxvQkFBb0I7Q0FDdkI7QUFDRDtJQUNJLFlBQVk7SUFDWixhQUFhO0lBQ2IsbUJBQW1CO0NBQ3RCO0FBQ0Q7SUFDSSxZQUFZO0lBQ1osYUFBYTtJQUNiLG1CQUFtQjtDQUN0QjtBQUNEO0lBQ0ksMEJBQTBCO0lBQzFCLG1CQUFtQjtJQUNuQixVQUFVO0lBQ1YsaUJBQWlCO0lBQ2pCLFlBQVk7Q0FDZjtBQUNEO0lBQ0ksMEJBQTBCO0lBQzFCLDBCQUEwQjtDQUM3QjtBQUNEO0lBQ0ksZ0JBQWdCO0NBQ25CO0FBQ0Q7SUFDSSxlQUFlO0NBQ2xCO0FBQ0Q7SUFDSSxlQUFlO0NBQ2xCO0FBQ0Q7SUFDSSxXQUFXO0lBQ1gsYUFBYTtJQUNiLGlCQUFpQjtDQUNwQjtBQUNEO0lBQ0ksVUFBVTtDQUNiO0FBQ0Q7SUFDSSxpQkFBaUI7Q0FDcEI7QUFDRDtJQUNJLGVBQWU7Q0FDbEI7QUFDRDtJQUNJLGdCQUFnQjtDQUNuQiIsImZpbGUiOiJzcmMvYXBwL2NvbW1lbnRwb3N0L2NvbW1lbnRwb3N0LmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuc3R5bGVvbmV7XG4gICAgLypkaXNwbGF5OiBmbGV4OyovXG4gICAgLypmbGV4LWRpcmVjdGlvbjogY29sdW1uOyovXG4gICAgaGVpZ2h0OiAxMDAlO1xuICAgIGZvbnQ6IGluaGVyaXQ7XG4gICAgZm9udC1zaXplOiAxMDAlO1xuICAgIHZlcnRpY2FsLWFsaWduOiBiYXNlbGluZTtcbiAgICBvdXRsaW5lOiBub25lO1xuICAgIG1hcmdpbjogMDtcbiAgICBwYWRkaW5nOiAwO1xuICAgIGJvcmRlcjogMDtcbn1cbi5oZWFkZXJvbmV7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogI2ZmZmZmZjtcbiAgICBwYWRkaW5nOiAxMHB4IDE2cHg7XG4gICAgaGVpZ2h0OiA2JTtcbiAgICB3aWR0aDogMTAwJTtcbiAgICBib3gtc2hhZG93OiAwIDFweCAxcHggMCByZ2JhKDAsIDAsIDAsIDAuMDYpLCAwIDJweCA1cHggMCByZ2JhKDAsIDAsIDAsIDAuMik7XG4gICAgbWFyZ2luLWJvdHRvbTogMTBweDtcbn1cbi51c2VyaW1hZ2Uge1xuICAgIHdpZHRoOiA0MHB4O1xuICAgIGhlaWdodDogNDBweDtcbiAgICBib3JkZXItcmFkaXVzOiA1MCU7XG59XG4udXNlcmltYWdlMSB7XG4gICAgd2lkdGg6IDQwcHg7XG4gICAgaGVpZ2h0OiA0MHB4O1xuICAgIGJvcmRlci1yYWRpdXM6IDUwJTtcbn1cbi5mb290ZXJvbmUge1xuICAgIGJhY2tncm91bmQtY29sb3I6ICNkY2RjZGM7XG4gICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgIGJvdHRvbTogMDtcbiAgICBtaW4taGVpZ2h0OiA4MHB4O1xuICAgIHdpZHRoOiAxMDAlO1xufVxuLmZvcm1jb2xvcntcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZjdmOGZhO1xuICAgIGJvcmRlcjogMXB4IHNvbGlkICNmN2Y4ZmE7XG59XG4udGhyZWVpY29ucyB7XG4gICAgZm9udC1zaXplOiAyMHB4O1xufVxuLnRocmVlaWNvbnM6aG92ZXIge1xuICAgIGNvbG9yOiAjYTA5ZmVkO1xufVxuLmljb24ge1xuICAgIG1heC13aWR0aDogNzAlO1xufVxuLmNvdW50ZGl2IHtcbiAgICBwYWRkaW5nOiAwO1xuICAgIG1hcmdpbjogYXV0bztcbiAgICB0ZXh0LWFsaWduOiBsZWZ0O1xufVxuLmNvdW50ZGl2cHtcbiAgICBtYXJnaW46IDA7XG59XG4uaWNvbmRpdiB7XG4gICAgcGFkZGluZy1yaWdodDogMDtcbn1cbi5jb3VudHNlbGVjdGVkIHtcbiAgICBjb2xvcjogI2EwOWZlZDtcbn1cbi5jdXJzb3J7XG4gICAgY3Vyc29yOiBwb2ludGVyO1xufSJdfQ== */"
 
 /***/ }),
 
@@ -319,7 +319,7 @@ module.exports = ".styleone{\n    /*display: flex;*/\n    /*flex-direction: colu
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n<!-- This sesction is for Detailed User Feed of people. Starts Here -->\n\n<div class=\"styleone\">\n\t<!-- This header is open header for User psersonal Profile. Starts Here -->\n\t<header class=\"headerone\">\n\t\t<a class=\"cursor\" (click)=\"goBack()\"><i class=\"material-icons mt-2\">keyboard_backspace</i></a>\n\t</header>\n\t<!-- This header is open header for User psersonal Profile. Ends Here -->\n\n\t<div style=\"display: block;height: 94%;overflow-y: auto;-ms-overflow-style: -ms-autohiding-scrollbar;padding-bottom: 20px;\">\n\n\t\t<div class=\"card mt-0\" *ngFor=\"let mur of Murmur_Posts; let i = index\">\n\t\t\t<div class=\"card-body\" *ngIf = \"mur.action_type == 'murmur'\">\n\t\t\t\t<div class=\"row\">\n\t\t\t\t\t<div class=\"col-1\">\n\t\t\t\t\t\t<a class=\"cursor\" (click)=\"otherUser(mur.Acc_id)\"><img class=\"userimage\" src={{mur.image}}></a>\n\t\t\t\t\t</div>\t\t\t\n\t\t\t\t\t<div class=\"col-11\" style=\"margin: auto;\">\n\t\t\t\t\t\t<div class=\"col-9\">\n\t\t\t\t\t\t\t<a><h5 class=\"mb-1\" style=\"font-weight: 600;\">{{mur.account_name}}<span class=\"ml-2\" style=\"color: #a09fed;\">{{mur.Acc_id}}</span></h5></a>\n\t\t\t\t\t\t\t<a><p>{{mur.murmur.message}}</p></a>\n\t\t\t\t\t\t\t<a *ngIf = \" mur.murmur.attached_url !== ''\" ><img alt=\"\" style=\"width: 100%;border-radius: 10px;\" class=\"mb-4\" src={{mur.murmur.attached_url}}></a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"row col-6\">\n\t\t\t\t\t\t\t<div class=\"col-4\">\n\t\t\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 icondiv\" *ngIf=\"!mur.murmur.snooped\"><a class=\"cursor\" (click)=\"snoop(i)\"><img class=\"icon\" src=\"assets/img/like.svg\"></a></div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 icondiv\" *ngIf=\"mur.murmur.snooped\"><a class=\"cursor\" (click)=\"snooped()\"><img class=\"icon\" src=\"assets/img/like_color.png\"></a></div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 countdiv\">\n\t\t\t\t\t\t\t\t\t\t<p class=\"countdivp\">{{mur.murmur.snoop_count}}</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-4\">\n\t\t\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 icondiv\"><a class=\"cursor\" ><img class=\"icon\" src=\"assets/img/comment.svg\"></a></div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 countdiv\">\n\t\t\t\t\t\t\t\t\t\t<p class=\"countdivp\">{{mur.murmur.comment_count}}</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-4\">\n\t\t\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 icondiv\"><a routerLink=\"/share\" ><img class=\"icon\" src=\"assets/img/share.svg\"></a></div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 countdiv\">\n\t\t\t\t\t\t\t\t\t\t<p class=\"countdivp\">{{mur.murmur.yell_count}}</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t\n\t\t\t<div class=\"card-body\" *ngIf = \"mur.action_type == 'yell'\">\n\t\t\t\t<div class=\"row\">\n                    <div class=\"col-1\">\n                        <a class=\"cursor\" (click)=\"otherUser(mur.Acc_id)\"><img class=\"userimage\" src={{mur.image}}></a>\n                    </div>            \n\t\t\t\t\t<div class=\"col-11\" style=\"margin: auto;\">\n\t\t\t\t\t\t<div class=\"col-9\">\n\t\t\t\t\t\t\t<a><h6 class=\"mb-1\" style=\"font-weight: 600;\">{{mur.account_name}}<span class=\"ml-2\" style=\"color: #a09fed;\">{{mur.Acc_id}}</span></h6></a>\n\t\t\t\t\t\t\t<a><p>{{mur.yell.extra_comment}}</p></a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-12 mb-4\">\n\t\t\t\t\t\t\t<div class=\"card mt-0\" style=\"border-radius: 10px;\">\n\t\t\t\t\t\t\t\t<div class=\"card-body\">\n\t\t\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-1\">\n\t\t\t\t\t\t\t\t\t\t<a class=\"cursor\" (click)=\"otherUser(mur.yell.mur_acc_id)\"><img class=\"userimage\" src={{mur.yell.mur_acc_image}}></a>\n\t\t\t\t\t\t\t\t\t</div>            \n\t\t\t\t\t\t\t\t\t<div class=\"col-11\" style=\"margin: auto;\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"col-9\">\n\t\t\t\t\t\t\t\t\t\t\t<a><h6 class=\"mb-1\" style=\"font-weight: 600;\">{{mur.yell.mur_account_name}}<span class=\"ml-2\" style=\"color: #a09fed;\">{{mur.yell.mur_acc_id}}</span></h6></a>\n\t\t\t\t\t\t\t\t\t\t\t<a><p>{{mur.yell.message}}</p></a>\n\t\t\t\t\t\t\t\t\t\t\t<a *ngIf = \" mur.yell.attached_url !== ''\" ><img alt=\"\" style=\"width: 100%;border-radius: 10px;\" class=\"mb-4\" src={{mur.yell.attached_url}}></a>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"row col-6\">\n\t\t\t\t\t\t\t<div class=\"col-4\">\n\t\t\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 icondiv\" *ngIf=\"!mur.yell.snooped\"><a class=\"cursor\" (click)=\"snoop(i)\"><img class=\"icon\" src=\"assets/img/like.svg\"></a></div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 icondiv\" *ngIf=\"mur.yell.snooped\"><a class=\"cursor\" (click)=\"snooped()\"><img class=\"icon\" src=\"assets/img/like_color.png\"></a></div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 countdiv\">\n\t\t\t\t\t\t\t\t\t\t<p class=\"countdivp\">{{mur.yell.snoop_count}}</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-4\">\n\t\t\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 icondiv\"><a routerLink=\"/comment\" (click)=\"cmt_ID(i)\"><img class=\"icon\" src=\"assets/img/comment.svg\"></a></div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 countdiv\">\n\t\t\t\t\t\t\t\t\t\t<p class=\"countdivp\">{{mur.yell.comment_count}}</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n                </div>\n\t\t\t</div>\n\t\t</div>\n\n\t\t<div class=\"card mt-0\">\n\t\t  <div class=\"card-body\" style=\"background-color: #dcdcdc;\">\n\t\t    <div class=\"row\">\n\t\t    \t<div class=\"col-1\" style=\"margin: auto;text-align: right;padding: 0;\">\n\t\t    \t\t<a><img class=\"userimage1\" src={{My_Profile.profile_pic}}></a>\n\t\t    \t</div>\t\t\t\n\t\t\t\t<div class=\"col-9\" style=\"margin: auto;\">\n\t\t\t\t\t<input class=\"form-control form-control-lg formcolor\" type=\"text\" [(ngModel)]=\"cmt\" placeholder=\"Type a message here\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-2\" style=\"margin: auto;\">\n\t\t\t\t\t<button type=\"button\" class=\"btn btn-secondary\" (click)=\"comment()\" style=\"background-color: #a09fed;border-color: #a09fed;\">Comment</button>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t  </div>\n\t\t</div>\n\n\t\t<div *ngFor=\"let cmt of Murmur_Commetnts; let i = index\">\n\t\t\t<div class=\"card mt-0\">\n\t\t\t\t<div class=\"card-body\">\n\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t<div class=\"col-1\">\n\t\t\t\t\t\t\t<a class=\"cursor\" (click)=\"otherUser(cmt.Acc_id)\"><img class=\"userimage\" src={{cmt.image}}></a>\n\t\t\t\t\t\t</div>\t\t\t\n\t\t\t\t\t<div class=\"col-11\" style=\"margin: auto;\">\n\t\t\t\t\t\t<div class=\"col-9\">\n\t\t\t\t\t\t\t<a><h6 class=\"mb-1\" style=\"font-weight: 600;\">{{cmt.account_name}}<span class=\"ml-2\" style=\"color: #a09fed;\">{{cmt.Acc_id}}</span></h6></a>\n\t\t\t\t\t\t\t<a><p>{{cmt.comment}}</p></a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\n\t</div>\n</div>\n\n<!-- This sesction is for Detailed User Feed of people. Ends Here -->\n\n<button id=\"openModalButton\" [hidden]=\"true\" data-toggle=\"modal\" data-target=\"#exampleModalCenter\">Open Modal</button>\n\n<!-- Modal -->\n<div class=\"modal fade\" id=\"exampleModalCenter\"   tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"exampleModalCenterTitle\" aria-hidden=\"true\" #closeBtn>\n\t<div class=\"modal-dialog modal-dialog-centered\" role=\"document\">\n\t\t<div class=\"modal-content\">\n\t\t<div class=\"modal-body\" style=\"font-size: 20px;margin: auto;\">\n\t\t\t{{resMes}}\n\t\t</div>\n\t\t<div class=\"modal-footer\" style=\"margin: auto;\">\n\t\t\t<button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Close</button>\n\t\t</div>\n\t\t</div>\n\t</div>\n</div>  "
+module.exports = "\n<!-- This sesction is for Detailed User Feed of people. Starts Here -->\n\n<div class=\"styleone\">\n\t<!-- This header is open header for User psersonal Profile. Starts Here -->\n\t<header class=\"headerone\">\n\t\t<a class=\"cursor\" (click)=\"goBack()\"><i class=\"material-icons mt-2\">keyboard_backspace</i></a>\n\t</header>\n\t<!-- This header is open header for User psersonal Profile. Ends Here -->\n\n\t<div style=\"display: block;height: 94%;overflow-y: auto;-ms-overflow-style: -ms-autohiding-scrollbar;padding-bottom: 20px;\">\n\n\t\t<div class=\"card mt-0\" *ngFor=\"let mur of Murmur_Posts; let i = index\">\n\t\t\t<div class=\"card-body\" *ngIf = \"mur.action_type == 'murmur'\">\n\t\t\t\t<div class=\"row\">\n\t\t\t\t\t<div class=\"col-1\">\n\t\t\t\t\t\t<a class=\"cursor\" (click)=\"otherUser(mur.Acc_id)\"><img class=\"userimage\" src={{mur.image}}></a>\n\t\t\t\t\t</div>\t\t\t\n\t\t\t\t\t<div class=\"col-11\" style=\"margin: auto;\">\n\t\t\t\t\t\t<div class=\"col-9\">\n\t\t\t\t\t\t\t<a><h5 class=\"mb-1\" style=\"font-weight: 600;\">{{mur.account_name}}<span class=\"ml-2\" style=\"color: #a09fed;\">{{mur.Acc_id}}</span></h5></a>\n\t\t\t\t\t\t\t<a><p>{{mur.murmur.message}}</p></a>\n\t\t\t\t\t\t\t<a *ngIf = \" mur.murmur.attached_url !== ''\" ><img alt=\"\" style=\"width: 100%;border-radius: 10px;\" class=\"mb-4\" src={{mur.murmur.attached_url}}></a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"row col-6\">\n\t\t\t\t\t\t\t<div class=\"col-4\">\n\t\t\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 icondiv\" *ngIf=\"!mur.murmur.snooped\"><a class=\"cursor\" (click)=\"snoop()\"><img class=\"icon\" src=\"assets/img/like.svg\"></a></div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 icondiv\" *ngIf=\"mur.murmur.snooped\"><a class=\"cursor\" (click)=\"snooped()\"><img class=\"icon\" src=\"assets/img/like_color.png\"></a></div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 countdiv\">\n\t\t\t\t\t\t\t\t\t\t<p class=\"countdivp\">{{mur.murmur.snoop_count}}</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-4\">\n\t\t\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 icondiv\"><a class=\"cursor\" ><img class=\"icon\" src=\"assets/img/comment.svg\"></a></div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 countdiv\">\n\t\t\t\t\t\t\t\t\t\t<p class=\"countdivp\">{{mur.murmur.comment_count}}</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-4\">\n\t\t\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 icondiv\"><a routerLink=\"/share\" ><img class=\"icon\" src=\"assets/img/share.svg\"></a></div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 countdiv\">\n\t\t\t\t\t\t\t\t\t\t<p class=\"countdivp\">{{mur.murmur.yell_count}}</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t\n\t\t\t<div class=\"card-body\" *ngIf = \"mur.action_type == 'yell'\">\n\t\t\t\t<div class=\"row\">\n                    <div class=\"col-1\">\n                        <a class=\"cursor\" (click)=\"otherUser(mur.Acc_id)\"><img class=\"userimage\" src={{mur.image}}></a>\n                    </div>            \n\t\t\t\t\t<div class=\"col-11\" style=\"margin: auto;\">\n\t\t\t\t\t\t<div class=\"col-9\">\n\t\t\t\t\t\t\t<a><h6 class=\"mb-1\" style=\"font-weight: 600;\">{{mur.account_name}}<span class=\"ml-2\" style=\"color: #a09fed;\">{{mur.Acc_id}}</span></h6></a>\n\t\t\t\t\t\t\t<a><p>{{mur.yell.extra_comment}}</p></a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-12 mb-4\">\n\t\t\t\t\t\t\t<div class=\"card mt-0\" style=\"border-radius: 10px;\">\n\t\t\t\t\t\t\t\t<div class=\"card-body\">\n\t\t\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-1\">\n\t\t\t\t\t\t\t\t\t\t<a class=\"cursor\" (click)=\"otherUser(mur.yell.mur_acc_id)\"><img class=\"userimage\" src={{mur.yell.mur_acc_image}}></a>\n\t\t\t\t\t\t\t\t\t</div>            \n\t\t\t\t\t\t\t\t\t<div class=\"col-11\" style=\"margin: auto;\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"col-9\">\n\t\t\t\t\t\t\t\t\t\t\t<a><h6 class=\"mb-1\" style=\"font-weight: 600;\">{{mur.yell.mur_account_name}}<span class=\"ml-2\" style=\"color: #a09fed;\">{{mur.yell.mur_acc_id}}</span></h6></a>\n\t\t\t\t\t\t\t\t\t\t\t<a><p>{{mur.yell.message}}</p></a>\n\t\t\t\t\t\t\t\t\t\t\t<a *ngIf = \" mur.yell.attached_url !== ''\" ><img alt=\"\" style=\"width: 100%;border-radius: 10px;\" class=\"mb-4\" src={{mur.yell.attached_url}}></a>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"row col-6\">\n\t\t\t\t\t\t\t<div class=\"col-4\">\n\t\t\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 icondiv\" *ngIf=\"!mur.yell.snooped\"><a class=\"cursor\" (click)=\"snoop()\"><img class=\"icon\" src=\"assets/img/like.svg\"></a></div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 icondiv\" *ngIf=\"mur.yell.snooped\"><a class=\"cursor\" (click)=\"snooped()\"><img class=\"icon\" src=\"assets/img/like_color.png\"></a></div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 countdiv\">\n\t\t\t\t\t\t\t\t\t\t<p class=\"countdivp\">{{mur.yell.snoop_count}}</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-4\">\n\t\t\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 icondiv\"><a routerLink=\"/comment\" (click)=\"cmt_ID(i)\"><img class=\"icon\" src=\"assets/img/comment.svg\"></a></div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 countdiv\">\n\t\t\t\t\t\t\t\t\t\t<p class=\"countdivp\">{{mur.yell.comment_count}}</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n                </div>\n\t\t\t</div>\n\t\t</div>\n\n\t\t<div class=\"card mt-0\">\n\t\t  <div class=\"card-body\" style=\"background-color: #dcdcdc;\">\n\t\t    <div class=\"row\">\n\t\t    \t<div class=\"col-1\" style=\"margin: auto;text-align: right;padding: 0;\">\n\t\t    \t\t<a><img class=\"userimage1\" src={{My_Profile.profile_pic}}></a>\n\t\t    \t</div>\t\t\t\n\t\t\t\t<div class=\"col-9\" style=\"margin: auto;\">\n\t\t\t\t\t<input class=\"form-control form-control-lg formcolor\" type=\"text\" (ngModelChange)=\"check_length()\" [(ngModel)]=\"cmt\" placeholder=\"Type a message here\">\n\t\t\t\t\t<div *ngIf=\"errormsg\">\n\t\t\t\t\t\t<span style=\"color:red\"><i>{{ errorcomments }} </i></span>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-2\" style=\"margin: auto;\">\n\t\t\t\t\t<button type=\"button\" class=\"btn btn-secondary\" [disabled] = \"errormsg\" (click)=\"comment()\" style=\"background-color: #a09fed;border-color: #a09fed;\">Comment</button>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t  </div>\n\t\t</div>\n\n\t\t<div *ngFor=\"let cmt of Murmur_Commetnts; let i = index\">\n\t\t\t<div class=\"card mt-0\">\n\t\t\t\t<div class=\"card-body\">\n\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t<div class=\"col-1\">\n\t\t\t\t\t\t\t<a class=\"cursor\" (click)=\"otherUser(cmt.Acc_id)\"><img class=\"userimage\" src={{cmt.image}}></a>\n\t\t\t\t\t\t</div>\t\t\t\n\t\t\t\t\t\t<div class=\"col-10\" style=\"margin: auto;\">\n\t\t\t\t\t\t\t<div class=\"col-9\">\n\t\t\t\t\t\t\t\t<a><h6 class=\"mb-1\" style=\"font-weight: 600;\">{{cmt.account_name}}<span class=\"ml-2\" style=\"color: #a09fed;\">{{cmt.Acc_id}}</span></h6></a>\n\t\t\t\t\t\t\t\t<a><p>{{cmt.comment}}</p></a>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-1\" style=\"margin: auto;\" >\n\t\t\t\t\t\t\t<a *ngIf=\"cmt.status\" class=\"cursor\" (click)=\"uncomment(i)\"><i class=\"material-icons mt-2\">delete</i></a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\n\t</div>\n</div>\n\n<!-- This sesction is for Detailed User Feed of people. Ends Here -->\n\n<button id=\"openModalButton\" [hidden]=\"true\" data-toggle=\"modal\" data-target=\"#exampleModalCenter\">Open Modal</button>\n\n<!-- Modal -->\n<div class=\"modal fade\" id=\"exampleModalCenter\"   tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"exampleModalCenterTitle\" aria-hidden=\"true\" #closeBtn>\n\t<div class=\"modal-dialog modal-dialog-centered\" role=\"document\">\n\t\t<div class=\"modal-content\">\n\t\t<div class=\"modal-body\" style=\"font-size: 20px;margin: auto;\">\n\t\t\t{{resMes}}\n\t\t</div>\n\t\t<div class=\"modal-footer\" style=\"margin: auto;\">\n\t\t\t<button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Close</button>\n\t\t</div>\n\t\t</div>\n\t</div>\n</div>  "
 
 /***/ }),
 
@@ -359,6 +359,8 @@ var CommentpostComponent = /** @class */ (function () {
         this.Murmur_Posts = [];
         this.My_Profile = {};
         this.cmt = '';
+        this.errormsg = false;
+        this.errorcomments = "Max 256 charecters only allowed";
     }
     CommentpostComponent.prototype.ngOnInit = function () {
         var _this = this;
@@ -395,11 +397,19 @@ var CommentpostComponent = /** @class */ (function () {
                     // console.log("mymur")
                     _this.ms.getMyMurmurByIndex(res['id']).then(function (mur) {
                         _this.Murmur_Posts.push(mur);
-                        console.log(_this.Murmur_Posts);
-                        _this.ms.getMurmurComments(_this.Murmur_Posts[0].murmur.murmur_id).then(function (resp) {
-                            _this.Murmur_Commetnts = resp;
-                            // console.log(res)
-                        });
+                        // console.log(this.Murmur_Posts)
+                        if (_this.Murmur_Posts[0].action_type == 'murmur') {
+                            _this.ms.getMurmurComments(_this.Murmur_Posts[0].murmur.murmur_id).then(function (resp) {
+                                _this.Murmur_Commetnts = resp;
+                                // console.log(res)
+                            });
+                        }
+                        else {
+                            _this.ms.getYellComments(_this.Murmur_Posts[0].yell.yell_id).then(function (resp) {
+                                _this.Murmur_Commetnts = resp;
+                                // console.log(res)
+                            });
+                        }
                     });
                 }
             }
@@ -414,7 +424,7 @@ var CommentpostComponent = /** @class */ (function () {
             _this.ms.setCommentData(id, res['type']);
         });
     };
-    CommentpostComponent.prototype.snoop = function (id) {
+    CommentpostComponent.prototype.snoop = function () {
         var _this = this;
         this.ms.getCommentData().then(function (res) {
             _this.ms.Snoop(res['id'], res['type']).then(function (res) {
@@ -430,22 +440,53 @@ var CommentpostComponent = /** @class */ (function () {
                     console.log(res['transId']);
                     _this.resMes = 'Your Snoop is submitted into blockchain'; // 'Transaction ID: '+res['transId']
                     document.getElementById("openModalButton").click();
-                    _this.Murmur_Posts[0].murmur.snopped = 1;
-                    _this.Murmur_Posts[0].murmur.snoop_count += 1;
-                    // this.ms.setSnoopedMurmur(res['id'], res['type'])
+                    if (_this.Murmur_Posts[0].action_type == 'murmur') {
+                        _this.Murmur_Posts[0].murmur.snooped = 1;
+                        _this.Murmur_Posts[0].murmur.snoop_count += 1;
+                        // this.ms.setSnoopedMurmur(res['id'], res['type'])
+                    }
+                    else {
+                        _this.Murmur_Posts[0].yell.snooped = 1;
+                        _this.Murmur_Posts[0].yell.snoop_count += 1;
+                        // this.ms.setSnoopedMurmur(res['id'], res['type'])
+                    }
                 }
             });
         });
     };
     CommentpostComponent.prototype.snooped = function () {
-        this.resMes = 'You are already snooped';
-        document.getElementById("openModalButton").click();
+        var _this = this;
+        this.ms.getCommentData().then(function (res) {
+            _this.ms.unSnoop(res['id'], res['type']).then(function (res) {
+                console.log(res);
+                if (res['Error']) {
+                    if (res['errMesg'] == undefined)
+                        res['errMesg'] = 'Internal Server Error';
+                    console.log(res['errMesg']);
+                    _this.resMes = 'Error Message: ' + res['errMesg'];
+                    document.getElementById("openModalButton").click();
+                }
+                else {
+                    console.log(res['transId']);
+                    _this.resMes = 'Your UnSnoop is submitted into blockchain'; // 'Transaction ID: '+res['transId']
+                    document.getElementById("openModalButton").click();
+                    if (_this.Murmur_Posts[0].action_type == 'murmur') {
+                        _this.Murmur_Posts[0].murmur.snooped = 0;
+                        _this.Murmur_Posts[0].murmur.snoop_count -= 1;
+                    }
+                    else {
+                        _this.Murmur_Posts[0].yell.snooped = 0;
+                        _this.Murmur_Posts[0].yell.snoop_count -= 1;
+                    }
+                }
+            });
+        });
     };
     CommentpostComponent.prototype.otherUser = function (name) {
         this.ms.setOtherUserName(name.split('@')[1]);
         this.router.navigate([{ outlets: { primary: ['userpost'], feed: ['userprofilelist'] } }]);
     };
-    CommentpostComponent.prototype.comment = function () {
+    CommentpostComponent.prototype.comment_murmur = function () {
         var _this = this;
         this.spin.show();
         this.ms.getCommentData().then(function (res) {
@@ -495,11 +536,107 @@ var CommentpostComponent = /** @class */ (function () {
                     });
                 }
                 else {
-                    // console.log("mymur")
+                    // console.log("mur")
                     _this.ms.getMyMurmurByIndex(res['id']).then(function (resp) {
                         mur_1.push(resp);
-                        console.log(mur_1);
-                        _this.ms.commentmurmur(mur_1[0].murmur.murmur_id, _this.cmt).then(function (res) {
+                        // console.log(mur)
+                        if (mur_1[0].action_type == 'murmur') {
+                            _this.ms.commentmurmur(mur_1[0].murmur.murmur_id, _this.cmt).then(function (res) {
+                                console.log(res);
+                                if (res['Error']) {
+                                    if (res['errMesg'] == undefined)
+                                        res['errMesg'] = 'Internal Server Error';
+                                    console.log(res['errMesg']);
+                                    _this.resMes = 'Error Message: ' + res['errMesg'];
+                                    document.getElementById("openModalButton").click();
+                                }
+                                else {
+                                    console.log(res['transId']);
+                                    _this.resMes = 'Your Comment is submitted into blockchain'; // 'Transaction ID: '+res['transId']
+                                    document.getElementById("openModalButton").click();
+                                    _this.cmt = '';
+                                }
+                            });
+                        }
+                        else {
+                            _this.ms.commentyell(mur_1[0].yell.yell_id, _this.cmt).then(function (res) {
+                                console.log(res);
+                                if (res['Error']) {
+                                    if (res['errMesg'] == undefined)
+                                        res['errMesg'] = 'Internal Server Error';
+                                    console.log(res['errMesg']);
+                                    _this.resMes = 'Error Message: ' + res['errMesg'];
+                                    document.getElementById("openModalButton").click();
+                                }
+                                else {
+                                    console.log(res['transId']);
+                                    _this.resMes = 'Your Comment is submitted into blockchain'; // 'Transaction ID: '+res['transId']
+                                    document.getElementById("openModalButton").click();
+                                    _this.cmt = '';
+                                }
+                            });
+                        }
+                    });
+                }
+            }
+            else {
+                _this.router.navigate(['/']);
+            }
+        });
+    };
+    CommentpostComponent.prototype.uncomment = function (id) {
+        var _this = this;
+        console.log(this.Murmur_Commetnts[id].comment_id);
+        this.ms.getCommentData().then(function (res) {
+            if (res['id'] != undefined) {
+                var mur_2 = [];
+                if (res['type'] == 'murmur') {
+                    _this.ms.getMurmurByIndex(res['id']).then(function (resp) {
+                        mur_2.push(resp);
+                        if (mur_2[0].action_type == 'murmur') {
+                            _this.ms.uncommentmurmur(_this.Murmur_Commetnts[id].comment_id).then(function (res) {
+                                console.log(res);
+                                if (res['Error']) {
+                                    if (res['errMesg'] == undefined)
+                                        res['errMesg'] = 'Internal Server Error';
+                                    console.log(res['errMesg']);
+                                    _this.resMes = 'Error Message: ' + res['errMesg'];
+                                    document.getElementById("openModalButton").click();
+                                }
+                                else {
+                                    console.log(res['transId']);
+                                    _this.resMes = 'Your UnComment is submitted into blockchain';
+                                    document.getElementById("openModalButton").click();
+                                    _this.cmt = '';
+                                }
+                            });
+                        }
+                        else {
+                            _this.ms.uncommentyell(_this.Murmur_Commetnts[id].comment_id).then(function (res) {
+                                console.log(res);
+                                if (res['Error']) {
+                                    if (res['errMesg'] == undefined)
+                                        res['errMesg'] = 'Internal Server Error';
+                                    console.log(res['errMesg']);
+                                    _this.resMes = 'Error Message: ' + res['errMesg'];
+                                    document.getElementById("openModalButton").click();
+                                }
+                                else {
+                                    console.log(res['transId']);
+                                    _this.resMes = 'Your UnComment is submitted into blockchain';
+                                    document.getElementById("openModalButton").click();
+                                    _this.cmt = '';
+                                }
+                            });
+                        }
+                    });
+                }
+                else {
+                    // console.log("mymur")
+                    _this.ms.getMyMurmurByIndex(res['id']).then(function (resp) {
+                        mur_2.push(resp);
+                        console.log(mur_2);
+                        _this.ms.uncommentmurmur(_this.Murmur_Commetnts[id].comment_id).then(function (res) {
                             console.log(res);
                             if (res['Error']) {
                                 if (res['errMesg'] == undefined)
@@ -510,7 +647,7 @@ var CommentpostComponent = /** @class */ (function () {
                             }
                             else {
                                 console.log(res['transId']);
-                                _this.resMes = 'Your Comment is submitted into blockchain'; // 'Transaction ID: '+res['transId']
+                                _this.resMes = 'Your UnComment is submitted into blockchain';
                                 document.getElementById("openModalButton").click();
                                 _this.cmt = '';
                             }
@@ -522,6 +659,18 @@ var CommentpostComponent = /** @class */ (function () {
                 _this.router.navigate(['/']);
             }
         });
+    };
+    CommentpostComponent.prototype.comment = function () {
+        if (this.cmt.toString().length <= 256)
+            this.comment_murmur();
+        else
+            this.check_length();
+    };
+    CommentpostComponent.prototype.check_length = function () {
+        if (this.cmt.toString().length > 256)
+            this.errormsg = true;
+        else
+            this.errormsg = false;
     };
     CommentpostComponent.prototype.goBack = function () {
         this.ms.goBack();
@@ -563,7 +712,7 @@ module.exports = ".styleone{\n\n\t/*display: flex;*/\n\t/*flex-direction: column
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"styleone\">\n\n  <!-- This header is open header for Other Users psersonal Profile. Starts Here -->\n  <header class=\"headerone\">\n    <a class=\"cursor\" (click)=\"goBack()\"><i class=\"material-icons mt-2\">keyboard_backspace</i></a>\n  </header>\n  <!-- This header is open header for Other Users psersonal Profile. Starts Here -->\n\n  <div style=\"display: block;height: 94%;overflow-y: auto;-ms-overflow-style: -ms-autohiding-scrollbar;padding: 20px;\">\n    \n    <div class=\"card mt-0 mb-3\">\n      <div class=\"card-body\">\n        <h5>My Profile</h5>\n        <hr>\n        <br>\n        <form>\n        <div class=\"form-row\">\n          <div class=\"col\">\n            <div class=\"form-group\">\n            <label for=\"formGroupExampleInput\">Name</label>\n            <input type=\"text\" class=\"form-control\" id=\"formGroupExampleInput\" placeholder={{My_Profile.account_name}} readonly>\n          </div>\n          </div>\n        </div>\n        <div class=\"form-row\">\n          <div class=\"col\">\n            <div class=\"form-group\">\n            <label for=\"formGroupExampleInput\">Bio</label>\n            <textarea class=\"form-control\" id=\"exampleFormControlTextarea1\" rows=\"3\" readonly>{{My_Profile.bio}}</textarea>\n          </div>\n          </div>\n        </div>\n        <div class=\"form-row\">\n          <div class=\"col\">\n            <div class=\"form-group\">\n            <label for=\"formGroupExampleInput\">Gender</label>\n            <input type=\"text\" class=\"form-control\" id=\"formGroupExampleInput\" placeholder={{My_Profile.sex}} readonly>\n          </div>\n          </div>\n          <div class=\"col\">\n            <div class=\"form-group\">\n            <label for=\"formGroupExampleInput\">Date of birth</label>\n            <input type=\"text\" class=\"form-control\" id=\"formGroupExampleInput\" placeholder={{My_Profile.dob}} readonly>\n          </div>\n          </div>\n          <div class=\"col\">\n            <div class=\"form-group\">\n            <label for=\"formGroupExampleInput\">Location</label>\n            <input type=\"text\" class=\"form-control\" id=\"formGroupExampleInput\" placeholder={{My_Profile.location}} readonly>\n          </div>\n          </div>\n        </div>\n      </form>\n      </div>\n    </div>\n\n    <div class=\"card mt-0\">\n      <div class=\"card-body\">\n        <h5>Edit Profile</h5>\n        <hr>\n        <br>\n        <form>\n        <div class=\"form-group row\">\n          <label for=\"inputEmail3\" class=\"col-sm-2 col-form-label\">Name</label>\n          <div class=\"col-sm-10\">\n            <input type=\"text\" class=\"form-control\" id=\"inputEmail3\" placeholder=\"Change your name\">\n          </div>\n        </div>\n        <div class=\"form-group row\">\n          <label for=\"inputPassword3\" class=\"col-sm-2 col-form-label\">Bio</label>\n          <div class=\"col-sm-10\">\n            <textarea class=\"form-control\" id=\"exampleFormControlTextarea1\" rows=\"3\"></textarea>\n          </div>\n        </div>\n        <fieldset class=\"form-group\">\n          <div class=\"row\">\n            <legend class=\"col-form-label col-sm-2 pt-0\">Gender</legend>\n            <div class=\"col-sm-10\">\n              <div class=\"form-check\">\n                <input class=\"form-check-input\" type=\"radio\" name=\"gridRadios\" id=\"gridRadios1\" value=\"Male\" checked>\n                <label class=\"form-check-label\" for=\"gridRadios1\">\n                  Male\n                </label>\n              </div>\n              <div class=\"form-check\">\n                <input class=\"form-check-input\" type=\"radio\" name=\"gridRadios\" id=\"gridRadios2\" value=\"Female\">\n                <label class=\"form-check-label\" for=\"gridRadios2\">\n                  Female\n                </label>\n              </div>\n            </div>\n          </div>\n        </fieldset>\n        <div class=\"form-group row\">\n          <label for=\"inputPassword3\" class=\"col-sm-2 col-form-label\">DOB</label>\n          <div class=\"col-sm-10\">\n            <input type=\"date\" class=\"form-control\" id=\"date1\" placeholder=\"Change your name\">\n          </div>\n        </div>\n        <div class=\"form-group row\">\n          <label for=\"inputEmail3\" class=\"col-sm-2 col-form-label\">Location</label>\n          <div class=\"col-sm-10\">\n            <input type=\"text\" class=\"form-control\" id=\"location\" placeholder=\"Enter your location\">\n          </div>\n        </div>\n        <div class=\"form-group row\">\n          <label for=\"inputPassword3\" class=\"col-sm-2 col-form-label\">Upload Image</label>\n          <div class=\"col-sm-10\">\n            <input type=\"file\" class=\"form-control-file\" (change)=\"onFileChanged($event)\" id=\"exampleFormControlFile1\">\n          </div>\n        </div>\n        <div class=\"form-group row\">\n          <div class=\"col-sm-10\">\n            <button (click)=\"update_profile()\" class=\"btn btn-primary\" style=\"background-color: #a09fed;border-color: #a09fed;\">Update</button>\n          </div>\n        </div>\n      </form>\n      </div>\n    </div>\n  </div>\n</div>\n"
+module.exports = "<div class=\"styleone\">\n\n  <!-- This header is open header for Other Users psersonal Profile. Starts Here -->\n  <header class=\"headerone\">\n    <a class=\"cursor\" (click)=\"goBack()\"><i class=\"material-icons mt-2\">keyboard_backspace</i></a>\n  </header>\n  <!-- This header is open header for Other Users psersonal Profile. Starts Here -->\n\n  <div style=\"display: block;height: 94%;overflow-y: auto;-ms-overflow-style: -ms-autohiding-scrollbar;padding: 20px;\">\n    \n    <div class=\"card mt-0 mb-3\">\n      <div class=\"card-body\">\n        <h5>My Profile</h5>\n        <hr>\n        <br>\n        <form>\n        <div class=\"form-row\">\n          <div class=\"col\">\n            <div class=\"form-group\">\n            <label for=\"formGroupExampleInput\">Name</label>\n            <input type=\"text\" class=\"form-control\" id=\"formGroupExampleInput\" placeholder={{My_Profile.account_name}} readonly>\n          </div>\n          </div>\n        </div>\n        <div class=\"form-row\">\n          <div class=\"col\">\n            <div class=\"form-group\">\n            <label for=\"formGroupExampleInput\">Bio</label>\n            <textarea class=\"form-control\" id=\"exampleFormControlTextarea1\" rows=\"3\" readonly>{{My_Profile.bio}}</textarea>\n          </div>\n          </div>\n        </div>\n        <div class=\"form-row\">\n          <div class=\"col\">\n            <div class=\"form-group\">\n            <label for=\"formGroupExampleInput\">Gender</label>\n            <input type=\"text\" class=\"form-control\" id=\"formGroupExampleInput\" placeholder={{My_Profile.sex}} readonly>\n          </div>\n          </div>\n          <div class=\"col\">\n            <div class=\"form-group\">\n            <label for=\"formGroupExampleInput\">Date of birth</label>\n            <input type=\"text\" class=\"form-control\" id=\"formGroupExampleInput\" placeholder={{My_Profile.dob}} readonly>\n          </div>\n          </div>\n          <div class=\"col\">\n            <div class=\"form-group\">\n            <label for=\"formGroupExampleInput\">Location</label>\n            <input type=\"text\" class=\"form-control\" id=\"formGroupExampleInput\" placeholder={{My_Profile.location}} readonly>\n          </div>\n          </div>\n        </div>\n      </form>\n      </div>\n    </div>\n\n    <div class=\"card mt-0\">\n      <div class=\"card-body\">\n        <h5>Edit Profile</h5>\n        <hr>\n        <br>\n        <form>\n        <div class=\"form-group row\">\n          <label for=\"inputEmail3\" class=\"col-sm-2 col-form-label\">Name</label>\n          <div class=\"col-sm-10\">\n            <input type=\"text\" class=\"form-control\" id=\"inputEmail3\" placeholder=\"Change your name\">\n          </div>\n        </div>\n        <div class=\"form-group row\">\n          <label for=\"inputPassword3\" class=\"col-sm-2 col-form-label\">Bio</label>\n          <div class=\"col-sm-10\">\n            <textarea class=\"form-control\" id=\"userbio\" rows=\"3\"></textarea>\n          </div>\n        </div>\n        <fieldset class=\"form-group\">\n          <div class=\"row\">\n            <legend class=\"col-form-label col-sm-2 pt-0\">Gender</legend>\n            <div class=\"col-sm-10\">\n              <div class=\"form-check\">\n                <input class=\"form-check-input\" type=\"radio\" name=\"gridRadios\" id=\"gridRadios1\" value=\"Male\">\n                <label class=\"form-check-label\" for=\"gridRadios1\">\n                  Male\n                </label>\n              </div>\n              <div class=\"form-check\">\n                <input class=\"form-check-input\" type=\"radio\" name=\"gridRadios\" id=\"gridRadios2\" value=\"Female\">\n                <label class=\"form-check-label\" for=\"gridRadios2\">\n                  Female\n                </label>\n              </div>\n            </div>\n          </div>\n        </fieldset>\n        <div class=\"form-group row\">\n          <label for=\"inputPassword3\" class=\"col-sm-2 col-form-label\">DOB</label>\n          <div class=\"col-sm-10\">\n            <input type=\"date\" class=\"form-control\" id=\"date1\" placeholder=\"Change your name\">\n          </div>\n        </div>\n        <div class=\"form-group row\">\n          <label for=\"inputEmail3\" class=\"col-sm-2 col-form-label\">Location</label>\n          <div class=\"col-sm-10\">\n            <input type=\"text\" class=\"form-control\" id=\"location\" placeholder=\"Enter your location\">\n          </div>\n        </div>\n        <div class=\"form-group row\">\n          <label for=\"inputPassword3\" class=\"col-sm-2 col-form-label\">Upload Image</label>\n          <div class=\"col-sm-10\">\n            <input type=\"file\" class=\"form-control-file\" (change)=\"onFileChanged($event)\" id=\"exampleFormControlFile1\">\n          </div>\n        </div>\n        <div class=\"form-group row\">\n          <div class=\"col-sm-10\">\n            <button (click)=\"update()\" class=\"btn btn-primary\" style=\"background-color: #a09fed;border-color: #a09fed;\">Update</button>\n          </div>\n        </div>\n      </form>\n      </div>\n    </div>\n  </div>\n</div>\n\n<!-- This sesction is for Detailed User Feed of people. Ends Here -->\n<button id=\"openModalButton\" [hidden]=\"true\" data-toggle=\"modal\" data-target=\"#exampleModalCenter\">Open Modal</button>\n\n<!-- Modal -->\n<div class=\"modal fade\" id=\"exampleModalCenter\"   tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"exampleModalCenterTitle\" aria-hidden=\"true\" #closeBtn>\n\t<div class=\"modal-dialog modal-dialog-centered\" role=\"document\">\n\t\t<div class=\"modal-content\">\n\t\t<div class=\"modal-body\" style=\"font-size: 20px;margin: auto;\">\n\t\t\t{{resMes}}\n\t\t</div>\n\t\t<div class=\"modal-footer\" style=\"margin: auto;\">\n\t\t\t<button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Close</button>\n\t\t</div>\n\t\t</div>\n\t</div>\n</div>  \n"
 
 /***/ }),
 
@@ -580,6 +729,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _murmur_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../murmur.service */ "./src/app/murmur.service.ts");
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var buffer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! buffer */ "./node_modules/buffer/index.js");
+/* harmony import */ var buffer__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(buffer__WEBPACK_IMPORTED_MODULE_3__);
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -592,53 +743,93 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 
+
 var EditmyprofileComponent = /** @class */ (function () {
     function EditmyprofileComponent(ms, router) {
         this.ms = ms;
         this.router = router;
-        this.selectedFile = {};
         this.My_Profile = {};
+        this.resMes = '';
     }
     EditmyprofileComponent.prototype.ngOnInit = function () {
+        this.getAccountDetail();
+    };
+    EditmyprofileComponent.prototype.getAccountDetail = function () {
         var _this = this;
         if (localStorage.getItem(this.ms.Scatter_account_name) != null) {
             this.name = localStorage.getItem(this.ms.Scatter_account_name).split('-')[0];
-            if (this.ms.Acc_Profile.length == 0) {
-                this.ms.getAccountProfile(localStorage.getItem(this.ms.Scatter_account_name).split('-')[0]).then(function (res) {
-                    _this.My_Profile = res[0];
-                });
-            }
-            else {
-                this.My_Profile = this.ms.Acc_Profile[0];
-            }
-            // console.log(this.name)
+            this.ms.getAccountDetail(localStorage.getItem(this.ms.Scatter_account_name).split('-')[0]).then(function (res) {
+                _this.My_Profile = res[0];
+                if (_this.My_Profile.sex == 'Male')
+                    document.getElementById("gridRadios1").checked = true;
+                else
+                    document.getElementById("gridRadios2").checked = true;
+            });
         }
         else
             this.router.navigate(['/']);
     };
     EditmyprofileComponent.prototype.onFileChanged = function (event) {
-        this.selectedFile = {};
-        this.selectedFile = event.target.files[0];
+        this.profile_image = event.target.files[0];
     };
     EditmyprofileComponent.prototype.update_profile = function () {
-        var accname = (document.getElementById("inputEmail3").value);
-        var bio = (document.getElementById("exampleFormControlTextarea1").value);
-        var date = (document.getElementById("date1").value);
-        var gender = document.querySelector('input[name="gridRadios"]:checked').value;
-        var location = (document.getElementById("location").value);
+        var _this = this;
+        this.profile_details = {
+            name: this.My_Profile.account_name,
+            bio: this.My_Profile.bio,
+            dob: this.My_Profile.dob,
+            sex: this.My_Profile.sex,
+            location: this.My_Profile.location
+        };
+        if (document.getElementById("inputEmail3").value != '')
+            this.profile_details.name = document.getElementById("inputEmail3").value;
+        if (document.getElementById("userbio").value != '')
+            this.profile_details.bio = document.getElementById("userbio").value;
+        if (document.getElementById("location").value != '')
+            this.profile_details.location = document.getElementById("location").value;
+        if (document.getElementById("date1").valueAsDate != null)
+            this.profile_details.dob = document.getElementById("date1").value;
+        if (document.querySelector('input[name="gridRadios"]:checked').value != this.My_Profile.sex)
+            this.profile_details.sex = document.querySelector('input[name="gridRadios"]:checked').value;
+        if (this.profile_image == undefined)
+            this.profile_image = this.My_Profile.profile_pic;
+        console.log(this.profile_details);
+        var objJsonForm = JSON.stringify(this.profile_details);
+        var objJsonB64 = buffer__WEBPACK_IMPORTED_MODULE_3__["Buffer"].from(objJsonForm).toString("base64");
+        // console.log(objJsonB64)
         var fd = new FormData();
-        fd.append('account_name', this.name);
-        fd.append('name', accname);
-        fd.append('dob', date);
-        fd.append('location', location);
-        fd.append('bio', bio);
-        fd.append('sex', gender);
-        fd.append('profile_pic', this.selectedFile);
-        console.log(this.name);
-        this.ms.Post_user_profile(fd).then(function (res) {
-            if (res)
-                window.location.reload();
+        this.ms.sign_data(objJsonB64).then(function (res) {
+            Object.keys(res).forEach(function (key) {
+                return fd.append(key, res[key]);
+            });
+            fd.append("account_name", _this.name);
+            fd.append("encoded_data", objJsonB64);
+            fd.append("profile_pic", _this.profile_image);
+            _this.ms.Post_user_profile(fd).then(function (res) {
+                if (res) {
+                    _this.resMes = 'Your profile updated successfully';
+                    document.getElementById("openModalButton").click();
+                    _this.getAccountDetail();
+                    _this.clear_data();
+                }
+            });
         });
+    };
+    EditmyprofileComponent.prototype.update = function () {
+        if (document.getElementById("inputEmail3").value != '' ||
+            document.getElementById("userbio").value != '' ||
+            document.getElementById("location").value != '' ||
+            document.getElementById("date1").valueAsDate != null ||
+            document.querySelector('input[name="gridRadios"]:checked').value != this.My_Profile.sex
+            || this.profile_image != undefined)
+            this.update_profile();
+    };
+    EditmyprofileComponent.prototype.clear_data = function () {
+        document.getElementById("inputEmail3").value = "";
+        document.getElementById("userbio").value = "";
+        document.getElementById("date1").valueAsDate = null;
+        document.getElementById("location").value = "";
+        this.profile_image = undefined;
     };
     EditmyprofileComponent.prototype.goBack = function () {
         this.ms.goBack();
@@ -665,7 +856,7 @@ var EditmyprofileComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".styleone{\n    /*display: flex;*/\n    /*flex-direction: column;*/\n    font: inherit;\n    font-size: 100%;\n    vertical-align: baseline;\n    outline: none;\n    margin: 0;\n    padding: 0;\n    border: 0;\n    bottom: 0;\n    height: 100%;\n}\n\n.headerone{\n\n\tbackground-color: #ffffff;\n\tpadding: 10px 16px;\n\theight: 6%;\n\twidth: 100%;\n    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);\n    margin-bottom: 10px;\n\n}\n\n.userimage {\n\n\twidth: 40px;\n    height: 40px;\n    border-radius: 50%;\n}\n\n.footerone {\n\n\tbackground-color: #ffffff;\n\tposition: absolute;\n\tbottom: 0;\n\tmin-height: 80px;\n    width: 100%;\n}\n\n.formcolor{\n\n\tbackground-color: #f7f8fa;\n\tborder: 1px solid #f7f8fa;\n}\n\n.threeicons {\n\tfont-size: 20px;\n}\n\n.threeicons:hover {\n\tcolor: #a09fed;\n}\n\n.countdiv {\n\n\tpadding: 0;\n    margin: auto;\n    text-align: left;\n}\n\n.countdivp{\n\n\tmargin: 0;\n}\n\n.icon {\n\n\tmax-width: 80%;\n}\n\n.icondiv {\n\n\tpadding-right: 0;\n}\n\n.countselected {\n\tcolor: #a09fed;\n}\n\n.cursor{\n    cursor: pointer;\n}\n\n.modal-body {\n    max-height: calc(100vh - 500px);\n\toverflow-y: auto; \n}\n\n.appendMovingDots:after {\n    content: ' .';\n    -webkit-animation: dots 3s steps(1, end) infinite;\n            animation: dots 3s steps(1, end) infinite;\n}\n\n@-webkit-keyframes dots {\n    0%, 12.5% {\n        opacity: 0;\n    }\n    25% {\n        opacity: 1;\n    }\n    37.5% {\n        text-shadow: .5em 0;\n    }\n    50% {\n        text-shadow: .5em 0, 1em 0;\n    }\n    62.5% {\n        text-shadow: .5em 0, 1em 0, 1.5em 0;\n    }\n    75% {\n        text-shadow: .5em 0, 1em 0, 1.5em 0, 2em 0;\n    }\n    87.5%, 100%{\n        text-shadow: .5em 0, 1em 0, 1.5em 0, 2em 0, 2.5em;\n    }\n}\n\n@keyframes dots {\n    0%, 12.5% {\n        opacity: 0;\n    }\n    25% {\n        opacity: 1;\n    }\n    37.5% {\n        text-shadow: .5em 0;\n    }\n    50% {\n        text-shadow: .5em 0, 1em 0;\n    }\n    62.5% {\n        text-shadow: .5em 0, 1em 0, 1.5em 0;\n    }\n    75% {\n        text-shadow: .5em 0, 1em 0, 1.5em 0, 2em 0;\n    }\n    87.5%, 100%{\n        text-shadow: .5em 0, 1em 0, 1.5em 0, 2em 0, 2.5em;\n    }\n} \n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvZmVlZC9mZWVkLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxrQkFBa0I7SUFDbEIsMkJBQTJCO0lBQzNCLGNBQWM7SUFDZCxnQkFBZ0I7SUFDaEIseUJBQXlCO0lBQ3pCLGNBQWM7SUFDZCxVQUFVO0lBQ1YsV0FBVztJQUNYLFVBQVU7SUFDVixVQUFVO0lBQ1YsYUFBYTtDQUNoQjs7QUFFRDs7Q0FFQywwQkFBMEI7Q0FDMUIsbUJBQW1CO0NBQ25CLFdBQVc7Q0FDWCxZQUFZO0lBQ1QsNEVBQTRFO0lBQzVFLG9CQUFvQjs7Q0FFdkI7O0FBRUQ7O0NBRUMsWUFBWTtJQUNULGFBQWE7SUFDYixtQkFBbUI7Q0FDdEI7O0FBRUQ7O0NBRUMsMEJBQTBCO0NBQzFCLG1CQUFtQjtDQUNuQixVQUFVO0NBQ1YsaUJBQWlCO0lBQ2QsWUFBWTtDQUNmOztBQUVEOztDQUVDLDBCQUEwQjtDQUMxQiwwQkFBMEI7Q0FDMUI7O0FBR0Q7Q0FDQyxnQkFBZ0I7Q0FDaEI7O0FBRUQ7Q0FDQyxlQUFlO0NBQ2Y7O0FBRUQ7O0NBRUMsV0FBVztJQUNSLGFBQWE7SUFDYixpQkFBaUI7Q0FDcEI7O0FBRUQ7O0NBRUMsVUFBVTtDQUNWOztBQUVEOztDQUVDLGVBQWU7Q0FDZjs7QUFFRDs7Q0FFQyxpQkFBaUI7Q0FDakI7O0FBRUQ7Q0FDQyxlQUFlO0NBQ2Y7O0FBRUQ7SUFDSSxnQkFBZ0I7Q0FDbkI7O0FBRUQ7SUFDSSxnQ0FBZ0M7Q0FDbkMsaUJBQWlCO0NBQ2pCOztBQUVEO0lBQ0ksY0FBYztJQUNkLGtEQUEwQztZQUExQywwQ0FBMEM7Q0FDN0M7O0FBQ0Q7SUFDSTtRQUNJLFdBQVc7S0FDZDtJQUNEO1FBQ0ksV0FBVztLQUNkO0lBQ0Q7UUFDSSxvQkFBb0I7S0FDdkI7SUFDRDtRQUNJLDJCQUEyQjtLQUM5QjtJQUNEO1FBQ0ksb0NBQW9DO0tBQ3ZDO0lBQ0Q7UUFDSSwyQ0FBMkM7S0FDOUM7SUFDRDtRQUNJLGtEQUFrRDtLQUNyRDtDQUNKOztBQXRCRDtJQUNJO1FBQ0ksV0FBVztLQUNkO0lBQ0Q7UUFDSSxXQUFXO0tBQ2Q7SUFDRDtRQUNJLG9CQUFvQjtLQUN2QjtJQUNEO1FBQ0ksMkJBQTJCO0tBQzlCO0lBQ0Q7UUFDSSxvQ0FBb0M7S0FDdkM7SUFDRDtRQUNJLDJDQUEyQztLQUM5QztJQUNEO1FBQ0ksa0RBQWtEO0tBQ3JEO0NBQ0oiLCJmaWxlIjoic3JjL2FwcC9mZWVkL2ZlZWQuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5zdHlsZW9uZXtcbiAgICAvKmRpc3BsYXk6IGZsZXg7Ki9cbiAgICAvKmZsZXgtZGlyZWN0aW9uOiBjb2x1bW47Ki9cbiAgICBmb250OiBpbmhlcml0O1xuICAgIGZvbnQtc2l6ZTogMTAwJTtcbiAgICB2ZXJ0aWNhbC1hbGlnbjogYmFzZWxpbmU7XG4gICAgb3V0bGluZTogbm9uZTtcbiAgICBtYXJnaW46IDA7XG4gICAgcGFkZGluZzogMDtcbiAgICBib3JkZXI6IDA7XG4gICAgYm90dG9tOiAwO1xuICAgIGhlaWdodDogMTAwJTtcbn1cblxuLmhlYWRlcm9uZXtcblxuXHRiYWNrZ3JvdW5kLWNvbG9yOiAjZmZmZmZmO1xuXHRwYWRkaW5nOiAxMHB4IDE2cHg7XG5cdGhlaWdodDogNiU7XG5cdHdpZHRoOiAxMDAlO1xuICAgIGJveC1zaGFkb3c6IDAgMXB4IDFweCAwIHJnYmEoMCwgMCwgMCwgMC4wNiksIDAgMnB4IDVweCAwIHJnYmEoMCwgMCwgMCwgMC4yKTtcbiAgICBtYXJnaW4tYm90dG9tOiAxMHB4O1xuXG59XG5cbi51c2VyaW1hZ2Uge1xuXG5cdHdpZHRoOiA0MHB4O1xuICAgIGhlaWdodDogNDBweDtcbiAgICBib3JkZXItcmFkaXVzOiA1MCU7XG59XG5cbi5mb290ZXJvbmUge1xuXG5cdGJhY2tncm91bmQtY29sb3I6ICNmZmZmZmY7XG5cdHBvc2l0aW9uOiBhYnNvbHV0ZTtcblx0Ym90dG9tOiAwO1xuXHRtaW4taGVpZ2h0OiA4MHB4O1xuICAgIHdpZHRoOiAxMDAlO1xufVxuXG4uZm9ybWNvbG9ye1xuXG5cdGJhY2tncm91bmQtY29sb3I6ICNmN2Y4ZmE7XG5cdGJvcmRlcjogMXB4IHNvbGlkICNmN2Y4ZmE7XG59XG5cblxuLnRocmVlaWNvbnMge1xuXHRmb250LXNpemU6IDIwcHg7XG59XG5cbi50aHJlZWljb25zOmhvdmVyIHtcblx0Y29sb3I6ICNhMDlmZWQ7XG59XG5cbi5jb3VudGRpdiB7XG5cblx0cGFkZGluZzogMDtcbiAgICBtYXJnaW46IGF1dG87XG4gICAgdGV4dC1hbGlnbjogbGVmdDtcbn1cblxuLmNvdW50ZGl2cHtcblxuXHRtYXJnaW46IDA7XG59XG5cbi5pY29uIHtcblxuXHRtYXgtd2lkdGg6IDgwJTtcbn1cblxuLmljb25kaXYge1xuXG5cdHBhZGRpbmctcmlnaHQ6IDA7XG59XG5cbi5jb3VudHNlbGVjdGVkIHtcblx0Y29sb3I6ICNhMDlmZWQ7XG59XG5cbi5jdXJzb3J7XG4gICAgY3Vyc29yOiBwb2ludGVyO1xufVxuXG4ubW9kYWwtYm9keSB7XG4gICAgbWF4LWhlaWdodDogY2FsYygxMDB2aCAtIDUwMHB4KTtcblx0b3ZlcmZsb3cteTogYXV0bzsgXG59XG5cbi5hcHBlbmRNb3ZpbmdEb3RzOmFmdGVyIHtcbiAgICBjb250ZW50OiAnIC4nO1xuICAgIGFuaW1hdGlvbjogZG90cyAzcyBzdGVwcygxLCBlbmQpIGluZmluaXRlO1xufVxuQGtleWZyYW1lcyBkb3RzIHtcbiAgICAwJSwgMTIuNSUge1xuICAgICAgICBvcGFjaXR5OiAwO1xuICAgIH1cbiAgICAyNSUge1xuICAgICAgICBvcGFjaXR5OiAxO1xuICAgIH1cbiAgICAzNy41JSB7XG4gICAgICAgIHRleHQtc2hhZG93OiAuNWVtIDA7XG4gICAgfVxuICAgIDUwJSB7XG4gICAgICAgIHRleHQtc2hhZG93OiAuNWVtIDAsIDFlbSAwO1xuICAgIH1cbiAgICA2Mi41JSB7XG4gICAgICAgIHRleHQtc2hhZG93OiAuNWVtIDAsIDFlbSAwLCAxLjVlbSAwO1xuICAgIH1cbiAgICA3NSUge1xuICAgICAgICB0ZXh0LXNoYWRvdzogLjVlbSAwLCAxZW0gMCwgMS41ZW0gMCwgMmVtIDA7XG4gICAgfVxuICAgIDg3LjUlLCAxMDAle1xuICAgICAgICB0ZXh0LXNoYWRvdzogLjVlbSAwLCAxZW0gMCwgMS41ZW0gMCwgMmVtIDAsIDIuNWVtO1xuICAgIH1cbn0gIl19 */"
+module.exports = ".styleone{\n    /*display: flex;*/\n    /*flex-direction: column;*/\n    font: inherit;\n    font-size: 100%;\n    vertical-align: baseline;\n    outline: none;\n    margin: 0;\n    padding: 0;\n    border: 0;\n    bottom: 0;\n    height: 100%;\n}\n\n.headerone{\n\n\tbackground-color: #ffffff;\n\tpadding: 10px 16px;\n\theight: 6%;\n\twidth: 100%;\n    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);\n    margin-bottom: 10px;\n\n}\n\n.userimage {\n\n\twidth: 40px;\n    height: 40px;\n    border-radius: 50%;\n}\n\n.footerone {\n\n\tbackground-color: #ffffff;\n\tposition: absolute;\n\tbottom: 0;\n\tmin-height: 80px;\n    width: 100%;\n}\n\n.formcolor{\n\n\tbackground-color: #f7f8fa;\n\tborder: 1px solid #f7f8fa;\n}\n\n.threeicons {\n\tfont-size: 20px;\n}\n\n.threeicons:hover {\n\tcolor: #a09fed;\n}\n\n.countdiv {\n\n\tpadding: 0;\n    margin: auto;\n    text-align: left;\n}\n\n.countdivp{\n\n\tmargin: 0;\n}\n\n.icon {\n\n\tmax-width: 70%;\n}\n\n.icondiv {\n\n\tpadding-right: 0;\n}\n\n.countselected {\n\tcolor: #a09fed;\n}\n\n.cursor{\n    cursor: pointer;\n}\n\n.modal-body {\n    max-height: calc(100vh - 500px);\n\toverflow-y: auto; \n}\n\n.appendMovingDots:after {\n    content: ' .';\n    -webkit-animation: dots 3s steps(1, end) infinite;\n            animation: dots 3s steps(1, end) infinite;\n}\n\n@-webkit-keyframes dots {\n    0%, 12.5% {\n        opacity: 0;\n    }\n    25% {\n        opacity: 1;\n    }\n    37.5% {\n        text-shadow: .5em 0;\n    }\n    50% {\n        text-shadow: .5em 0, 1em 0;\n    }\n    62.5% {\n        text-shadow: .5em 0, 1em 0, 1.5em 0;\n    }\n    75% {\n        text-shadow: .5em 0, 1em 0, 1.5em 0, 2em 0;\n    }\n    87.5%, 100%{\n        text-shadow: .5em 0, 1em 0, 1.5em 0, 2em 0, 2.5em;\n    }\n}\n\n@keyframes dots {\n    0%, 12.5% {\n        opacity: 0;\n    }\n    25% {\n        opacity: 1;\n    }\n    37.5% {\n        text-shadow: .5em 0;\n    }\n    50% {\n        text-shadow: .5em 0, 1em 0;\n    }\n    62.5% {\n        text-shadow: .5em 0, 1em 0, 1.5em 0;\n    }\n    75% {\n        text-shadow: .5em 0, 1em 0, 1.5em 0, 2em 0;\n    }\n    87.5%, 100%{\n        text-shadow: .5em 0, 1em 0, 1.5em 0, 2em 0, 2.5em;\n    }\n} \n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvZmVlZC9mZWVkLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxrQkFBa0I7SUFDbEIsMkJBQTJCO0lBQzNCLGNBQWM7SUFDZCxnQkFBZ0I7SUFDaEIseUJBQXlCO0lBQ3pCLGNBQWM7SUFDZCxVQUFVO0lBQ1YsV0FBVztJQUNYLFVBQVU7SUFDVixVQUFVO0lBQ1YsYUFBYTtDQUNoQjs7QUFFRDs7Q0FFQywwQkFBMEI7Q0FDMUIsbUJBQW1CO0NBQ25CLFdBQVc7Q0FDWCxZQUFZO0lBQ1QsNEVBQTRFO0lBQzVFLG9CQUFvQjs7Q0FFdkI7O0FBRUQ7O0NBRUMsWUFBWTtJQUNULGFBQWE7SUFDYixtQkFBbUI7Q0FDdEI7O0FBRUQ7O0NBRUMsMEJBQTBCO0NBQzFCLG1CQUFtQjtDQUNuQixVQUFVO0NBQ1YsaUJBQWlCO0lBQ2QsWUFBWTtDQUNmOztBQUVEOztDQUVDLDBCQUEwQjtDQUMxQiwwQkFBMEI7Q0FDMUI7O0FBR0Q7Q0FDQyxnQkFBZ0I7Q0FDaEI7O0FBRUQ7Q0FDQyxlQUFlO0NBQ2Y7O0FBRUQ7O0NBRUMsV0FBVztJQUNSLGFBQWE7SUFDYixpQkFBaUI7Q0FDcEI7O0FBRUQ7O0NBRUMsVUFBVTtDQUNWOztBQUVEOztDQUVDLGVBQWU7Q0FDZjs7QUFFRDs7Q0FFQyxpQkFBaUI7Q0FDakI7O0FBRUQ7Q0FDQyxlQUFlO0NBQ2Y7O0FBRUQ7SUFDSSxnQkFBZ0I7Q0FDbkI7O0FBRUQ7SUFDSSxnQ0FBZ0M7Q0FDbkMsaUJBQWlCO0NBQ2pCOztBQUVEO0lBQ0ksY0FBYztJQUNkLGtEQUEwQztZQUExQywwQ0FBMEM7Q0FDN0M7O0FBQ0Q7SUFDSTtRQUNJLFdBQVc7S0FDZDtJQUNEO1FBQ0ksV0FBVztLQUNkO0lBQ0Q7UUFDSSxvQkFBb0I7S0FDdkI7SUFDRDtRQUNJLDJCQUEyQjtLQUM5QjtJQUNEO1FBQ0ksb0NBQW9DO0tBQ3ZDO0lBQ0Q7UUFDSSwyQ0FBMkM7S0FDOUM7SUFDRDtRQUNJLGtEQUFrRDtLQUNyRDtDQUNKOztBQXRCRDtJQUNJO1FBQ0ksV0FBVztLQUNkO0lBQ0Q7UUFDSSxXQUFXO0tBQ2Q7SUFDRDtRQUNJLG9CQUFvQjtLQUN2QjtJQUNEO1FBQ0ksMkJBQTJCO0tBQzlCO0lBQ0Q7UUFDSSxvQ0FBb0M7S0FDdkM7SUFDRDtRQUNJLDJDQUEyQztLQUM5QztJQUNEO1FBQ0ksa0RBQWtEO0tBQ3JEO0NBQ0oiLCJmaWxlIjoic3JjL2FwcC9mZWVkL2ZlZWQuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5zdHlsZW9uZXtcbiAgICAvKmRpc3BsYXk6IGZsZXg7Ki9cbiAgICAvKmZsZXgtZGlyZWN0aW9uOiBjb2x1bW47Ki9cbiAgICBmb250OiBpbmhlcml0O1xuICAgIGZvbnQtc2l6ZTogMTAwJTtcbiAgICB2ZXJ0aWNhbC1hbGlnbjogYmFzZWxpbmU7XG4gICAgb3V0bGluZTogbm9uZTtcbiAgICBtYXJnaW46IDA7XG4gICAgcGFkZGluZzogMDtcbiAgICBib3JkZXI6IDA7XG4gICAgYm90dG9tOiAwO1xuICAgIGhlaWdodDogMTAwJTtcbn1cblxuLmhlYWRlcm9uZXtcblxuXHRiYWNrZ3JvdW5kLWNvbG9yOiAjZmZmZmZmO1xuXHRwYWRkaW5nOiAxMHB4IDE2cHg7XG5cdGhlaWdodDogNiU7XG5cdHdpZHRoOiAxMDAlO1xuICAgIGJveC1zaGFkb3c6IDAgMXB4IDFweCAwIHJnYmEoMCwgMCwgMCwgMC4wNiksIDAgMnB4IDVweCAwIHJnYmEoMCwgMCwgMCwgMC4yKTtcbiAgICBtYXJnaW4tYm90dG9tOiAxMHB4O1xuXG59XG5cbi51c2VyaW1hZ2Uge1xuXG5cdHdpZHRoOiA0MHB4O1xuICAgIGhlaWdodDogNDBweDtcbiAgICBib3JkZXItcmFkaXVzOiA1MCU7XG59XG5cbi5mb290ZXJvbmUge1xuXG5cdGJhY2tncm91bmQtY29sb3I6ICNmZmZmZmY7XG5cdHBvc2l0aW9uOiBhYnNvbHV0ZTtcblx0Ym90dG9tOiAwO1xuXHRtaW4taGVpZ2h0OiA4MHB4O1xuICAgIHdpZHRoOiAxMDAlO1xufVxuXG4uZm9ybWNvbG9ye1xuXG5cdGJhY2tncm91bmQtY29sb3I6ICNmN2Y4ZmE7XG5cdGJvcmRlcjogMXB4IHNvbGlkICNmN2Y4ZmE7XG59XG5cblxuLnRocmVlaWNvbnMge1xuXHRmb250LXNpemU6IDIwcHg7XG59XG5cbi50aHJlZWljb25zOmhvdmVyIHtcblx0Y29sb3I6ICNhMDlmZWQ7XG59XG5cbi5jb3VudGRpdiB7XG5cblx0cGFkZGluZzogMDtcbiAgICBtYXJnaW46IGF1dG87XG4gICAgdGV4dC1hbGlnbjogbGVmdDtcbn1cblxuLmNvdW50ZGl2cHtcblxuXHRtYXJnaW46IDA7XG59XG5cbi5pY29uIHtcblxuXHRtYXgtd2lkdGg6IDcwJTtcbn1cblxuLmljb25kaXYge1xuXG5cdHBhZGRpbmctcmlnaHQ6IDA7XG59XG5cbi5jb3VudHNlbGVjdGVkIHtcblx0Y29sb3I6ICNhMDlmZWQ7XG59XG5cbi5jdXJzb3J7XG4gICAgY3Vyc29yOiBwb2ludGVyO1xufVxuXG4ubW9kYWwtYm9keSB7XG4gICAgbWF4LWhlaWdodDogY2FsYygxMDB2aCAtIDUwMHB4KTtcblx0b3ZlcmZsb3cteTogYXV0bzsgXG59XG5cbi5hcHBlbmRNb3ZpbmdEb3RzOmFmdGVyIHtcbiAgICBjb250ZW50OiAnIC4nO1xuICAgIGFuaW1hdGlvbjogZG90cyAzcyBzdGVwcygxLCBlbmQpIGluZmluaXRlO1xufVxuQGtleWZyYW1lcyBkb3RzIHtcbiAgICAwJSwgMTIuNSUge1xuICAgICAgICBvcGFjaXR5OiAwO1xuICAgIH1cbiAgICAyNSUge1xuICAgICAgICBvcGFjaXR5OiAxO1xuICAgIH1cbiAgICAzNy41JSB7XG4gICAgICAgIHRleHQtc2hhZG93OiAuNWVtIDA7XG4gICAgfVxuICAgIDUwJSB7XG4gICAgICAgIHRleHQtc2hhZG93OiAuNWVtIDAsIDFlbSAwO1xuICAgIH1cbiAgICA2Mi41JSB7XG4gICAgICAgIHRleHQtc2hhZG93OiAuNWVtIDAsIDFlbSAwLCAxLjVlbSAwO1xuICAgIH1cbiAgICA3NSUge1xuICAgICAgICB0ZXh0LXNoYWRvdzogLjVlbSAwLCAxZW0gMCwgMS41ZW0gMCwgMmVtIDA7XG4gICAgfVxuICAgIDg3LjUlLCAxMDAle1xuICAgICAgICB0ZXh0LXNoYWRvdzogLjVlbSAwLCAxZW0gMCwgMS41ZW0gMCwgMmVtIDAsIDIuNWVtO1xuICAgIH1cbn0gIl19 */"
 
 /***/ }),
 
@@ -676,7 +867,7 @@ module.exports = ".styleone{\n    /*display: flex;*/\n    /*flex-direction: colu
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!-- This sesction is for Detailed User Feed of people. Starts Here -->\n\n<div class=\"styleone\">\n\t<!-- This header is open header for User psersonal Profile. Starts Here -->\n\t<header class=\"headerone\">\n\t\t<div class=\"row mt-1\" style=\"float: right;\">\n\t\t\t<div class=\"mr-3\">\n\t\t\t\t<i class=\"material-icons cursor\" data-toggle=\"modal\" (click)=\"search('')\" data-target=\"#searchModalCenter\">search</i>\n\t\t\t</div>\n\t\t\t<div class=\"mr-3\">\n\t\t\t\t<button type=\"button\" routerLink=\"/create\" class=\"btn btn-secondary\" style=\"background-color: #a09fed;border-color: #a09fed;\">murmur</button>\n\t\t\t</div>\n\t\t</div>\n\t</header>\n\t<!-- This header is open header for User psersonal Profile. Ends Here -->\n\n\t<div id = \"divscroll\" style=\"display: block;height: 94%;overflow-y: auto;-ms-overflow-style: -ms-autohiding-scrollbar;padding-bottom: 20px;\" >\n\n\t\t<div class=\"card mt-0\" *ngFor=\"let mur of Murmur_Posts; let i = index\" >\n\t\t\t<div class=\"card-body\" *ngIf = \"mur.action_type == 'murmur'\">\n\t\t\t\t<div class=\"row\">\n\t\t\t\t\t<div class=\"col-1\">\n\t\t\t\t\t\t<a class=\"cursor\" (click)=\"otherUser(mur.Acc_id)\"><img class=\"userimage\" src={{mur.image}}></a>\n\t\t\t\t\t</div>\t\t\t\n\t\t\t\t\t<div class=\"col-11\" style=\"margin: auto;\">\n\t\t\t\t\t\t<div class=\"col-9\">\n\t\t\t\t\t\t\t<a><h6 class=\"mb-1\" style=\"font-weight: 600;\">{{mur.account_name}}<span class=\"ml-2\" style=\"color: #a09fed;\">{{mur.Acc_id}}</span></h6></a>\n\t\t\t\t\t\t\t<a><p>{{mur.murmur.message}}</p></a>\n\t\t\t\t\t\t\t<a *ngIf = \" mur.murmur.attached_url !== ''\" ><img style=\"width: 100%;border-radius: 10px;\" alt=\"\" class=\"mb-4\" src={{mur.murmur.attached_url}}></a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"row col-6\">\n\t\t\t\t\t\t\t<div class=\"col-4\">\n\t\t\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 icondiv\" *ngIf=\"!mur.murmur.snooped\"><a class=\"cursor\" (click)=\"snoop(i)\"><img class=\"icon\" src=\"assets/img/like.svg\"></a></div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 icondiv\" *ngIf=\"mur.murmur.snooped\"><a class=\"cursor\" (click)=\"snooped()\"><img class=\"icon\" src=\"assets/img/like_color.png\"></a></div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 countdiv\">\n\t\t\t\t\t\t\t\t\t\t<p class=\"countdivp\">{{mur.murmur.snoop_count}}</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-4\">\n\t\t\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 icondiv\"><a class=\"cursor\" routerLink=\"/comment\" (click)=\"cmt_Data(i)\"><img class=\"icon\" src=\"assets/img/comment.svg\"></a></div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 countdiv\">\n\t\t\t\t\t\t\t\t\t\t<p class=\"countdivp\">{{mur.murmur.comment_count}}</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-4\">\n\t\t\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 icondiv\"><a class=\"cursor\" routerLink=\"/share\" (click)=\"cmt_Data(i)\"><img class=\"icon\" src=\"assets/img/share.svg\"></a></div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 countdiv\">\n\t\t\t\t\t\t\t\t\t\t<p class=\"countdivp\">{{mur.murmur.yell_count}}</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t\n\t\t\t<div class=\"card-body\" *ngIf = \"mur.action_type == 'yell'\">\n\t\t\t\t<div class=\"row\">\n                    <div class=\"col-1\">\n                        <a class=\"cursor\" (click)=\"otherUser(mur.Acc_id)\"><img class=\"userimage\" src={{mur.image}}></a>\n                    </div>            \n\t\t\t\t\t<div class=\"col-11\" style=\"margin: auto;\">\n\t\t\t\t\t\t<div class=\"col-9\">\n\t\t\t\t\t\t\t<a><h6 class=\"mb-1\" style=\"font-weight: 600;\">{{mur.account_name}}<span class=\"ml-2\" style=\"color: #a09fed;\">{{mur.Acc_id}}</span></h6></a>\n\t\t\t\t\t\t\t<a><p>{{mur.yell.extra_comment}}</p></a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-12 mb-4\">\n\t\t\t\t\t\t\t<div class=\"card mt-0\" style=\"border-radius: 10px;\">\n\t\t\t\t\t\t\t\t<div class=\"card-body\">\n\t\t\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-1\">\n\t\t\t\t\t\t\t\t\t\t<a class=\"cursor\" (click)=\"otherUser(mur.yell.mur_acc_id)\"><img alt=\"\" class=\"userimage\" src={{mur.yell.mur_acc_image}}></a>\n\t\t\t\t\t\t\t\t\t</div>            \n\t\t\t\t\t\t\t\t\t<div class=\"col-11\" style=\"margin: auto;\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"col-9\">\n\t\t\t\t\t\t\t\t\t\t\t<a><h6 class=\"mb-1\" style=\"font-weight: 600;\">{{mur.yell.mur_account_name}}<span class=\"ml-2\" style=\"color: #a09fed;\">{{mur.yell.mur_acc_id}}</span></h6></a>\n\t\t\t\t\t\t\t\t\t\t\t<a><p>{{mur.yell.message}}</p></a>\n\t\t\t\t\t\t\t\t\t\t\t<a *ngIf = \" mur.yell.attached_url !== ''\" ><img alt=\"\" style=\"width: 100%;border-radius: 10px;\" class=\"mb-4\" src={{mur.yell.attached_url}}></a>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"row col-6\">\n\t\t\t\t\t\t\t<div class=\"col-4\">\n\t\t\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 icondiv\" *ngIf=\"!mur.yell.snooped\"><a class=\"cursor\" (click)=\"snoop(i)\"><img class=\"icon\" src=\"assets/img/like.svg\"></a></div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 icondiv\" *ngIf=\"mur.yell.snooped\"><a class=\"cursor\" (click)=\"snooped()\"><img class=\"icon\" src=\"assets/img/like_color.png\"></a></div>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 countdiv\">\n\t\t\t\t\t\t\t\t\t\t<p class=\"countdivp\">{{mur.yell.snoop_count}}</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-4\">\n\t\t\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 icondiv\"><a class=\"cursor\" routerLink=\"/comment\" (click)=\"cmt_Data(i)\"><img class=\"icon\" src=\"assets/img/comment.svg\"></a></div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 countdiv\">\n\t\t\t\t\t\t\t\t\t\t<p class=\"countdivp\">{{mur.yell.comment_count}}</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n                </div>\n\t\t\t</div>\n\t\t</div>\n\t\t<div *ngIf=\"load\" style=\"text-align: center;padding-top: 5px;padding-bottom: 5px;\">\n\t\t\t<button type=\"button\" class=\"btn btn-secondary\" (click)=\"LoadFeeds()\" style=\"border-radius: 30px;background-color: #a09fed;border-color: #a09fed;\">{{ notificationMessage }}</button>\n\t\t</div>\n\t\t<ngx-spinner\n\t\t\tbdColor=\"rgba(51,51,51,0.8)\"\n\t\t\tsize=\"medium\"\n\t\t\tcolor=\"#fff\"\n\t\t\tloadingText=\"Loading...\"\n\t\t\ttype=\"ball-scale-multiple\">\n\t\t</ngx-spinner>\n\t</div>\n\t<router-outlet></router-outlet>\n</div>\n\n<!-- This sesction is for Detailed User Feed of people. Ends Here -->\n\n<button id=\"openModalButton\" [hidden]=\"true\" data-toggle=\"modal\" data-target=\"#exampleModalCenter\">Open Modal</button>\n\n<!-- Modal -->\n<div class=\"modal fade\" id=\"searchModalCenter\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"searchModalCenterTitle\" aria-hidden=\"true\">\n\t<div class=\"modal-dialog modal-dialog-centered\" role=\"document\">\n\t\t<div class=\"modal-content\">\n\t\t\t<div class=\"modal-header\">\n\t\t\t\t<input class=\"form-control inputone\" type=\"search\" placeholder=\"Search here to find people\" aria-label=\"Search\"\t(input)=\"search($event.target.value);\" >\n\t\t\t\t<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n\t\t\t\t<span aria-hidden=\"true\">&times;</span>\n\t\t\t\t</button>\n\t\t\t</div>\n\t\t\t<div class=\"modal-body\">\n\t\t\t\t<div style=\"display: block;overflow-y: auto;-ms-overflow-style: -ms-autohiding-scrollbar;padding-bottom: 20px;\">\n\t\t\t\t\t<div class=\"card mt-0\">\n\t\t\t\t\t\t<div class=\"card-body\" *ngFor=\"let acc of search_people; let i = index\">\n\t\t\t\t\t\t\t<div class=\"row mb-3\">\n\t\t\t\t\t\t\t\t<div class=\"col-1\">\n\t\t\t\t\t\t\t\t\t<a class=\"cursor\" data-dismiss=\"modal\" (click)=\"otherUser(acc.Acc_id)\"><img class=\"userimage\" alt=\"\" src={{acc.profile_pic}}></a>\n\t\t\t\t\t\t\t\t</div>\t\t\t\n\t\t\t\t\t\t\t\t<div class=\"col-11 row\" style=\"margin: auto;\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-9\">\n\t\t\t\t\t\t\t\t\t\t<a><h6 class=\"mb-1\" style=\"font-weight: 600;\">{{acc.Acc_name}}</h6></a>\n\t\t\t\t\t\t\t\t\t\t<a><h6><span style=\"color: #a09fed;\">{{acc.Acc_id}}</span></h6></a>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-3\" style=\"margin: auto;text-align: center;\">\n\t\t\t\t\t\t\t\t\t\t<button *ngIf=\"acc.status\" (click)=\"following(acc.Acc_id, i)\" type=\"button\" class=\"btn btn-secondary\" style=\"background-color: #a09fed;border-color: #a09fed;width: 110%\">Following</button>\n\t\t\t\t\t\t\t\t\t\t<button *ngIf=\"!acc.status\" (click)=\"follow(acc.Acc_id, i)\" type=\"button\" class=\"btn btn-secondary\" style=\"background-color: #a09fed00;border-color: #a09fed;color: #a09fed;width: 110%\">Follow</button>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"modal-footer\" style=\"margin: auto\">\n\t\t\t\t<button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Close</button>\n\t\t\t</div>\n\t\t</div>\t  \n\t</div>\n</div>\n\n<!-- Modal -->\n<div class=\"modal fade\" id=\"exampleModalCenter\"   tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"exampleModalCenterTitle\" aria-hidden=\"true\" #closeBtn>\n\t<div class=\"modal-dialog modal-dialog-centered\" role=\"document\">\n\t\t<div class=\"modal-content\">\n\t\t<div class=\"modal-body\" style=\"font-size: 20px;margin: auto;\">\n\t\t\t{{resMes}}\n\t\t</div>\n\t\t<div class=\"modal-footer\" style=\"margin: auto;\">\n\t\t\t<button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Close</button>\n\t\t</div>\n\t\t</div>\n\t</div>\n</div>  "
+module.exports = "<!-- This sesction is for Detailed User Feed of people. Starts Here -->\n\n<div class=\"styleone\">\n\t<!-- This header is open header for User psersonal Profile. Starts Here -->\n\t<header class=\"headerone\">\n\t\t<div class=\"row mt-1\" style=\"float: right;\">\n\t\t\t<div class=\"mr-3\">\n\t\t\t\t<i class=\"material-icons cursor\" data-toggle=\"modal\" (click)=\"search('')\" data-target=\"#searchModalCenter\">search</i>\n\t\t\t</div>\n\t\t\t<div class=\"mr-3\">\n\t\t\t\t<button type=\"button\" routerLink=\"/create\" class=\"btn btn-secondary\" style=\"background-color: #a09fed;border-color: #a09fed;\">murmur</button>\n\t\t\t</div>\n\t\t</div>\n\t</header>\n\t<!-- This header is open header for User psersonal Profile. Ends Here -->\n\n\t<div id = \"divscroll\" style=\"display: block;height: 94%;overflow-y: auto;-ms-overflow-style: -ms-autohiding-scrollbar;padding-bottom: 20px;\" >\n\n\t\t<div class=\"card mt-0\" *ngFor=\"let mur of Murmur_Posts; let i = index\" >\n\t\t\t<div class=\"card-body\" *ngIf = \"mur.action_type == 'murmur'\">\n\t\t\t\t<div class=\"row\">\n\t\t\t\t\t<div class=\"col-1\">\n\t\t\t\t\t\t<a class=\"cursor\" (click)=\"otherUser(mur.Acc_id)\"><img class=\"userimage\" src={{mur.image}}></a>\n\t\t\t\t\t\t \n\t\t\t\t\t</div>\t\t\t\n\t\t\t\t\t<div class=\"col-11\" style=\"margin: auto;\">\n\t\t\t\t\t\t<div class=\"col-9\">\n\t\t\t\t\t\t\t<a><h6 class=\"mb-1\" style=\"font-weight: 600;\">{{mur.account_name}}<span class=\"ml-2\" style=\"color: #a09fed;\">{{mur.Acc_id}}</span>\n\t\t\t\t\t\t\t\t<!-- <a *ngIf=\"mur.status\" style=\"float:right;\" class=\"cursor\" (click)=\"deletePost(i)\"><i class=\"material-icons mt-2\">delete</i></a> -->\n\t\t\t\t\t\t\t</h6></a>\n\t\t\t\t\t\t\t<a><p>{{mur.murmur.message}}</p></a>\n\t\t\t\t\t\t\t<a *ngIf = \" mur.murmur.attached_url !== ''\" ><img style=\"width: 100%;border-radius: 10px;\" alt=\"\" class=\"mb-4\" src={{mur.murmur.attached_url}}></a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"row col-6\">\n\t\t\t\t\t\t\t<div class=\"col-4\">\n\t\t\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 icondiv\" *ngIf=\"!mur.murmur.snooped\"><a class=\"cursor\" (click)=\"snoop(i)\"><img class=\"icon\" src=\"assets/img/like.svg\"></a></div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 icondiv\" *ngIf=\"mur.murmur.snooped\"><a class=\"cursor\" (click)=\"snooped(i)\"><img class=\"icon\" src=\"assets/img/like_color.png\"></a></div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 countdiv\">\n\t\t\t\t\t\t\t\t\t\t<p class=\"countdivp\">{{mur.murmur.snoop_count}}</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-4\">\n\t\t\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 icondiv\"><a class=\"cursor\" routerLink=\"/comment\" (click)=\"cmt_Data(i)\"><img class=\"icon\" src=\"assets/img/comment.svg\"></a></div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 countdiv\">\n\t\t\t\t\t\t\t\t\t\t<p class=\"countdivp\">{{mur.murmur.comment_count}}</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-4\">\n\t\t\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 icondiv\"><a class=\"cursor\" routerLink=\"/share\" (click)=\"cmt_Data(i)\"><img class=\"icon\" src=\"assets/img/share.svg\"></a></div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 countdiv\">\n\t\t\t\t\t\t\t\t\t\t<p class=\"countdivp\">{{mur.murmur.yell_count}}</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t\n\t\t\t<div class=\"card-body\" *ngIf = \"mur.action_type == 'yell'\">\n\t\t\t\t<div class=\"row\">\n                    <div class=\"col-1\">\n\t\t\t\t\t\t<a class=\"cursor\" (click)=\"otherUser(mur.Acc_id)\"><img class=\"userimage\" src={{mur.image}}></a>\n\t\t\t\t\t\t<!-- <a *ngIf=\"mur.status\" class=\"cursor\" (click)=\"deletePost(i)\"><i class=\"material-icons mt-2\">delete</i></a> -->\n                    </div>            \n\t\t\t\t\t<div class=\"col-11\" style=\"margin: auto;\">\n\t\t\t\t\t\t<div class=\"col-9\">\n\t\t\t\t\t\t\t<a><h6 class=\"mb-1\" style=\"font-weight: 600;\">{{mur.account_name}}<span class=\"ml-2\" style=\"color: #a09fed;\">{{mur.Acc_id}}</span>\n\t\t\t\t\t\t\t\t<!-- <a *ngIf=\"mur.status\" style=\"float:right;\" class=\"cursor\" (click)=\"deletePost(i)\"><i class=\"material-icons mt-2\">delete</i></a> -->\n\t\t\t\t\t\t\t</h6></a>\n\t\t\t\t\t\t\t<a><p>{{mur.yell.extra_comment}}</p></a>\n\t\t\t\t\t\t\t \n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-12 mb-4\">\n\t\t\t\t\t\t\t<div class=\"card mt-0\" style=\"border-radius: 10px;\">\n\t\t\t\t\t\t\t\t<div class=\"card-body\">\n\t\t\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-1\">\n\t\t\t\t\t\t\t\t\t\t<a class=\"cursor\" (click)=\"otherUser(mur.yell.mur_acc_id)\"><img alt=\"\" class=\"userimage\" src={{mur.yell.mur_acc_image}}></a>\n\t\t\t\t\t\t\t\t\t</div>            \n\t\t\t\t\t\t\t\t\t<div class=\"col-11\" style=\"margin: auto;\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"col-9\">\n\t\t\t\t\t\t\t\t\t\t\t<a><h6 class=\"mb-1\" style=\"font-weight: 600;\">{{mur.yell.mur_account_name}}<span class=\"ml-2\" style=\"color: #a09fed;\">{{mur.yell.mur_acc_id}}</span></h6></a>\n\t\t\t\t\t\t\t\t\t\t\t<a><p>{{mur.yell.message}}</p></a>\n\t\t\t\t\t\t\t\t\t\t\t<a *ngIf = \" mur.yell.attached_url !== ''\" ><img alt=\"\" style=\"width: 100%;border-radius: 10px;\" class=\"mb-4\" src={{mur.yell.attached_url}}></a>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"row col-6\">\n\t\t\t\t\t\t\t<div class=\"col-4\">\n\t\t\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 icondiv\" *ngIf=\"!mur.yell.snooped\"><a class=\"cursor\" (click)=\"snoop(i)\"><img class=\"icon\" src=\"assets/img/like.svg\"></a></div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 icondiv\" *ngIf=\"mur.yell.snooped\"><a class=\"cursor\" (click)=\"snooped(i)\"><img class=\"icon\" src=\"assets/img/like_color.png\"></a></div>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 countdiv\">\n\t\t\t\t\t\t\t\t\t\t<p class=\"countdivp\">{{mur.yell.snoop_count}}</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-4\">\n\t\t\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 icondiv\"><a class=\"cursor\" routerLink=\"/comment\" (click)=\"cmt_Data(i)\"><img class=\"icon\" src=\"assets/img/comment.svg\"></a></div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 countdiv\">\n\t\t\t\t\t\t\t\t\t\t<p class=\"countdivp\">{{mur.yell.comment_count}}</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n                </div>\n\t\t\t</div>\n\t\t</div>\n\t\t<div *ngIf=\"load\" style=\"text-align: center;padding-top: 5px;padding-bottom: 5px;\">\n\t\t\t<button type=\"button\" class=\"btn btn-secondary\" (click)=\"LoadFeeds()\" style=\"border-radius: 30px;background-color: #a09fed;border-color: #a09fed;\">{{ notificationMessage }}</button>\n\t\t</div>\n\t\t<ngx-spinner\n\t\t\tbdColor=\"rgba(51,51,51,0.8)\"\n\t\t\tsize=\"medium\"\n\t\t\tcolor=\"#fff\"\n\t\t\tloadingText=\"Loading...\"\n\t\t\ttype=\"ball-scale-multiple\">\n\t\t</ngx-spinner>\n\t</div>\n\t<router-outlet></router-outlet>\n</div>\n\n<!-- This sesction is for Detailed User Feed of people. Ends Here -->\n\n<button id=\"openModalButton\" [hidden]=\"true\" data-toggle=\"modal\" data-target=\"#exampleModalCenter\">Open Modal</button>\n\n<!-- Modal -->\n<div class=\"modal fade\" id=\"searchModalCenter\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"searchModalCenterTitle\" aria-hidden=\"true\">\n\t<div class=\"modal-dialog modal-dialog-centered\" role=\"document\">\n\t\t<div class=\"modal-content\">\n\t\t\t<div class=\"modal-header\">\n\t\t\t\t<input class=\"form-control inputone\" type=\"search\" placeholder=\"Search here to find people\" aria-label=\"Search\"\t(input)=\"search($event.target.value);\" >\n\t\t\t\t<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n\t\t\t\t<span aria-hidden=\"true\">&times;</span>\n\t\t\t\t</button>\n\t\t\t</div>\n\t\t\t<div class=\"modal-body\">\n\t\t\t\t<div style=\"display: block;overflow-y: auto;-ms-overflow-style: -ms-autohiding-scrollbar;padding-bottom: 20px;\">\n\t\t\t\t\t<div class=\"card mt-0\">\n\t\t\t\t\t\t<div class=\"card-body\" *ngFor=\"let acc of search_people; let i = index\">\n\t\t\t\t\t\t\t<div class=\"row mb-3\">\n\t\t\t\t\t\t\t\t<div class=\"col-1\">\n\t\t\t\t\t\t\t\t\t<a class=\"cursor\" data-dismiss=\"modal\" (click)=\"otherUser(acc.Acc_id)\"><img class=\"userimage\" alt=\"\" src={{acc.profile_pic}}></a>\n\t\t\t\t\t\t\t\t</div>\t\t\t\n\t\t\t\t\t\t\t\t<div class=\"col-11 row\" style=\"margin: auto;\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-9\">\n\t\t\t\t\t\t\t\t\t\t<a><h6 class=\"mb-1\" style=\"font-weight: 600;\">{{acc.Acc_name}}</h6></a>\n\t\t\t\t\t\t\t\t\t\t<a><h6><span style=\"color: #a09fed;\">{{acc.Acc_id}}</span></h6></a>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-3\" style=\"margin: auto;text-align: center;\">\n\t\t\t\t\t\t\t\t\t\t<button *ngIf=\"acc.status\" (click)=\"following(acc.Acc_id, i)\" type=\"button\" class=\"btn btn-secondary\" style=\"background-color: #a09fed;border-color: #a09fed;width: 110%\">Following</button>\n\t\t\t\t\t\t\t\t\t\t<button *ngIf=\"!acc.status\" (click)=\"follow(acc.Acc_id, i)\" type=\"button\" class=\"btn btn-secondary\" style=\"background-color: #a09fed00;border-color: #a09fed;color: #a09fed;width: 110%\">Follow</button>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"modal-footer\" style=\"margin: auto\">\n\t\t\t\t<button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Close</button>\n\t\t\t</div>\n\t\t</div>\t  \n\t</div>\n</div>\n\n<!-- Modal -->\n<div class=\"modal fade\" id=\"exampleModalCenter\"   tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"exampleModalCenterTitle\" aria-hidden=\"true\" #closeBtn>\n\t<div class=\"modal-dialog modal-dialog-centered\" role=\"document\">\n\t\t<div class=\"modal-content\">\n\t\t<div class=\"modal-body\" style=\"font-size: 20px;margin: auto;\">\n\t\t\t{{resMes}}\n\t\t</div>\n\t\t<div class=\"modal-footer\" style=\"margin: auto;\">\n\t\t\t<button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Close</button>\n\t\t</div>\n\t\t</div>\n\t</div>\n</div>  "
 
 /***/ }),
 
@@ -764,9 +955,33 @@ var FeedComponent = /** @class */ (function () {
             }
         });
     };
-    FeedComponent.prototype.snooped = function () {
-        this.resMes = 'You are already snooped';
-        document.getElementById("openModalButton").click();
+    FeedComponent.prototype.snooped = function (id) {
+        var _this = this;
+        this.ms.unSnoop(id, 'murmur').then(function (res) {
+            console.log(res);
+            if (res['Error']) {
+                if (res['errMesg'] == undefined)
+                    res['errMesg'] = 'Internal Server Error';
+                console.log(res['errMesg']);
+                _this.resMes = 'Error Message: ' + res['errMesg'];
+                document.getElementById("openModalButton").click();
+            }
+            else {
+                console.log(res['transId']);
+                _this.resMes = 'Your UnSnoop is submitted into blockchain';
+                document.getElementById("openModalButton").click();
+                if (_this.Murmur_Posts[id].action_type == 'murmur') {
+                    _this.Murmur_Posts[id].murmur.snooped = 0;
+                    _this.Murmur_Posts[id].murmur.snoop_count -= 1;
+                }
+                else {
+                    _this.Murmur_Posts[id].yell.snooped = 0;
+                    _this.Murmur_Posts[id].yell.snoop_count -= 1;
+                }
+            }
+        });
+        // this.resMes = 'You are already snooped'
+        // document.getElementById("openModalButton").click();
     };
     FeedComponent.prototype.cmt_Data = function (id) {
         this.ms.setCommentData(id, 'murmur');
@@ -851,6 +1066,45 @@ var FeedComponent = /** @class */ (function () {
         //   this.resMes = 'Sorry there is no more feeds!'
         //   document.getElementById("openModalButton").click();
         // }
+    };
+    FeedComponent.prototype.deletePost = function (id) {
+        var _this = this;
+        if (this.Murmur_Posts[id].action_type == "murmur") {
+            // console.log(this.Murmur_Posts[id].murmur.murmur_id);
+            this.ms.deleteMurmur(this.Murmur_Posts[id].murmur.murmur_id).then(function (res) {
+                console.log(res);
+                if (res['Error']) {
+                    if (res['errMesg'] == undefined)
+                        res['errMesg'] = 'Internal Server Error';
+                    console.log(res['errMesg']);
+                    _this.resMes = 'Error Message: ' + res['errMesg'];
+                    document.getElementById("openModalButton").click();
+                }
+                else {
+                    console.log(res['transId']);
+                    _this.resMes = 'Your Delete Murmur is submitted to blockchain';
+                    document.getElementById("openModalButton").click();
+                }
+            });
+        }
+        else {
+            // console.log(this.Murmur_Posts[id].yell.yell_id);
+            this.ms.unyell(this.Murmur_Posts[id].yell.yell_id).then(function (res) {
+                console.log(res);
+                if (res['Error']) {
+                    if (res['errMesg'] == undefined)
+                        res['errMesg'] = 'Internal Server Error';
+                    console.log(res['errMesg']);
+                    _this.resMes = 'Error Message: ' + res['errMesg'];
+                    document.getElementById("openModalButton").click();
+                }
+                else {
+                    console.log(res['transId']);
+                    _this.resMes = 'Your Unyell is submitted to blockchain';
+                    document.getElementById("openModalButton").click();
+                }
+            });
+        }
     };
     FeedComponent.prototype.ngOnDestroy = function () {
         clearInterval(this.interval);
@@ -1239,7 +1493,7 @@ module.exports = ".userimage {\n\n\tmax-width: 150px;\n    max-height: 150px;\n 
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container\" style=\"display: block;height: 100%;overflow-y: auto;-ms-overflow-style: -ms-autohiding-scrollbar;background: #ffffff;padding-top: 50%;\">\n\t<div class=\"container imagecontainer mt-5\">\n\t\t<img class=\"userimage\" src=\"assets/img/murmur_new.png\">\n\t</div>\n\t<div class=\"info handle mt-4\">\n\t\t<h3>Welcome Back</h3>\n\t\t<p>Sign in to continue</p>\n\t</div>\n\t<form class=\"mt-5 mb-5\" style=\"text-align: center;\" >\n\t\t<div class=\"form-group\">\n\t\t\t<input type=\"text\" class=\"form-control\" id=\"accountname\"  placeholder=\"Enter account Name\" style=\"text-align: center;\">\n\t  </div>\n\t  <div class=\"form-group\">\n\t\t\t<!-- <label for=\"privateKey\">Import Private Key</label> -->\n\t    <input type=\"password\" class=\"form-control\" id=\"privateKey\"  placeholder=\"Import Private Key\" style=\"text-align: center;\">\n\t  </div>\n\t  <div>\n  \t\t<button class=\"btn btn-primary\" style=\"width: 100%;background-color: #10d580;border-color: #10d580;\" (click)=\"PriKey_login()\">Import</button>\n\t  </div>\n\t</form>\n\t<button (click)=\"Scat_login()\" class=\"btn btn-primary\" style=\"width: 100%;background-color: #10d580;border-color: #10d580;\">Use Scatter</button>\n\t<!-- <hr>\n\t<form class=\"mt-5 mb-5\" style=\"text-align: center;\">\n\t  <div class=\"form-group\">\n\t    <label for=\"privateKey\">Scan QR Code</label>\n\t  </div>\n\t  <div class=\"form-group\">\n\t    <img class=\"userimage\" src=\"assets/img/qrcode.png\">\n\t  </div>\n\t</form> -->\n\t<hr>\n\t<!-- <form class=\"mt-5 mb-5\" style=\"text-align: center;\"> -->\n\t<!-- </form> -->\n</div>\n\t"
+module.exports = "<div class=\"container\" style=\"display: block;height: 100%;overflow-y: auto;-ms-overflow-style: -ms-autohiding-scrollbar;background: #ffffff;padding-top: 50%;\">\n\t<div class=\"container imagecontainer mt-5\">\n\t\t<img class=\"userimage\" src=\"assets/img/graphic1.svg\">\n\t</div>\n\t<hr>\n</div>\n\t"
 
 /***/ }),
 
@@ -1344,7 +1598,7 @@ var LoginComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".styleone{\n\n    /*display: flex;*/\n    /*flex-direction: column;*/\n    height: 100%;\n    font: inherit;\n    font-size: 100%;\n    vertical-align: baseline;\n    outline: none;\n    margin: 0;\n    padding: 100px;\n    border: 0;\n    background: #9a91c5;\n}\n\n.headerone{\n\n    background-color: #ffffff;\n    padding: 10px 16px;\n    height: 6%;\n    width: 100%;\n    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);\n    margin-bottom: 10px;\n\n}\n\n.userimage {\n\n    max-width: 100%;\n}\n\n.footerone {\n\n    background-color: #ffffff;\n    position: absolute;\n    bottom: 0;\n    min-height: 65px;\n    width: 100%;\n}\n\n.formcolor{\n\n    background-color: #f7f8fa;\n    border: 1px solid #f7f8fa;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbG9naW5jb250ZW50L2xvZ2luY29udGVudC5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOztJQUVJLGtCQUFrQjtJQUNsQiwyQkFBMkI7SUFDM0IsYUFBYTtJQUNiLGNBQWM7SUFDZCxnQkFBZ0I7SUFDaEIseUJBQXlCO0lBQ3pCLGNBQWM7SUFDZCxVQUFVO0lBQ1YsZUFBZTtJQUNmLFVBQVU7SUFDVixvQkFBb0I7Q0FDdkI7O0FBRUQ7O0lBRUksMEJBQTBCO0lBQzFCLG1CQUFtQjtJQUNuQixXQUFXO0lBQ1gsWUFBWTtJQUNaLDRFQUE0RTtJQUM1RSxvQkFBb0I7O0NBRXZCOztBQUVEOztJQUVJLGdCQUFnQjtDQUNuQjs7QUFFRDs7SUFFSSwwQkFBMEI7SUFDMUIsbUJBQW1CO0lBQ25CLFVBQVU7SUFDVixpQkFBaUI7SUFDakIsWUFBWTtDQUNmOztBQUVEOztJQUVJLDBCQUEwQjtJQUMxQiwwQkFBMEI7Q0FDN0IiLCJmaWxlIjoic3JjL2FwcC9sb2dpbmNvbnRlbnQvbG9naW5jb250ZW50LmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuc3R5bGVvbmV7XG5cbiAgICAvKmRpc3BsYXk6IGZsZXg7Ki9cbiAgICAvKmZsZXgtZGlyZWN0aW9uOiBjb2x1bW47Ki9cbiAgICBoZWlnaHQ6IDEwMCU7XG4gICAgZm9udDogaW5oZXJpdDtcbiAgICBmb250LXNpemU6IDEwMCU7XG4gICAgdmVydGljYWwtYWxpZ246IGJhc2VsaW5lO1xuICAgIG91dGxpbmU6IG5vbmU7XG4gICAgbWFyZ2luOiAwO1xuICAgIHBhZGRpbmc6IDEwMHB4O1xuICAgIGJvcmRlcjogMDtcbiAgICBiYWNrZ3JvdW5kOiAjOWE5MWM1O1xufVxuXG4uaGVhZGVyb25le1xuXG4gICAgYmFja2dyb3VuZC1jb2xvcjogI2ZmZmZmZjtcbiAgICBwYWRkaW5nOiAxMHB4IDE2cHg7XG4gICAgaGVpZ2h0OiA2JTtcbiAgICB3aWR0aDogMTAwJTtcbiAgICBib3gtc2hhZG93OiAwIDFweCAxcHggMCByZ2JhKDAsIDAsIDAsIDAuMDYpLCAwIDJweCA1cHggMCByZ2JhKDAsIDAsIDAsIDAuMik7XG4gICAgbWFyZ2luLWJvdHRvbTogMTBweDtcblxufVxuXG4udXNlcmltYWdlIHtcblxuICAgIG1heC13aWR0aDogMTAwJTtcbn1cblxuLmZvb3Rlcm9uZSB7XG5cbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZmZmZmZmO1xuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICBib3R0b206IDA7XG4gICAgbWluLWhlaWdodDogNjVweDtcbiAgICB3aWR0aDogMTAwJTtcbn1cblxuLmZvcm1jb2xvcntcblxuICAgIGJhY2tncm91bmQtY29sb3I6ICNmN2Y4ZmE7XG4gICAgYm9yZGVyOiAxcHggc29saWQgI2Y3ZjhmYTtcbn1cbiJdfQ== */"
+module.exports = "/*------------------------------------------------------------------\n * Theme Name: iofrm - theme\n * Theme URI: http://www.brandio.io/envato/iofrm\n * Author: Brandio\n * Author URI: http://www.brandio.io/\n * Copyright 2018 Brandio.\n -------------------------------------------------------------------*/\n/*------------------------------------------------------------------\n[Table of contents]\n\n1. General Styles.\n2. Responsive Styles.\n-------------------------------------------------------------------*/\n/* -----------------------------------\n    1 - General Styles\n------------------------------------*/\n#ig{\n\twidth: 100%;\n\theight: 50px;\n}\n.form-body {\n    background-color: #fff;\n    widows: 100%;\n}\n.website-logo {\n    display: inline-block;\n    top: 50px;\n    left: initial;\n    right: 50px;\n    bottom: initial;\n}\n.website-logo img {\n    width: 100px;\n}\n.website-logo .logo {\n    background-image: url(\"/assets/img/murmur.svg\");\n}\n.website-logo .logo img {\n    width: 100px;\n}\n.website-logo-inside img {\n    width: 100px;\n}\n.website-logo-inside .logo {\n    background-image: url(\"/assets/img/murmur.svg\");\n}\n.website-logo-inside .logo img {\n    width: 100px;\n}\n.img-holder {\n    width: 550px;\n    background-color: #FAFAFA;\n}\n.img-holder .info-holder h3 {\n    color: #000;\n}\n.img-holder .info-holder p {\n    color: #000;\n}\n.img-holder .bg {\n    opacity: 1;\n    background-image: none;\n}\n.form-holder {\n    margin-left: 550px;\n}\n.form-holder .form-content ::-webkit-input-placeholder {\n    color: #000000;\n}\n.form-holder .form-content :-moz-placeholder {\n    color: #000000;\n}\n.form-holder .form-content ::-moz-placeholder {\n    color: #000000;\n}\n.form-holder .form-content :-ms-input-placeholder {\n    color: #000000;\n}\n.form-control ::-webkit-input-placeholder {\n    color: #000000;\n}\n.form-control :-moz-placeholder {\n    color: #000000;\n}\n.form-control ::-moz-placeholder {\n    color: #000000;\n}\n.form-control :-ms-input-placeholder {\n    color: #000000;\n}\n.form-content {\n    background-color: #fff;\n}\n.form-content .form-group {\n    color: #000;\n}\n.form-content .form-items {\n    max-width: 500px;\n    text-align: left;\n}\n.form-content h3 {\n    color: #000;\n    text-align: left;\n}\n.form-content p {\n    color: #000;\n    text-align: left;\n}\n.form-content label {\n    color: #000;\n    text-align: left;\n}\n.form-content .page-links a {\n    color: #000;\n}\n.form-content .page-links a:after {\n    background-color: rgba(222, 222, 222, 0.7);\n}\n.form-content .page-links a.active:after {\n    background-color: #0092FE;\n}\n.form-content .page-links a:hover:after, .form-content .page-links a:focus:after {\n    background-color: #0092FE;\n}\n.form-content input, .form-content .dropdown-toggle.btn-default {\n    border: 1px solid rgba(0, 149, 255, 0);\n    background-color: #F7F7F7;\n    color: #000000;\n}\n.form-content input:hover, .form-content input:focus, .form-content .dropdown-toggle.btn-default:hover, .form-content .dropdown-toggle.btn-default:focus {\n    border: 1px solid #0093FF;\n    background-color: #fff;\n    color: #000000;\n}\n.form-content textarea {\n    background-color: #F7F7F7;\n    border: 1px solid rgba(0, 149, 255, 0);\n    color: #000000;\n}\n.form-content textarea:hover, .form-content textarea:focus {\n    border: 1px solid #0093FF;\n    background-color: #fff;\n    color: #000000;\n}\n.form-content input[type=\"checkbox\"]:not(:checked) + label, .form-content input[type=\"checkbox\"]:checked + label, .form-content input[type=\"radio\"]:not(:checked) + label, .form-content input[type=\"radio\"]:checked + label {\n    color: #000;\n}\n.form-content input[type=\"checkbox\"]:checked + label, .form-content input[type=\"radio\"]:checked + label {\n    color: #000;\n}\n.form-content input[type=\"checkbox\"]:checked + label:before, .form-content input[type=\"radio\"]:checked + label:before {\n    background: #000;\n    border: 0px solid #000;\n}\n.form-content input[type=\"checkbox\"]:not(:checked) + label:before, .form-content input[type=\"radio\"]:not(:checked) + label:before {\n    background: transparent;\n    border: 2px solid #000;\n}\n.form-content input[type=\"checkbox\"]:checked + label:after, .form-content input[type=\"checkbox\"]:not(:checked) + label:after {\n    color: #fff;\n}\n.form-content input[type=\"radio\"]:checked + label:after, .form-content input[type=\"radio\"]:not(:checked) + label:after {\n    background-color: #fff;\n}\n.form-content .custom-options input[type=\"checkbox\"]:not(:checked) + label, .form-content .custom-options input[type=\"checkbox\"]:checked + label, .form-content .custom-options input[type=\"radio\"]:not(:checked) + label, .form-content .custom-options input[type=\"radio\"]:checked + label {\n    color: #606060;\n    background-color: #F7F7F7;\n}\n.form-content .custom-options input[type=\"checkbox\"]:checked + label, .form-content .custom-options input[type=\"radio\"]:checked + label {\n    color: #fff;\n    background-color: #57D38C;\n    box-shadow: 0 3px 8px rgba(74, 230, 142, 0.35);\n}\n.form-content .form-button .ibtn {\n    background-color: #0093FF;\n    color: #fff;\n    box-shadow: 0 0 0 rgba(80, 182, 255, 0.31);\n}\n.form-content .form-button .ibtn:hover, .form-content .form-button .ibtn:focus {\n    box-shadow: 0 5px 6px rgba(80, 182, 255, 0.31);\n}\n.form-content .form-button a {\n    color: #000;\n}\n.form-content .other-links span {\n    color: #000;\n}\n.form-content .other-links a {\n    color: #000;\n}\n.form-content .form-sent .tick-holder .tick-icon {\n    background-color: rgba(233, 253, 214, 0);\n}\n.form-content .form-sent .tick-holder .tick-icon:before {\n    background-color: #8CCB57;\n}\n.form-content .form-sent .tick-holder .tick-icon:after {\n    background-color: #8CCB57;\n}\n.form-content .form-sent h3 {\n    color: #000;\n}\n.form-content .form-sent p {\n    color: #000;\n}\n.form-content .form-sent .info-holder {\n    color: #000;\n    border-top: 1px solid rgba(0, 0, 0, 0.5);\n}\n.form-content .form-sent .info-holder span {\n    color: #000;\n}\n.form-content .form-sent .info-holder a {\n    color: #000;\n}\n@-webkit-keyframes tick-anime3 {\n    0% {\n        background-color: rgba(233, 253, 214, 0);\n        -webkit-transform: rotate(35deg) scale(2);\n        transform: rotate(35deg) scale(2);\n    }\n\n    100% {\n        background-color: #E9FDD6;\n        -webkit-transform: rotate(45deg) scale(1);\n        transform: rotate(45deg) scale(1);\n    }\n}\n@keyframes tick-anime3 {\n    0% {\n        background-color: rgba(233, 253, 214, 0);\n        -webkit-transform: rotate(35deg) scale(2);\n        transform: rotate(35deg) scale(2);\n    }\n\n    100% {\n        background-color: #E9FDD6;\n        -webkit-transform: rotate(45deg) scale(1);\n        transform: rotate(45deg) scale(1);\n    }\n}\n.alert {\n    color: #000000;\n}\n.alert.alert-primary {\n    background-color: #e2f0ff;\n    border-color: #3a86d6;\n}\n.alert.alert-primary hr {\n    border-top-color: #3a86d6;\n}\n.alert.alert-secondary {\n    background-color: #f0f0f0;\n    border-color: #8e9396;\n}\n.alert.alert-secondary hr {\n    border-top-color: #8e9396;\n}\n.alert.alert-success {\n    background-color: #F7FFF0;\n    border-color: #8CCB57;\n}\n.alert.alert-success hr {\n    border-top-color: #8CCB57;\n}\n.alert.alert-danger {\n    background-color: #FFFAFA;\n    border-color: #F55050;\n}\n.alert.alert-danger hr {\n    border-top-color: #F55050;\n}\n.alert.alert-warning {\n    background-color: #fff8e1;\n    border-color: #f1cb4b;\n}\n.alert.alert-warning hr {\n    border-top-color: #f1cb4b;\n}\n.alert.alert-info {\n    background-color: #dcedf1;\n    border-color: #42bfdb;\n}\n.alert.alert-info hr {\n    border-top-color: #42bfdb;\n}\n.alert.alert-light {\n    background-color: #fefefe;\n    border-color: #a7a4a4;\n}\n.alert.alert-light hr {\n    border-top-color: #a7a4a4;\n}\n.alert.alert-dark {\n    background-color: #d6d8d9;\n    border-color: #525557;\n}\n.alert.alert-dark hr {\n    border-top-color: #525557;\n}\n.alert.with-icon.alert-primary:before {\n    color: #3a86d6;\n}\n.alert.with-icon.alert-secondary:before {\n    color: #8e9396;\n}\n.alert.with-icon.alert-success:before {\n    color: #8CCB57;\n}\n.alert.with-icon.alert-danger:before {\n    color: #F55050;\n}\n.alert.with-icon.alert-warning:before {\n    color: #f1cb4b;\n}\n.alert.with-icon.alert-info:before {\n    color: #42bfdb;\n}\n.alert.with-icon.alert-light:before {\n    color: #a7a4a4;\n}\n.alert.with-icon.alert-dark:before {\n    color: #525557;\n}\n.alert a.alert-link, .alert a {\n    color: #000000;\n}\n.alert .close {\n    color: #727272;\n}\n.alert .close span {\n    color: #727272;\n}\n.form-body.without-side .img-holder .info-holder img {\n    display: inline-block;\n}\n.form-body.without-side .form-content .page-links a:after {\n    background-color: rgba(222, 222, 222, 0.7);\n}\n.form-body.without-side .form-content .page-links a.active:after {\n    background-color: #0093FF;\n}\n.form-body.without-side .form-content .page-links a:hover:after, .form-body.without-side .form-content .page-links a:focus:after {\n    background-color: #0093FF;\n}\n.form-body.without-side .form-content .form-button .ibtn {\n    background-color: #0093FF;\n    color: #fff;\n    box-shadow: 0 0 0 rgba(80, 182, 255, 0.31);\n}\n.form-body.without-side .form-content .form-button .ibtn:hover, .form-body.without-side .form-content .form-button .ibtn:focus {\n    box-shadow: 0 5px 6px rgba(80, 182, 255, 0.31);\n}\n/* -----------------------------------\n    2 - Responsive Styles\n------------------------------------*/\n@media (max-width: 992px) {\n    .form-holder {\n        margin-left: 0;\n    }\n\n    .website-logo {\n        top: 50px;\n        left: 50px;\n        right: initial;\n        bottom: initial;\n    }\n\n    .website-logo .logo {\n        background-image: url(\"/assets/img/murmur.svg\");\n    }\n\n    .form-body.without-side .website-logo .logo {\n        background-image: url(\"/assets/img/murmur.svg\");\n    }\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbG9naW5jb250ZW50L2xvZ2luY29udGVudC5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOzs7Ozs7c0VBTXNFO0FBQ3RFOzs7OztxRUFLcUU7QUFDckU7O3NDQUVzQztBQUV0QztDQUNDLFlBQVk7Q0FDWixhQUFhO0NBQ2I7QUFDRDtJQUNJLHVCQUF1QjtJQUN2QixhQUFhO0NBQ2hCO0FBRUQ7SUFDSSxzQkFBc0I7SUFDdEIsVUFBVTtJQUNWLGNBQWM7SUFDZCxZQUFZO0lBQ1osZ0JBQWdCO0NBQ25CO0FBRUQ7SUFDSSxhQUFhO0NBQ2hCO0FBRUQ7SUFDSSxnREFBZ0Q7Q0FDbkQ7QUFFRDtJQUNJLGFBQWE7Q0FDaEI7QUFFRDtJQUNJLGFBQWE7Q0FDaEI7QUFFRDtJQUNJLGdEQUFnRDtDQUNuRDtBQUVEO0lBQ0ksYUFBYTtDQUNoQjtBQUVEO0lBQ0ksYUFBYTtJQUNiLDBCQUEwQjtDQUM3QjtBQUVEO0lBQ0ksWUFBWTtDQUNmO0FBRUQ7SUFDSSxZQUFZO0NBQ2Y7QUFFRDtJQUNJLFdBQVc7SUFDWCx1QkFBdUI7Q0FDMUI7QUFFRDtJQUNJLG1CQUFtQjtDQUN0QjtBQUVEO0lBQ0ksZUFBZTtDQUNsQjtBQUVEO0lBQ0ksZUFBZTtDQUNsQjtBQUVEO0lBQ0ksZUFBZTtDQUNsQjtBQUVEO0lBQ0ksZUFBZTtDQUNsQjtBQUVEO0lBQ0ksZUFBZTtDQUNsQjtBQUVEO0lBQ0ksZUFBZTtDQUNsQjtBQUVEO0lBQ0ksZUFBZTtDQUNsQjtBQUVEO0lBQ0ksZUFBZTtDQUNsQjtBQUVEO0lBQ0ksdUJBQXVCO0NBQzFCO0FBRUQ7SUFDSSxZQUFZO0NBQ2Y7QUFFRDtJQUNJLGlCQUFpQjtJQUNqQixpQkFBaUI7Q0FDcEI7QUFFRDtJQUNJLFlBQVk7SUFDWixpQkFBaUI7Q0FDcEI7QUFFRDtJQUNJLFlBQVk7SUFDWixpQkFBaUI7Q0FDcEI7QUFFRDtJQUNJLFlBQVk7SUFDWixpQkFBaUI7Q0FDcEI7QUFFRDtJQUNJLFlBQVk7Q0FDZjtBQUVEO0lBQ0ksMkNBQTJDO0NBQzlDO0FBRUQ7SUFDSSwwQkFBMEI7Q0FDN0I7QUFFRDtJQUNJLDBCQUEwQjtDQUM3QjtBQUVEO0lBQ0ksdUNBQXVDO0lBQ3ZDLDBCQUEwQjtJQUMxQixlQUFlO0NBQ2xCO0FBRUQ7SUFDSSwwQkFBMEI7SUFDMUIsdUJBQXVCO0lBQ3ZCLGVBQWU7Q0FDbEI7QUFFRDtJQUNJLDBCQUEwQjtJQUMxQix1Q0FBdUM7SUFDdkMsZUFBZTtDQUNsQjtBQUVEO0lBQ0ksMEJBQTBCO0lBQzFCLHVCQUF1QjtJQUN2QixlQUFlO0NBQ2xCO0FBRUQ7SUFDSSxZQUFZO0NBQ2Y7QUFFRDtJQUNJLFlBQVk7Q0FDZjtBQUVEO0lBQ0ksaUJBQWlCO0lBQ2pCLHVCQUF1QjtDQUMxQjtBQUVEO0lBQ0ksd0JBQXdCO0lBQ3hCLHVCQUF1QjtDQUMxQjtBQUVEO0lBQ0ksWUFBWTtDQUNmO0FBRUQ7SUFDSSx1QkFBdUI7Q0FDMUI7QUFFRDtJQUNJLGVBQWU7SUFDZiwwQkFBMEI7Q0FDN0I7QUFFRDtJQUNJLFlBQVk7SUFDWiwwQkFBMEI7SUFFMUIsK0NBQStDO0NBQ2xEO0FBRUQ7SUFDSSwwQkFBMEI7SUFDMUIsWUFBWTtJQUVaLDJDQUEyQztDQUM5QztBQUVEO0lBRUksK0NBQStDO0NBQ2xEO0FBRUQ7SUFDSSxZQUFZO0NBQ2Y7QUFFRDtJQUNJLFlBQVk7Q0FDZjtBQUVEO0lBQ0ksWUFBWTtDQUNmO0FBRUQ7SUFDSSx5Q0FBeUM7Q0FDNUM7QUFFRDtJQUNJLDBCQUEwQjtDQUM3QjtBQUVEO0lBQ0ksMEJBQTBCO0NBQzdCO0FBRUQ7SUFDSSxZQUFZO0NBQ2Y7QUFFRDtJQUNJLFlBQVk7Q0FDZjtBQUVEO0lBQ0ksWUFBWTtJQUNaLHlDQUF5QztDQUM1QztBQUVEO0lBQ0ksWUFBWTtDQUNmO0FBRUQ7SUFDSSxZQUFZO0NBQ2Y7QUFFRDtJQUNJO1FBQ0kseUNBQXlDO1FBQ3pDLDBDQUEwQztRQUcxQyxrQ0FBa0M7S0FDckM7O0lBRUQ7UUFDSSwwQkFBMEI7UUFDMUIsMENBQTBDO1FBRzFDLGtDQUFrQztLQUNyQztDQUNKO0FBaEJEO0lBQ0k7UUFDSSx5Q0FBeUM7UUFDekMsMENBQTBDO1FBRzFDLGtDQUFrQztLQUNyQzs7SUFFRDtRQUNJLDBCQUEwQjtRQUMxQiwwQ0FBMEM7UUFHMUMsa0NBQWtDO0tBQ3JDO0NBQ0o7QUFFRDtJQUNJLGVBQWU7Q0FDbEI7QUFFRDtJQUNJLDBCQUEwQjtJQUMxQixzQkFBc0I7Q0FDekI7QUFFRDtJQUNJLDBCQUEwQjtDQUM3QjtBQUVEO0lBQ0ksMEJBQTBCO0lBQzFCLHNCQUFzQjtDQUN6QjtBQUVEO0lBQ0ksMEJBQTBCO0NBQzdCO0FBRUQ7SUFDSSwwQkFBMEI7SUFDMUIsc0JBQXNCO0NBQ3pCO0FBRUQ7SUFDSSwwQkFBMEI7Q0FDN0I7QUFFRDtJQUNJLDBCQUEwQjtJQUMxQixzQkFBc0I7Q0FDekI7QUFFRDtJQUNJLDBCQUEwQjtDQUM3QjtBQUVEO0lBQ0ksMEJBQTBCO0lBQzFCLHNCQUFzQjtDQUN6QjtBQUVEO0lBQ0ksMEJBQTBCO0NBQzdCO0FBRUQ7SUFDSSwwQkFBMEI7SUFDMUIsc0JBQXNCO0NBQ3pCO0FBRUQ7SUFDSSwwQkFBMEI7Q0FDN0I7QUFFRDtJQUNJLDBCQUEwQjtJQUMxQixzQkFBc0I7Q0FDekI7QUFFRDtJQUNJLDBCQUEwQjtDQUM3QjtBQUVEO0lBQ0ksMEJBQTBCO0lBQzFCLHNCQUFzQjtDQUN6QjtBQUVEO0lBQ0ksMEJBQTBCO0NBQzdCO0FBRUQ7SUFDSSxlQUFlO0NBQ2xCO0FBRUQ7SUFDSSxlQUFlO0NBQ2xCO0FBRUQ7SUFDSSxlQUFlO0NBQ2xCO0FBRUQ7SUFDSSxlQUFlO0NBQ2xCO0FBRUQ7SUFDSSxlQUFlO0NBQ2xCO0FBRUQ7SUFDSSxlQUFlO0NBQ2xCO0FBRUQ7SUFDSSxlQUFlO0NBQ2xCO0FBRUQ7SUFDSSxlQUFlO0NBQ2xCO0FBRUQ7SUFDSSxlQUFlO0NBQ2xCO0FBRUQ7SUFDSSxlQUFlO0NBQ2xCO0FBRUQ7SUFDSSxlQUFlO0NBQ2xCO0FBRUQ7SUFDSSxzQkFBc0I7Q0FDekI7QUFFRDtJQUNJLDJDQUEyQztDQUM5QztBQUVEO0lBQ0ksMEJBQTBCO0NBQzdCO0FBRUQ7SUFDSSwwQkFBMEI7Q0FDN0I7QUFFRDtJQUNJLDBCQUEwQjtJQUMxQixZQUFZO0lBRVosMkNBQTJDO0NBQzlDO0FBRUQ7SUFFSSwrQ0FBK0M7Q0FDbEQ7QUFFRDs7c0NBRXNDO0FBQ3RDO0lBQ0k7UUFDSSxlQUFlO0tBQ2xCOztJQUVEO1FBQ0ksVUFBVTtRQUNWLFdBQVc7UUFDWCxlQUFlO1FBQ2YsZ0JBQWdCO0tBQ25COztJQUVEO1FBQ0ksZ0RBQWdEO0tBQ25EOztJQUVEO1FBQ0ksZ0RBQWdEO0tBQ25EO0NBQ0oiLCJmaWxlIjoic3JjL2FwcC9sb2dpbmNvbnRlbnQvbG9naW5jb250ZW50LmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIvKi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLVxuICogVGhlbWUgTmFtZTogaW9mcm0gLSB0aGVtZVxuICogVGhlbWUgVVJJOiBodHRwOi8vd3d3LmJyYW5kaW8uaW8vZW52YXRvL2lvZnJtXG4gKiBBdXRob3I6IEJyYW5kaW9cbiAqIEF1dGhvciBVUkk6IGh0dHA6Ly93d3cuYnJhbmRpby5pby9cbiAqIENvcHlyaWdodCAyMDE4IEJyYW5kaW8uXG4gLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSovXG4vKi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLVxuW1RhYmxlIG9mIGNvbnRlbnRzXVxuXG4xLiBHZW5lcmFsIFN0eWxlcy5cbjIuIFJlc3BvbnNpdmUgU3R5bGVzLlxuLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSovXG4vKiAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLVxuICAgIDEgLSBHZW5lcmFsIFN0eWxlc1xuLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tKi9cblxuI2lne1xuXHR3aWR0aDogMTAwJTtcblx0aGVpZ2h0OiA1MHB4O1xufVxuLmZvcm0tYm9keSB7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogI2ZmZjtcbiAgICB3aWRvd3M6IDEwMCU7XG59XG5cbi53ZWJzaXRlLWxvZ28ge1xuICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgICB0b3A6IDUwcHg7XG4gICAgbGVmdDogaW5pdGlhbDtcbiAgICByaWdodDogNTBweDtcbiAgICBib3R0b206IGluaXRpYWw7XG59XG5cbi53ZWJzaXRlLWxvZ28gaW1nIHtcbiAgICB3aWR0aDogMTAwcHg7XG59XG5cbi53ZWJzaXRlLWxvZ28gLmxvZ28ge1xuICAgIGJhY2tncm91bmQtaW1hZ2U6IHVybChcIi9hc3NldHMvaW1nL211cm11ci5zdmdcIik7XG59XG5cbi53ZWJzaXRlLWxvZ28gLmxvZ28gaW1nIHtcbiAgICB3aWR0aDogMTAwcHg7XG59XG5cbi53ZWJzaXRlLWxvZ28taW5zaWRlIGltZyB7XG4gICAgd2lkdGg6IDEwMHB4O1xufVxuXG4ud2Vic2l0ZS1sb2dvLWluc2lkZSAubG9nbyB7XG4gICAgYmFja2dyb3VuZC1pbWFnZTogdXJsKFwiL2Fzc2V0cy9pbWcvbXVybXVyLnN2Z1wiKTtcbn1cblxuLndlYnNpdGUtbG9nby1pbnNpZGUgLmxvZ28gaW1nIHtcbiAgICB3aWR0aDogMTAwcHg7XG59XG5cbi5pbWctaG9sZGVyIHtcbiAgICB3aWR0aDogNTUwcHg7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogI0ZBRkFGQTtcbn1cblxuLmltZy1ob2xkZXIgLmluZm8taG9sZGVyIGgzIHtcbiAgICBjb2xvcjogIzAwMDtcbn1cblxuLmltZy1ob2xkZXIgLmluZm8taG9sZGVyIHAge1xuICAgIGNvbG9yOiAjMDAwO1xufVxuXG4uaW1nLWhvbGRlciAuYmcge1xuICAgIG9wYWNpdHk6IDE7XG4gICAgYmFja2dyb3VuZC1pbWFnZTogbm9uZTtcbn1cblxuLmZvcm0taG9sZGVyIHtcbiAgICBtYXJnaW4tbGVmdDogNTUwcHg7XG59XG5cbi5mb3JtLWhvbGRlciAuZm9ybS1jb250ZW50IDo6LXdlYmtpdC1pbnB1dC1wbGFjZWhvbGRlciB7XG4gICAgY29sb3I6ICMwMDAwMDA7XG59XG5cbi5mb3JtLWhvbGRlciAuZm9ybS1jb250ZW50IDotbW96LXBsYWNlaG9sZGVyIHtcbiAgICBjb2xvcjogIzAwMDAwMDtcbn1cblxuLmZvcm0taG9sZGVyIC5mb3JtLWNvbnRlbnQgOjotbW96LXBsYWNlaG9sZGVyIHtcbiAgICBjb2xvcjogIzAwMDAwMDtcbn1cblxuLmZvcm0taG9sZGVyIC5mb3JtLWNvbnRlbnQgOi1tcy1pbnB1dC1wbGFjZWhvbGRlciB7XG4gICAgY29sb3I6ICMwMDAwMDA7XG59XG5cbi5mb3JtLWNvbnRyb2wgOjotd2Via2l0LWlucHV0LXBsYWNlaG9sZGVyIHtcbiAgICBjb2xvcjogIzAwMDAwMDtcbn1cblxuLmZvcm0tY29udHJvbCA6LW1vei1wbGFjZWhvbGRlciB7XG4gICAgY29sb3I6ICMwMDAwMDA7XG59XG5cbi5mb3JtLWNvbnRyb2wgOjotbW96LXBsYWNlaG9sZGVyIHtcbiAgICBjb2xvcjogIzAwMDAwMDtcbn1cblxuLmZvcm0tY29udHJvbCA6LW1zLWlucHV0LXBsYWNlaG9sZGVyIHtcbiAgICBjb2xvcjogIzAwMDAwMDtcbn1cblxuLmZvcm0tY29udGVudCB7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogI2ZmZjtcbn1cblxuLmZvcm0tY29udGVudCAuZm9ybS1ncm91cCB7XG4gICAgY29sb3I6ICMwMDA7XG59XG5cbi5mb3JtLWNvbnRlbnQgLmZvcm0taXRlbXMge1xuICAgIG1heC13aWR0aDogNTAwcHg7XG4gICAgdGV4dC1hbGlnbjogbGVmdDtcbn1cblxuLmZvcm0tY29udGVudCBoMyB7XG4gICAgY29sb3I6ICMwMDA7XG4gICAgdGV4dC1hbGlnbjogbGVmdDtcbn1cblxuLmZvcm0tY29udGVudCBwIHtcbiAgICBjb2xvcjogIzAwMDtcbiAgICB0ZXh0LWFsaWduOiBsZWZ0O1xufVxuXG4uZm9ybS1jb250ZW50IGxhYmVsIHtcbiAgICBjb2xvcjogIzAwMDtcbiAgICB0ZXh0LWFsaWduOiBsZWZ0O1xufVxuXG4uZm9ybS1jb250ZW50IC5wYWdlLWxpbmtzIGEge1xuICAgIGNvbG9yOiAjMDAwO1xufVxuXG4uZm9ybS1jb250ZW50IC5wYWdlLWxpbmtzIGE6YWZ0ZXIge1xuICAgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMjIyLCAyMjIsIDIyMiwgMC43KTtcbn1cblxuLmZvcm0tY29udGVudCAucGFnZS1saW5rcyBhLmFjdGl2ZTphZnRlciB7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogIzAwOTJGRTtcbn1cblxuLmZvcm0tY29udGVudCAucGFnZS1saW5rcyBhOmhvdmVyOmFmdGVyLCAuZm9ybS1jb250ZW50IC5wYWdlLWxpbmtzIGE6Zm9jdXM6YWZ0ZXIge1xuICAgIGJhY2tncm91bmQtY29sb3I6ICMwMDkyRkU7XG59XG5cbi5mb3JtLWNvbnRlbnQgaW5wdXQsIC5mb3JtLWNvbnRlbnQgLmRyb3Bkb3duLXRvZ2dsZS5idG4tZGVmYXVsdCB7XG4gICAgYm9yZGVyOiAxcHggc29saWQgcmdiYSgwLCAxNDksIDI1NSwgMCk7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogI0Y3RjdGNztcbiAgICBjb2xvcjogIzAwMDAwMDtcbn1cblxuLmZvcm0tY29udGVudCBpbnB1dDpob3ZlciwgLmZvcm0tY29udGVudCBpbnB1dDpmb2N1cywgLmZvcm0tY29udGVudCAuZHJvcGRvd24tdG9nZ2xlLmJ0bi1kZWZhdWx0OmhvdmVyLCAuZm9ybS1jb250ZW50IC5kcm9wZG93bi10b2dnbGUuYnRuLWRlZmF1bHQ6Zm9jdXMge1xuICAgIGJvcmRlcjogMXB4IHNvbGlkICMwMDkzRkY7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogI2ZmZjtcbiAgICBjb2xvcjogIzAwMDAwMDtcbn1cblxuLmZvcm0tY29udGVudCB0ZXh0YXJlYSB7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogI0Y3RjdGNztcbiAgICBib3JkZXI6IDFweCBzb2xpZCByZ2JhKDAsIDE0OSwgMjU1LCAwKTtcbiAgICBjb2xvcjogIzAwMDAwMDtcbn1cblxuLmZvcm0tY29udGVudCB0ZXh0YXJlYTpob3ZlciwgLmZvcm0tY29udGVudCB0ZXh0YXJlYTpmb2N1cyB7XG4gICAgYm9yZGVyOiAxcHggc29saWQgIzAwOTNGRjtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZmZmO1xuICAgIGNvbG9yOiAjMDAwMDAwO1xufVxuXG4uZm9ybS1jb250ZW50IGlucHV0W3R5cGU9XCJjaGVja2JveFwiXTpub3QoOmNoZWNrZWQpICsgbGFiZWwsIC5mb3JtLWNvbnRlbnQgaW5wdXRbdHlwZT1cImNoZWNrYm94XCJdOmNoZWNrZWQgKyBsYWJlbCwgLmZvcm0tY29udGVudCBpbnB1dFt0eXBlPVwicmFkaW9cIl06bm90KDpjaGVja2VkKSArIGxhYmVsLCAuZm9ybS1jb250ZW50IGlucHV0W3R5cGU9XCJyYWRpb1wiXTpjaGVja2VkICsgbGFiZWwge1xuICAgIGNvbG9yOiAjMDAwO1xufVxuXG4uZm9ybS1jb250ZW50IGlucHV0W3R5cGU9XCJjaGVja2JveFwiXTpjaGVja2VkICsgbGFiZWwsIC5mb3JtLWNvbnRlbnQgaW5wdXRbdHlwZT1cInJhZGlvXCJdOmNoZWNrZWQgKyBsYWJlbCB7XG4gICAgY29sb3I6ICMwMDA7XG59XG5cbi5mb3JtLWNvbnRlbnQgaW5wdXRbdHlwZT1cImNoZWNrYm94XCJdOmNoZWNrZWQgKyBsYWJlbDpiZWZvcmUsIC5mb3JtLWNvbnRlbnQgaW5wdXRbdHlwZT1cInJhZGlvXCJdOmNoZWNrZWQgKyBsYWJlbDpiZWZvcmUge1xuICAgIGJhY2tncm91bmQ6ICMwMDA7XG4gICAgYm9yZGVyOiAwcHggc29saWQgIzAwMDtcbn1cblxuLmZvcm0tY29udGVudCBpbnB1dFt0eXBlPVwiY2hlY2tib3hcIl06bm90KDpjaGVja2VkKSArIGxhYmVsOmJlZm9yZSwgLmZvcm0tY29udGVudCBpbnB1dFt0eXBlPVwicmFkaW9cIl06bm90KDpjaGVja2VkKSArIGxhYmVsOmJlZm9yZSB7XG4gICAgYmFja2dyb3VuZDogdHJhbnNwYXJlbnQ7XG4gICAgYm9yZGVyOiAycHggc29saWQgIzAwMDtcbn1cblxuLmZvcm0tY29udGVudCBpbnB1dFt0eXBlPVwiY2hlY2tib3hcIl06Y2hlY2tlZCArIGxhYmVsOmFmdGVyLCAuZm9ybS1jb250ZW50IGlucHV0W3R5cGU9XCJjaGVja2JveFwiXTpub3QoOmNoZWNrZWQpICsgbGFiZWw6YWZ0ZXIge1xuICAgIGNvbG9yOiAjZmZmO1xufVxuXG4uZm9ybS1jb250ZW50IGlucHV0W3R5cGU9XCJyYWRpb1wiXTpjaGVja2VkICsgbGFiZWw6YWZ0ZXIsIC5mb3JtLWNvbnRlbnQgaW5wdXRbdHlwZT1cInJhZGlvXCJdOm5vdCg6Y2hlY2tlZCkgKyBsYWJlbDphZnRlciB7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogI2ZmZjtcbn1cblxuLmZvcm0tY29udGVudCAuY3VzdG9tLW9wdGlvbnMgaW5wdXRbdHlwZT1cImNoZWNrYm94XCJdOm5vdCg6Y2hlY2tlZCkgKyBsYWJlbCwgLmZvcm0tY29udGVudCAuY3VzdG9tLW9wdGlvbnMgaW5wdXRbdHlwZT1cImNoZWNrYm94XCJdOmNoZWNrZWQgKyBsYWJlbCwgLmZvcm0tY29udGVudCAuY3VzdG9tLW9wdGlvbnMgaW5wdXRbdHlwZT1cInJhZGlvXCJdOm5vdCg6Y2hlY2tlZCkgKyBsYWJlbCwgLmZvcm0tY29udGVudCAuY3VzdG9tLW9wdGlvbnMgaW5wdXRbdHlwZT1cInJhZGlvXCJdOmNoZWNrZWQgKyBsYWJlbCB7XG4gICAgY29sb3I6ICM2MDYwNjA7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogI0Y3RjdGNztcbn1cblxuLmZvcm0tY29udGVudCAuY3VzdG9tLW9wdGlvbnMgaW5wdXRbdHlwZT1cImNoZWNrYm94XCJdOmNoZWNrZWQgKyBsYWJlbCwgLmZvcm0tY29udGVudCAuY3VzdG9tLW9wdGlvbnMgaW5wdXRbdHlwZT1cInJhZGlvXCJdOmNoZWNrZWQgKyBsYWJlbCB7XG4gICAgY29sb3I6ICNmZmY7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogIzU3RDM4QztcbiAgICAtd2Via2l0LWJveC1zaGFkb3c6IDAgM3B4IDhweCByZ2JhKDc0LCAyMzAsIDE0MiwgMC4zNSk7XG4gICAgYm94LXNoYWRvdzogMCAzcHggOHB4IHJnYmEoNzQsIDIzMCwgMTQyLCAwLjM1KTtcbn1cblxuLmZvcm0tY29udGVudCAuZm9ybS1idXR0b24gLmlidG4ge1xuICAgIGJhY2tncm91bmQtY29sb3I6ICMwMDkzRkY7XG4gICAgY29sb3I6ICNmZmY7XG4gICAgLXdlYmtpdC1ib3gtc2hhZG93OiAwIDAgMCByZ2JhKDgwLCAxODIsIDI1NSwgMC4zMSk7XG4gICAgYm94LXNoYWRvdzogMCAwIDAgcmdiYSg4MCwgMTgyLCAyNTUsIDAuMzEpO1xufVxuXG4uZm9ybS1jb250ZW50IC5mb3JtLWJ1dHRvbiAuaWJ0bjpob3ZlciwgLmZvcm0tY29udGVudCAuZm9ybS1idXR0b24gLmlidG46Zm9jdXMge1xuICAgIC13ZWJraXQtYm94LXNoYWRvdzogMCA1cHggNnB4IHJnYmEoODAsIDE4MiwgMjU1LCAwLjMxKTtcbiAgICBib3gtc2hhZG93OiAwIDVweCA2cHggcmdiYSg4MCwgMTgyLCAyNTUsIDAuMzEpO1xufVxuXG4uZm9ybS1jb250ZW50IC5mb3JtLWJ1dHRvbiBhIHtcbiAgICBjb2xvcjogIzAwMDtcbn1cblxuLmZvcm0tY29udGVudCAub3RoZXItbGlua3Mgc3BhbiB7XG4gICAgY29sb3I6ICMwMDA7XG59XG5cbi5mb3JtLWNvbnRlbnQgLm90aGVyLWxpbmtzIGEge1xuICAgIGNvbG9yOiAjMDAwO1xufVxuXG4uZm9ybS1jb250ZW50IC5mb3JtLXNlbnQgLnRpY2staG9sZGVyIC50aWNrLWljb24ge1xuICAgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMjMzLCAyNTMsIDIxNCwgMCk7XG59XG5cbi5mb3JtLWNvbnRlbnQgLmZvcm0tc2VudCAudGljay1ob2xkZXIgLnRpY2staWNvbjpiZWZvcmUge1xuICAgIGJhY2tncm91bmQtY29sb3I6ICM4Q0NCNTc7XG59XG5cbi5mb3JtLWNvbnRlbnQgLmZvcm0tc2VudCAudGljay1ob2xkZXIgLnRpY2staWNvbjphZnRlciB7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogIzhDQ0I1Nztcbn1cblxuLmZvcm0tY29udGVudCAuZm9ybS1zZW50IGgzIHtcbiAgICBjb2xvcjogIzAwMDtcbn1cblxuLmZvcm0tY29udGVudCAuZm9ybS1zZW50IHAge1xuICAgIGNvbG9yOiAjMDAwO1xufVxuXG4uZm9ybS1jb250ZW50IC5mb3JtLXNlbnQgLmluZm8taG9sZGVyIHtcbiAgICBjb2xvcjogIzAwMDtcbiAgICBib3JkZXItdG9wOiAxcHggc29saWQgcmdiYSgwLCAwLCAwLCAwLjUpO1xufVxuXG4uZm9ybS1jb250ZW50IC5mb3JtLXNlbnQgLmluZm8taG9sZGVyIHNwYW4ge1xuICAgIGNvbG9yOiAjMDAwO1xufVxuXG4uZm9ybS1jb250ZW50IC5mb3JtLXNlbnQgLmluZm8taG9sZGVyIGEge1xuICAgIGNvbG9yOiAjMDAwO1xufVxuXG5Aa2V5ZnJhbWVzIHRpY2stYW5pbWUzIHtcbiAgICAwJSB7XG4gICAgICAgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMjMzLCAyNTMsIDIxNCwgMCk7XG4gICAgICAgIC13ZWJraXQtdHJhbnNmb3JtOiByb3RhdGUoMzVkZWcpIHNjYWxlKDIpO1xuICAgICAgICAtbW96LXRyYW5zZm9ybTogcm90YXRlKDM1ZGVnKSBzY2FsZSgyKTtcbiAgICAgICAgLW1zLXRyYW5zZm9ybTogcm90YXRlKDM1ZGVnKSBzY2FsZSgyKTtcbiAgICAgICAgdHJhbnNmb3JtOiByb3RhdGUoMzVkZWcpIHNjYWxlKDIpO1xuICAgIH1cblxuICAgIDEwMCUge1xuICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjRTlGREQ2O1xuICAgICAgICAtd2Via2l0LXRyYW5zZm9ybTogcm90YXRlKDQ1ZGVnKSBzY2FsZSgxKTtcbiAgICAgICAgLW1vei10cmFuc2Zvcm06IHJvdGF0ZSg0NWRlZykgc2NhbGUoMSk7XG4gICAgICAgIC1tcy10cmFuc2Zvcm06IHJvdGF0ZSg0NWRlZykgc2NhbGUoMSk7XG4gICAgICAgIHRyYW5zZm9ybTogcm90YXRlKDQ1ZGVnKSBzY2FsZSgxKTtcbiAgICB9XG59XG5cbi5hbGVydCB7XG4gICAgY29sb3I6ICMwMDAwMDA7XG59XG5cbi5hbGVydC5hbGVydC1wcmltYXJ5IHtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZTJmMGZmO1xuICAgIGJvcmRlci1jb2xvcjogIzNhODZkNjtcbn1cblxuLmFsZXJ0LmFsZXJ0LXByaW1hcnkgaHIge1xuICAgIGJvcmRlci10b3AtY29sb3I6ICMzYTg2ZDY7XG59XG5cbi5hbGVydC5hbGVydC1zZWNvbmRhcnkge1xuICAgIGJhY2tncm91bmQtY29sb3I6ICNmMGYwZjA7XG4gICAgYm9yZGVyLWNvbG9yOiAjOGU5Mzk2O1xufVxuXG4uYWxlcnQuYWxlcnQtc2Vjb25kYXJ5IGhyIHtcbiAgICBib3JkZXItdG9wLWNvbG9yOiAjOGU5Mzk2O1xufVxuXG4uYWxlcnQuYWxlcnQtc3VjY2VzcyB7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogI0Y3RkZGMDtcbiAgICBib3JkZXItY29sb3I6ICM4Q0NCNTc7XG59XG5cbi5hbGVydC5hbGVydC1zdWNjZXNzIGhyIHtcbiAgICBib3JkZXItdG9wLWNvbG9yOiAjOENDQjU3O1xufVxuXG4uYWxlcnQuYWxlcnQtZGFuZ2VyIHtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjRkZGQUZBO1xuICAgIGJvcmRlci1jb2xvcjogI0Y1NTA1MDtcbn1cblxuLmFsZXJ0LmFsZXJ0LWRhbmdlciBociB7XG4gICAgYm9yZGVyLXRvcC1jb2xvcjogI0Y1NTA1MDtcbn1cblxuLmFsZXJ0LmFsZXJ0LXdhcm5pbmcge1xuICAgIGJhY2tncm91bmQtY29sb3I6ICNmZmY4ZTE7XG4gICAgYm9yZGVyLWNvbG9yOiAjZjFjYjRiO1xufVxuXG4uYWxlcnQuYWxlcnQtd2FybmluZyBociB7XG4gICAgYm9yZGVyLXRvcC1jb2xvcjogI2YxY2I0Yjtcbn1cblxuLmFsZXJ0LmFsZXJ0LWluZm8ge1xuICAgIGJhY2tncm91bmQtY29sb3I6ICNkY2VkZjE7XG4gICAgYm9yZGVyLWNvbG9yOiAjNDJiZmRiO1xufVxuXG4uYWxlcnQuYWxlcnQtaW5mbyBociB7XG4gICAgYm9yZGVyLXRvcC1jb2xvcjogIzQyYmZkYjtcbn1cblxuLmFsZXJ0LmFsZXJ0LWxpZ2h0IHtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZmVmZWZlO1xuICAgIGJvcmRlci1jb2xvcjogI2E3YTRhNDtcbn1cblxuLmFsZXJ0LmFsZXJ0LWxpZ2h0IGhyIHtcbiAgICBib3JkZXItdG9wLWNvbG9yOiAjYTdhNGE0O1xufVxuXG4uYWxlcnQuYWxlcnQtZGFyayB7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogI2Q2ZDhkOTtcbiAgICBib3JkZXItY29sb3I6ICM1MjU1NTc7XG59XG5cbi5hbGVydC5hbGVydC1kYXJrIGhyIHtcbiAgICBib3JkZXItdG9wLWNvbG9yOiAjNTI1NTU3O1xufVxuXG4uYWxlcnQud2l0aC1pY29uLmFsZXJ0LXByaW1hcnk6YmVmb3JlIHtcbiAgICBjb2xvcjogIzNhODZkNjtcbn1cblxuLmFsZXJ0LndpdGgtaWNvbi5hbGVydC1zZWNvbmRhcnk6YmVmb3JlIHtcbiAgICBjb2xvcjogIzhlOTM5Njtcbn1cblxuLmFsZXJ0LndpdGgtaWNvbi5hbGVydC1zdWNjZXNzOmJlZm9yZSB7XG4gICAgY29sb3I6ICM4Q0NCNTc7XG59XG5cbi5hbGVydC53aXRoLWljb24uYWxlcnQtZGFuZ2VyOmJlZm9yZSB7XG4gICAgY29sb3I6ICNGNTUwNTA7XG59XG5cbi5hbGVydC53aXRoLWljb24uYWxlcnQtd2FybmluZzpiZWZvcmUge1xuICAgIGNvbG9yOiAjZjFjYjRiO1xufVxuXG4uYWxlcnQud2l0aC1pY29uLmFsZXJ0LWluZm86YmVmb3JlIHtcbiAgICBjb2xvcjogIzQyYmZkYjtcbn1cblxuLmFsZXJ0LndpdGgtaWNvbi5hbGVydC1saWdodDpiZWZvcmUge1xuICAgIGNvbG9yOiAjYTdhNGE0O1xufVxuXG4uYWxlcnQud2l0aC1pY29uLmFsZXJ0LWRhcms6YmVmb3JlIHtcbiAgICBjb2xvcjogIzUyNTU1Nztcbn1cblxuLmFsZXJ0IGEuYWxlcnQtbGluaywgLmFsZXJ0IGEge1xuICAgIGNvbG9yOiAjMDAwMDAwO1xufVxuXG4uYWxlcnQgLmNsb3NlIHtcbiAgICBjb2xvcjogIzcyNzI3Mjtcbn1cblxuLmFsZXJ0IC5jbG9zZSBzcGFuIHtcbiAgICBjb2xvcjogIzcyNzI3Mjtcbn1cblxuLmZvcm0tYm9keS53aXRob3V0LXNpZGUgLmltZy1ob2xkZXIgLmluZm8taG9sZGVyIGltZyB7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xufVxuXG4uZm9ybS1ib2R5LndpdGhvdXQtc2lkZSAuZm9ybS1jb250ZW50IC5wYWdlLWxpbmtzIGE6YWZ0ZXIge1xuICAgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMjIyLCAyMjIsIDIyMiwgMC43KTtcbn1cblxuLmZvcm0tYm9keS53aXRob3V0LXNpZGUgLmZvcm0tY29udGVudCAucGFnZS1saW5rcyBhLmFjdGl2ZTphZnRlciB7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogIzAwOTNGRjtcbn1cblxuLmZvcm0tYm9keS53aXRob3V0LXNpZGUgLmZvcm0tY29udGVudCAucGFnZS1saW5rcyBhOmhvdmVyOmFmdGVyLCAuZm9ybS1ib2R5LndpdGhvdXQtc2lkZSAuZm9ybS1jb250ZW50IC5wYWdlLWxpbmtzIGE6Zm9jdXM6YWZ0ZXIge1xuICAgIGJhY2tncm91bmQtY29sb3I6ICMwMDkzRkY7XG59XG5cbi5mb3JtLWJvZHkud2l0aG91dC1zaWRlIC5mb3JtLWNvbnRlbnQgLmZvcm0tYnV0dG9uIC5pYnRuIHtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMDA5M0ZGO1xuICAgIGNvbG9yOiAjZmZmO1xuICAgIC13ZWJraXQtYm94LXNoYWRvdzogMCAwIDAgcmdiYSg4MCwgMTgyLCAyNTUsIDAuMzEpO1xuICAgIGJveC1zaGFkb3c6IDAgMCAwIHJnYmEoODAsIDE4MiwgMjU1LCAwLjMxKTtcbn1cblxuLmZvcm0tYm9keS53aXRob3V0LXNpZGUgLmZvcm0tY29udGVudCAuZm9ybS1idXR0b24gLmlidG46aG92ZXIsIC5mb3JtLWJvZHkud2l0aG91dC1zaWRlIC5mb3JtLWNvbnRlbnQgLmZvcm0tYnV0dG9uIC5pYnRuOmZvY3VzIHtcbiAgICAtd2Via2l0LWJveC1zaGFkb3c6IDAgNXB4IDZweCByZ2JhKDgwLCAxODIsIDI1NSwgMC4zMSk7XG4gICAgYm94LXNoYWRvdzogMCA1cHggNnB4IHJnYmEoODAsIDE4MiwgMjU1LCAwLjMxKTtcbn1cblxuLyogLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS1cbiAgICAyIC0gUmVzcG9uc2l2ZSBTdHlsZXNcbi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSovXG5AbWVkaWEgKG1heC13aWR0aDogOTkycHgpIHtcbiAgICAuZm9ybS1ob2xkZXIge1xuICAgICAgICBtYXJnaW4tbGVmdDogMDtcbiAgICB9XG5cbiAgICAud2Vic2l0ZS1sb2dvIHtcbiAgICAgICAgdG9wOiA1MHB4O1xuICAgICAgICBsZWZ0OiA1MHB4O1xuICAgICAgICByaWdodDogaW5pdGlhbDtcbiAgICAgICAgYm90dG9tOiBpbml0aWFsO1xuICAgIH1cblxuICAgIC53ZWJzaXRlLWxvZ28gLmxvZ28ge1xuICAgICAgICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoXCIvYXNzZXRzL2ltZy9tdXJtdXIuc3ZnXCIpO1xuICAgIH1cblxuICAgIC5mb3JtLWJvZHkud2l0aG91dC1zaWRlIC53ZWJzaXRlLWxvZ28gLmxvZ28ge1xuICAgICAgICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoXCIvYXNzZXRzL2ltZy9tdXJtdXIuc3ZnXCIpO1xuICAgIH1cbn1cbiJdfQ== */"
 
 /***/ }),
 
@@ -1355,7 +1609,7 @@ module.exports = ".styleone{\n\n    /*display: flex;*/\n    /*flex-direction: co
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!-- This sesction is for Detailed Chat Info of people. Starts Here -->\n<div class=\"styleone\">\n  <div class=\"container\" style=\"text-align: center;padding-top: 10%;\">\n    <h1 style=\"color: white;\">Murmur</h1>\n    <div id=\"carouselExampleIndicators\" class=\"carousel slide mt-5\" data-ride=\"carousel\">\n\t  <ol class=\"carousel-indicators\">\n\t    <li data-target=\"#carouselExampleIndicators\" data-slide-to=\"0\" class=\"active\"></li>\n\t    <li data-target=\"#carouselExampleIndicators\" data-slide-to=\"1\"></li>\n\t    <li data-target=\"#carouselExampleIndicators\" data-slide-to=\"2\"></li>\n\t    <li data-target=\"#carouselExampleIndicators\" data-slide-to=\"3\"></li>\n\t    <li data-target=\"#carouselExampleIndicators\" data-slide-to=\"4\"></li>\n\t    <li data-target=\"#carouselExampleIndicators\" data-slide-to=\"5\"></li>\n\t    <li data-target=\"#carouselExampleIndicators\" data-slide-to=\"6\"></li>\n\t  </ol>\n\t  <div class=\"carousel-inner\">\n\t    <div class=\"carousel-item active\">\n\t      <img class=\"d-block\" src=\"assets/img/screenshots/1.jpg\" alt=\"First slide\" style=\"margin: auto;max-width: 50%;\">\n\t    </div>\n\t    <div class=\"carousel-item\">\n\t      <img class=\"d-block\" src=\"assets/img/screenshots/2.jpeg\" alt=\"Second slide\" style=\"margin: auto;max-width: 50%;\">\n\t    </div>\n\t    <div class=\"carousel-item\">\n\t      <img class=\"d-block\" src=\"assets/img/screenshots/3.jpeg\" alt=\"Third slide\" style=\"margin: auto;max-width: 50%;\">\n\t    </div>\n\t    <div class=\"carousel-item\">\n\t      <img class=\"d-block\" src=\"assets/img/screenshots/4.jpg\" alt=\"Fourth slide\" style=\"margin: auto;max-width: 50%;\">\n\t    </div>\n\t    <div class=\"carousel-item\">\n\t      <img class=\"d-block\" src=\"assets/img/screenshots/5.jpeg\" alt=\"Fifth slide\" style=\"margin: auto;max-width: 50%;\">\n\t    </div>\n\t    <div class=\"carousel-item\">\n\t      <img class=\"d-block\" src=\"assets/img/screenshots/6.jpeg\" alt=\"Sixth slide\" style=\"margin: auto;max-width: 50%;\">\n\t    </div>\n\t  </div>\n\t  <a class=\"carousel-control-prev\" href=\"#carouselExampleIndicators\" role=\"button\" data-slide=\"prev\">\n\t    <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>\n\t    <span class=\"sr-only\">Previous</span>\n\t  </a>\n\t  <a class=\"carousel-control-next\" href=\"#carouselExampleIndicators\" role=\"button\" data-slide=\"next\">\n\t    <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>\n\t    <span class=\"sr-only\">Next</span>\n\t  </a>\n\t</div>\n    <!-- <div>\n      <img class=\"userimage\" src=\"assets/img/infomain.png\">\n    </div> -->\n  </div>\n</div>\n  \n<!-- This sesction is for Detailed Chat Info of people. Ends Here -->\n  "
+module.exports = "<div class=\"form-body\">\n\t<div class=\"website-logo\">\n\t\t<a href=\"https://www.murmurdapp.com/\">\n\t\t\t<div>\n\t\t\t\t<img style=\"border-radius: 5px;\" src=\"assets/img/murmur full length.png\" id=\"ig\"> \n\t\t\t\t<!-- <h1 style=\"color: white;font-size: 70px;font-weight: 900;\">murmur</h1> -->\n\t\t\t</div>\n\t\t</a>\n\t</div>\n\n\t<div class=\"row\">\n\t\t\t<div class=\"img-holder\"  style=\"background-color: #fff\">\n\t\t\t\t<div class=\"bg\"></div>\n\t\t\t\t<div class=\"info-holder\">\n\t\t\t\t\t<img style=\"border-radius: 30px; width: 60% !important;\" src=\"assets/img/murmur_new.png\" >\n\t\t\t\t</div>\n\t\t\t\t<!-- <div class=\"info-holder\">\n\t\t\t\t\t<img style=\"width: 10%;height: 10%;\" src=\"assets/img/1.png\" id=\"ig\"> \n\t\t\t\t\t<h3>Control Your Data</h3>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"info-holder\">\n\t\t\t\t\t<img style=\"width: 10%;height: 10%;\" src=\"assets/img/2.png\" id=\"ig\"> \n\t\t\t\t\t<h3>Avoid Fake News</h3>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"info-holder\">\n\t\t\t\t\t<img style=\"width: 10%;height: 10%;\" src=\"assets/img/3.png\" id=\"ig\"> \n\t\t\t\t\t<h3>Earn Content Rewards</h3>\n\t\t\t\t</div> -->\n\t\t\t</div>\n\t\t\t<div class=\"form-holder\">\n\t\t\t\t<div class=\"form-content\" style=\"background-image: url(assets/img/main.png);background-repeat: no-repeat;background-size: cover;\">\n\t\t\t\t\t<div class=\"form-items\">\n\t\t\t\t\t\t<h1 style=\"color: white;font-size: 50px;\">Microblogging, reimagined.</h1>\n\t\t\t\t\t\t<p style=\"color: white;\">Murmur is a new-age decentralized micro-blogging platform that's entirely user-driven, user-controlled, and rewarding.</p>\n\t\t\t\t\t\n\t\t\t\t\t\t<div class=\"page-links\">\n\t\t\t\t\t\t\t<a  class=\"active\" style=\"color: white;\">Import your EOS account to access free speech.</a>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<input class=\"form-control\" type=\"text\" id=\"accountname\" #a  placeholder=\"Enter account Name\" required>\n\t\t\t\t\t\t<input class=\"form-control\" type=\"password\" id=\"privateKey\" #b placeholder=\"Import Private Key\" required>\n\t\t\t\t\t\t<div class=\"form-button\">\n\t\t\t\t\t\t\t<button id=\"submit\"  class=\"ibtn\" (click)=\"PriKey_login(a.value,b.value)\">Import</button>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t</div>\n</div>\n\n\n<button id=\"openModalButton\" [hidden]=\"true\" data-toggle=\"modal\" data-target=\"#exampleModalCenter\">Open Modal</button>\n\n<!-- Modal -->\n<div class=\"modal fade\" id=\"exampleModalCenter\"   tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"exampleModalCenterTitle\" aria-hidden=\"true\" #closeBtn>\n\t\t<div class=\"modal-dialog modal-dialog-centered\" role=\"document\">\n\t\t\t<div class=\"modal-content\">\n\t\t\t<div class=\"modal-body\" style=\"font-size: 20px;margin: auto;\">\n\t\t\t\t{{resMes}}\n\t\t\t</div>\n\t\t\t<div class=\"modal-footer\" style=\"margin: auto;\">\n\t\t\t\t<button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Close</button>\n\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>  "
 
 /***/ }),
 
@@ -1370,6 +1624,8 @@ module.exports = "<!-- This sesction is for Detailed Chat Info of people. Starts
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LogincontentComponent", function() { return LogincontentComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _murmur_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../murmur.service */ "./src/app/murmur.service.ts");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1380,10 +1636,42 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
+
+
 var LogincontentComponent = /** @class */ (function () {
-    function LogincontentComponent() {
+    function LogincontentComponent(ms, router) {
+        this.ms = ms;
+        this.router = router;
     }
     LogincontentComponent.prototype.ngOnInit = function () {
+    };
+    LogincontentComponent.prototype.PriKey_login = function (a, b) {
+        var _this = this;
+        var Pri_key = b;
+        var Acc_name = a;
+        if (Acc_name != '') {
+            this.ms.isPri_Valid(Pri_key).then(function (res) {
+                if (res) {
+                    _this.ms.PKey_login(Acc_name, Pri_key).then(function (res) {
+                        _this.router.navigate(['/']);
+                        _this.ms.getFollowersDetail();
+                    });
+                }
+                else {
+                    console.log("a1");
+                    _this.resMes = "Enter the valid private key";
+                    document.getElementById("openModalButton").click();
+                }
+            });
+        }
+        else {
+            console.log("a2");
+            this.resMes = "Please Enter the account name";
+            document.getElementById("openModalButton").click();
+        }
+    };
+    LogincontentComponent.prototype.ngOnDestroy = function () {
+        clearInterval(this.interval2);
     };
     LogincontentComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
@@ -1391,7 +1679,7 @@ var LogincontentComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./logincontent.component.html */ "./src/app/logincontent/logincontent.component.html"),
             styles: [__webpack_require__(/*! ./logincontent.component.css */ "./src/app/logincontent/logincontent.component.css")]
         }),
-        __metadata("design:paramtypes", [])
+        __metadata("design:paramtypes", [_murmur_service__WEBPACK_IMPORTED_MODULE_1__["MurmurService"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"]])
     ], LogincontentComponent);
     return LogincontentComponent;
 }());
@@ -1407,7 +1695,7 @@ var LogincontentComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".styleone{\n\n\tborder-radius: 3px;\n    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);\n    margin: 0 auto;\n    -webkit-animation: _104Un 0.3s cubic-bezier(0.1, 0.82, 0.25, 1);\n            animation: _104Un 0.3s cubic-bezier(0.1, 0.82, 0.25, 1);\n    background-position: top left;\n    left: 0;\n    background-color: #f7f8fa;\n    background-repeat: repeat-x;\n    /*transform-origin: center;*/\n    /* height: calc(100vh - 10px); */\n    height: calc(100vh - 38px);\n    top: 19px;\n    /*display: -webkit-flex;*/\n    /*display: flex;*/\n    overflow: hidden;\n    position: relative;\n    /*width: 100%;*/\n}\n\n.styleleft{\n\n\t/*transform: translateZ(0);*/\n\t/*flex: 0 0 30%;*/\n\toverflow: hidden;\n    position: relative;\n    font: inherit;\n    font-size: 100%;\n    vertical-align: baseline;\n    outline: none;\n    margin: 0;\n    padding: 0;\n    /*border: 0;*/\n}\n\n.styleright{\n\n\t/*transform: translateZ(0);*/\n\t/*flex: 0 0 30%;*/\n\toverflow: hidden;\n    position: relative;\n    font: inherit;\n    font-size: 100%;\n    vertical-align: baseline;\n    outline: none;\n    margin: 0;\n    padding: 0;\n    /*border: 0;*/\n}\n\n/* .customcontainer {\n\n    width: 100%;\n    padding-right: 15px;\n    padding-left: 15px;\n} */\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbWFpbmFwcC9tYWluYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7O0NBRUMsbUJBQW1CO0lBQ2hCLDRFQUE0RTtJQUM1RSxlQUFlO0lBQ2YsZ0VBQXdEO1lBQXhELHdEQUF3RDtJQUN4RCw4QkFBOEI7SUFDOUIsUUFBUTtJQUNSLDBCQUEwQjtJQUMxQiw0QkFBNEI7SUFDNUIsNkJBQTZCO0lBQzdCLGlDQUFpQztJQUNqQywyQkFBMkI7SUFDM0IsVUFBVTtJQUNWLDBCQUEwQjtJQUMxQixrQkFBa0I7SUFDbEIsaUJBQWlCO0lBQ2pCLG1CQUFtQjtJQUNuQixnQkFBZ0I7Q0FDbkI7O0FBRUQ7O0NBRUMsNkJBQTZCO0NBQzdCLGtCQUFrQjtDQUNsQixpQkFBaUI7SUFDZCxtQkFBbUI7SUFDbkIsY0FBYztJQUNkLGdCQUFnQjtJQUNoQix5QkFBeUI7SUFDekIsY0FBYztJQUNkLFVBQVU7SUFDVixXQUFXO0lBQ1gsY0FBYztDQUNqQjs7QUFFRDs7Q0FFQyw2QkFBNkI7Q0FDN0Isa0JBQWtCO0NBQ2xCLGlCQUFpQjtJQUNkLG1CQUFtQjtJQUNuQixjQUFjO0lBQ2QsZ0JBQWdCO0lBQ2hCLHlCQUF5QjtJQUN6QixjQUFjO0lBQ2QsVUFBVTtJQUNWLFdBQVc7SUFDWCxjQUFjO0NBQ2pCOztBQUVEOzs7OztJQUtJIiwiZmlsZSI6InNyYy9hcHAvbWFpbmFwcC9tYWluYXBwLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuc3R5bGVvbmV7XG5cblx0Ym9yZGVyLXJhZGl1czogM3B4O1xuICAgIGJveC1zaGFkb3c6IDAgMXB4IDFweCAwIHJnYmEoMCwgMCwgMCwgMC4wNiksIDAgMnB4IDVweCAwIHJnYmEoMCwgMCwgMCwgMC4yKTtcbiAgICBtYXJnaW46IDAgYXV0bztcbiAgICBhbmltYXRpb246IF8xMDRVbiAwLjNzIGN1YmljLWJlemllcigwLjEsIDAuODIsIDAuMjUsIDEpO1xuICAgIGJhY2tncm91bmQtcG9zaXRpb246IHRvcCBsZWZ0O1xuICAgIGxlZnQ6IDA7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogI2Y3ZjhmYTtcbiAgICBiYWNrZ3JvdW5kLXJlcGVhdDogcmVwZWF0LXg7XG4gICAgLyp0cmFuc2Zvcm0tb3JpZ2luOiBjZW50ZXI7Ki9cbiAgICAvKiBoZWlnaHQ6IGNhbGMoMTAwdmggLSAxMHB4KTsgKi9cbiAgICBoZWlnaHQ6IGNhbGMoMTAwdmggLSAzOHB4KTtcbiAgICB0b3A6IDE5cHg7XG4gICAgLypkaXNwbGF5OiAtd2Via2l0LWZsZXg7Ki9cbiAgICAvKmRpc3BsYXk6IGZsZXg7Ki9cbiAgICBvdmVyZmxvdzogaGlkZGVuO1xuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAvKndpZHRoOiAxMDAlOyovXG59XG5cbi5zdHlsZWxlZnR7XG5cblx0Lyp0cmFuc2Zvcm06IHRyYW5zbGF0ZVooMCk7Ki9cblx0LypmbGV4OiAwIDAgMzAlOyovXG5cdG92ZXJmbG93OiBoaWRkZW47XG4gICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgIGZvbnQ6IGluaGVyaXQ7XG4gICAgZm9udC1zaXplOiAxMDAlO1xuICAgIHZlcnRpY2FsLWFsaWduOiBiYXNlbGluZTtcbiAgICBvdXRsaW5lOiBub25lO1xuICAgIG1hcmdpbjogMDtcbiAgICBwYWRkaW5nOiAwO1xuICAgIC8qYm9yZGVyOiAwOyovXG59XG5cbi5zdHlsZXJpZ2h0e1xuXG5cdC8qdHJhbnNmb3JtOiB0cmFuc2xhdGVaKDApOyovXG5cdC8qZmxleDogMCAwIDMwJTsqL1xuXHRvdmVyZmxvdzogaGlkZGVuO1xuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICBmb250OiBpbmhlcml0O1xuICAgIGZvbnQtc2l6ZTogMTAwJTtcbiAgICB2ZXJ0aWNhbC1hbGlnbjogYmFzZWxpbmU7XG4gICAgb3V0bGluZTogbm9uZTtcbiAgICBtYXJnaW46IDA7XG4gICAgcGFkZGluZzogMDtcbiAgICAvKmJvcmRlcjogMDsqL1xufVxuXG4vKiAuY3VzdG9tY29udGFpbmVyIHtcblxuICAgIHdpZHRoOiAxMDAlO1xuICAgIHBhZGRpbmctcmlnaHQ6IDE1cHg7XG4gICAgcGFkZGluZy1sZWZ0OiAxNXB4O1xufSAqL1xuIl19 */"
+module.exports = ".styleone{\n\n\tborder-radius: 3px;\n    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);\n    margin: 0 auto;\n    -webkit-animation: _104Un 0.3s cubic-bezier(0.1, 0.82, 0.25, 1);\n            animation: _104Un 0.3s cubic-bezier(0.1, 0.82, 0.25, 1);\n    background-position: top left;\n    left: 0;\n    background-color: #f7f8fa;\n    background-repeat: repeat-x;\n    /*transform-origin: center;*/\n    height: calc(100vh - 10px);\n    /*top: 19px;*/\n    /*display: -webkit-flex;*/\n    /*display: flex;*/\n    overflow: hidden;\n    position: relative;\n    /*width: 100%;*/\n}\n\n.styleleft{\n\n\t/*transform: translateZ(0);*/\n\t/*flex: 0 0 30%;*/\n\toverflow: hidden;\n    position: relative;\n    font: inherit;\n    font-size: 100%;\n    vertical-align: baseline;\n    outline: none;\n    margin: 0;\n    padding: 0;\n    /*border: 0;*/\n}\n\n.styleright{\n\n\t/*transform: translateZ(0);*/\n\t/*flex: 0 0 30%;*/\n\toverflow: hidden;\n    position: relative;\n    font: inherit;\n    font-size: 100%;\n    vertical-align: baseline;\n    outline: none;\n    margin: 0;\n    padding: 0;\n    /*border: 0;*/\n}\n\n.customcontainer {\n\n    width: 100%;\n    padding-right: 15px;\n    padding-left: 15px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbWFpbmFwcC9tYWluYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7O0NBRUMsbUJBQW1CO0lBQ2hCLDRFQUE0RTtJQUM1RSxlQUFlO0lBQ2YsZ0VBQXdEO1lBQXhELHdEQUF3RDtJQUN4RCw4QkFBOEI7SUFDOUIsUUFBUTtJQUNSLDBCQUEwQjtJQUMxQiw0QkFBNEI7SUFDNUIsNkJBQTZCO0lBQzdCLDJCQUEyQjtJQUMzQixjQUFjO0lBQ2QsMEJBQTBCO0lBQzFCLGtCQUFrQjtJQUNsQixpQkFBaUI7SUFDakIsbUJBQW1CO0lBQ25CLGdCQUFnQjtDQUNuQjs7QUFFRDs7Q0FFQyw2QkFBNkI7Q0FDN0Isa0JBQWtCO0NBQ2xCLGlCQUFpQjtJQUNkLG1CQUFtQjtJQUNuQixjQUFjO0lBQ2QsZ0JBQWdCO0lBQ2hCLHlCQUF5QjtJQUN6QixjQUFjO0lBQ2QsVUFBVTtJQUNWLFdBQVc7SUFDWCxjQUFjO0NBQ2pCOztBQUVEOztDQUVDLDZCQUE2QjtDQUM3QixrQkFBa0I7Q0FDbEIsaUJBQWlCO0lBQ2QsbUJBQW1CO0lBQ25CLGNBQWM7SUFDZCxnQkFBZ0I7SUFDaEIseUJBQXlCO0lBQ3pCLGNBQWM7SUFDZCxVQUFVO0lBQ1YsV0FBVztJQUNYLGNBQWM7Q0FDakI7O0FBRUQ7O0lBRUksWUFBWTtJQUNaLG9CQUFvQjtJQUNwQixtQkFBbUI7Q0FDdEIiLCJmaWxlIjoic3JjL2FwcC9tYWluYXBwL21haW5hcHAuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5zdHlsZW9uZXtcblxuXHRib3JkZXItcmFkaXVzOiAzcHg7XG4gICAgYm94LXNoYWRvdzogMCAxcHggMXB4IDAgcmdiYSgwLCAwLCAwLCAwLjA2KSwgMCAycHggNXB4IDAgcmdiYSgwLCAwLCAwLCAwLjIpO1xuICAgIG1hcmdpbjogMCBhdXRvO1xuICAgIGFuaW1hdGlvbjogXzEwNFVuIDAuM3MgY3ViaWMtYmV6aWVyKDAuMSwgMC44MiwgMC4yNSwgMSk7XG4gICAgYmFja2dyb3VuZC1wb3NpdGlvbjogdG9wIGxlZnQ7XG4gICAgbGVmdDogMDtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZjdmOGZhO1xuICAgIGJhY2tncm91bmQtcmVwZWF0OiByZXBlYXQteDtcbiAgICAvKnRyYW5zZm9ybS1vcmlnaW46IGNlbnRlcjsqL1xuICAgIGhlaWdodDogY2FsYygxMDB2aCAtIDEwcHgpO1xuICAgIC8qdG9wOiAxOXB4OyovXG4gICAgLypkaXNwbGF5OiAtd2Via2l0LWZsZXg7Ki9cbiAgICAvKmRpc3BsYXk6IGZsZXg7Ki9cbiAgICBvdmVyZmxvdzogaGlkZGVuO1xuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAvKndpZHRoOiAxMDAlOyovXG59XG5cbi5zdHlsZWxlZnR7XG5cblx0Lyp0cmFuc2Zvcm06IHRyYW5zbGF0ZVooMCk7Ki9cblx0LypmbGV4OiAwIDAgMzAlOyovXG5cdG92ZXJmbG93OiBoaWRkZW47XG4gICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgIGZvbnQ6IGluaGVyaXQ7XG4gICAgZm9udC1zaXplOiAxMDAlO1xuICAgIHZlcnRpY2FsLWFsaWduOiBiYXNlbGluZTtcbiAgICBvdXRsaW5lOiBub25lO1xuICAgIG1hcmdpbjogMDtcbiAgICBwYWRkaW5nOiAwO1xuICAgIC8qYm9yZGVyOiAwOyovXG59XG5cbi5zdHlsZXJpZ2h0e1xuXG5cdC8qdHJhbnNmb3JtOiB0cmFuc2xhdGVaKDApOyovXG5cdC8qZmxleDogMCAwIDMwJTsqL1xuXHRvdmVyZmxvdzogaGlkZGVuO1xuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICBmb250OiBpbmhlcml0O1xuICAgIGZvbnQtc2l6ZTogMTAwJTtcbiAgICB2ZXJ0aWNhbC1hbGlnbjogYmFzZWxpbmU7XG4gICAgb3V0bGluZTogbm9uZTtcbiAgICBtYXJnaW46IDA7XG4gICAgcGFkZGluZzogMDtcbiAgICAvKmJvcmRlcjogMDsqL1xufVxuXG4uY3VzdG9tY29udGFpbmVyIHtcblxuICAgIHdpZHRoOiAxMDAlO1xuICAgIHBhZGRpbmctcmlnaHQ6IDE1cHg7XG4gICAgcGFkZGluZy1sZWZ0OiAxNXB4O1xufSJdfQ== */"
 
 /***/ }),
 
@@ -1418,7 +1706,7 @@ module.exports = ".styleone{\n\n\tborder-radius: 3px;\n    box-shadow: 0 1px 1px
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!-- <div class=\"customcontainer styleone\">\n\t<div class=\"row\" style=\"height: 100%\">\n\t\t<div class=\"col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 styleleft\">\n\t\t\t<app-mainappone></app-mainappone>\n\t\t</div>\n\t\t<div class=\"col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-9 styleright\">\n\t\t\t<app-mainapptwo></app-mainapptwo>\n\t\t</div>\n\t\t// <div class=\"col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 styleright\">\n\t\t\t<app-notifications></app-notifications>\n\t\t// </div>\n\t</div>\n</div> -->\n\n<!-- Use this below code only for login screen starts here -->\n\n<div class=\"container styleone\">\n\t<div class=\"row\" style=\"height: 100%\">\n\t\t<div class=\"col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 styleleft\">\n\t\t\t<app-mainappone></app-mainappone>\n\t\t</div>\n\t\t<div class=\"col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 styleright\">\n\t\t\t<app-mainapptwo></app-mainapptwo>\n\t\t</div>\n\t</div>\n</div>\n"
+module.exports = "<div class=\"styleone\" id=\"logincont\" *ngIf=\"!login\" [style.display]=\"page ? 'block': 'none'\">\n\t<div class=\"row\" style=\"height: 100%\">\n\t\t<div class=\"col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12\">\t\n\t\t\t<app-logincontent></app-logincontent>\n\t\t</div>\n\t</div>\n</div>\n\n<div class=\"container customcontainer styleone\" *ngIf=\"login\">\n\t<div class=\"row\" style=\"height: 100%\">\n\t\t<div class=\"col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 styleleft\">\n\t\t\t<app-mainappone></app-mainappone>\n\t\t</div>\n\t\t<div class=\"col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 styleright\">\n\t\t\t<app-mainapptwo></app-mainapptwo>\n\t\t</div>\n\t\t<!-- <div class=\"col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 styleright\">\n\t\t\t<app-notifications></app-notifications>\n\t\t</div> -->\n\t</div>\n</div>\n"
 
 /***/ }),
 
@@ -1433,6 +1721,7 @@ module.exports = "<!-- <div class=\"customcontainer styleone\">\n\t<div class=\"
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MainappComponent", function() { return MainappComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _murmur_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../murmur.service */ "./src/app/murmur.service.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1443,10 +1732,22 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
+
 var MainappComponent = /** @class */ (function () {
-    function MainappComponent() {
+    function MainappComponent(ms) {
+        this.ms = ms;
     }
     MainappComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        this.interval = setInterval(function () {
+            _this.ms.Check_scatter().then(function (result) {
+                if (_this.login != result) {
+                    _this.login = result;
+                    _this.page = true;
+                    console.log("res: ", result);
+                }
+            });
+        }, 50);
     };
     MainappComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
@@ -1454,7 +1755,7 @@ var MainappComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./mainapp.component.html */ "./src/app/mainapp/mainapp.component.html"),
             styles: [__webpack_require__(/*! ./mainapp.component.css */ "./src/app/mainapp/mainapp.component.css")]
         }),
-        __metadata("design:paramtypes", [])
+        __metadata("design:paramtypes", [_murmur_service__WEBPACK_IMPORTED_MODULE_1__["MurmurService"]])
     ], MainappComponent);
     return MainappComponent;
 }());
@@ -1470,7 +1771,7 @@ var MainappComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".styleone{\n\n\t/*display: flex;*/\n\t/*flex-direction: column;*/\n\theight: 100%;\n\tfont: inherit;\n    font-size: 100%;\n    vertical-align: baseline;\n    outline: none;\n    margin: 0;\n    padding: 0;\n    border: 0;\n    background: #232937;\n    /* background: #333254; */\n}\n\n.headerone{\n\n\tbackground-color: #000000;\n    /* background-color: #a09fed; */\n\tpadding: 10px 16px;\n\theight: 6%;\n\twidth: 100%;\n\n}\n\n.userimage {\n\n\twidth: 40px;\n    height: 40px;\n    border-radius: 50%;\n}\n\n.cursor{\n    cursor: pointer;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbWFpbmFwcG9uZS9tYWluYXBwb25lLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7O0NBRUMsa0JBQWtCO0NBQ2xCLDJCQUEyQjtDQUMzQixhQUFhO0NBQ2IsY0FBYztJQUNYLGdCQUFnQjtJQUNoQix5QkFBeUI7SUFDekIsY0FBYztJQUNkLFVBQVU7SUFDVixXQUFXO0lBQ1gsVUFBVTtJQUNWLG9CQUFvQjtJQUNwQiwwQkFBMEI7Q0FDN0I7O0FBRUQ7O0NBRUMsMEJBQTBCO0lBQ3ZCLGdDQUFnQztDQUNuQyxtQkFBbUI7Q0FDbkIsV0FBVztDQUNYLFlBQVk7O0NBRVo7O0FBRUQ7O0NBRUMsWUFBWTtJQUNULGFBQWE7SUFDYixtQkFBbUI7Q0FDdEI7O0FBRUQ7SUFDSSxnQkFBZ0I7Q0FDbkIiLCJmaWxlIjoic3JjL2FwcC9tYWluYXBwb25lL21haW5hcHBvbmUuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5zdHlsZW9uZXtcblxuXHQvKmRpc3BsYXk6IGZsZXg7Ki9cblx0LypmbGV4LWRpcmVjdGlvbjogY29sdW1uOyovXG5cdGhlaWdodDogMTAwJTtcblx0Zm9udDogaW5oZXJpdDtcbiAgICBmb250LXNpemU6IDEwMCU7XG4gICAgdmVydGljYWwtYWxpZ246IGJhc2VsaW5lO1xuICAgIG91dGxpbmU6IG5vbmU7XG4gICAgbWFyZ2luOiAwO1xuICAgIHBhZGRpbmc6IDA7XG4gICAgYm9yZGVyOiAwO1xuICAgIGJhY2tncm91bmQ6ICMyMzI5Mzc7XG4gICAgLyogYmFja2dyb3VuZDogIzMzMzI1NDsgKi9cbn1cblxuLmhlYWRlcm9uZXtcblxuXHRiYWNrZ3JvdW5kLWNvbG9yOiAjMDAwMDAwO1xuICAgIC8qIGJhY2tncm91bmQtY29sb3I6ICNhMDlmZWQ7ICovXG5cdHBhZGRpbmc6IDEwcHggMTZweDtcblx0aGVpZ2h0OiA2JTtcblx0d2lkdGg6IDEwMCU7XG5cbn1cblxuLnVzZXJpbWFnZSB7XG5cblx0d2lkdGg6IDQwcHg7XG4gICAgaGVpZ2h0OiA0MHB4O1xuICAgIGJvcmRlci1yYWRpdXM6IDUwJTtcbn1cblxuLmN1cnNvcntcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG59Il19 */"
+module.exports = ".styleone{\n\n\t/*display: flex;*/\n\t/*flex-direction: column;*/\n\theight: 100%;\n\tfont: inherit;\n    font-size: 100%;\n    vertical-align: baseline;\n    outline: none;\n    margin: 0;\n    padding: 0;\n    border: 0;\n    /*background: #232937;*/\n    background: #333254;\n}\n\n.headerone{\n\n\t/*background-color: #000000;*/\n    background-color: #a09fed;\n\tpadding: 10px 16px;\n\theight: 6%;\n\twidth: 100%;\n\n}\n\n.userimage {\n\n\twidth: 40px;\n    height: 40px;\n    border-radius: 50%;\n}\n\n.cursor{\n    cursor: pointer;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbWFpbmFwcG9uZS9tYWluYXBwb25lLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7O0NBRUMsa0JBQWtCO0NBQ2xCLDJCQUEyQjtDQUMzQixhQUFhO0NBQ2IsY0FBYztJQUNYLGdCQUFnQjtJQUNoQix5QkFBeUI7SUFDekIsY0FBYztJQUNkLFVBQVU7SUFDVixXQUFXO0lBQ1gsVUFBVTtJQUNWLHdCQUF3QjtJQUN4QixvQkFBb0I7Q0FDdkI7O0FBRUQ7O0NBRUMsOEJBQThCO0lBQzNCLDBCQUEwQjtDQUM3QixtQkFBbUI7Q0FDbkIsV0FBVztDQUNYLFlBQVk7O0NBRVo7O0FBRUQ7O0NBRUMsWUFBWTtJQUNULGFBQWE7SUFDYixtQkFBbUI7Q0FDdEI7O0FBRUQ7SUFDSSxnQkFBZ0I7Q0FDbkIiLCJmaWxlIjoic3JjL2FwcC9tYWluYXBwb25lL21haW5hcHBvbmUuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5zdHlsZW9uZXtcblxuXHQvKmRpc3BsYXk6IGZsZXg7Ki9cblx0LypmbGV4LWRpcmVjdGlvbjogY29sdW1uOyovXG5cdGhlaWdodDogMTAwJTtcblx0Zm9udDogaW5oZXJpdDtcbiAgICBmb250LXNpemU6IDEwMCU7XG4gICAgdmVydGljYWwtYWxpZ246IGJhc2VsaW5lO1xuICAgIG91dGxpbmU6IG5vbmU7XG4gICAgbWFyZ2luOiAwO1xuICAgIHBhZGRpbmc6IDA7XG4gICAgYm9yZGVyOiAwO1xuICAgIC8qYmFja2dyb3VuZDogIzIzMjkzNzsqL1xuICAgIGJhY2tncm91bmQ6ICMzMzMyNTQ7XG59XG5cbi5oZWFkZXJvbmV7XG5cblx0LypiYWNrZ3JvdW5kLWNvbG9yOiAjMDAwMDAwOyovXG4gICAgYmFja2dyb3VuZC1jb2xvcjogI2EwOWZlZDtcblx0cGFkZGluZzogMTBweCAxNnB4O1xuXHRoZWlnaHQ6IDYlO1xuXHR3aWR0aDogMTAwJTtcblxufVxuXG4udXNlcmltYWdlIHtcblxuXHR3aWR0aDogNDBweDtcbiAgICBoZWlnaHQ6IDQwcHg7XG4gICAgYm9yZGVyLXJhZGl1czogNTAlO1xufVxuXG4uY3Vyc29ye1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbn0iXX0= */"
 
 /***/ }),
 
@@ -1481,7 +1782,7 @@ module.exports = ".styleone{\n\n\t/*display: flex;*/\n\t/*flex-direction: column
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"styleone\">\n\t\t<header class=\"headerone\" *ngIf = \"login\">\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-3\">\n\t\t\t\t\t<a (click)=\"otherUser()\" [routerLink]=\"[{outlets: {feed: ['userprofilelist']}}]\"><img alt=\"\" class=\"userimage\" src={{My_Profile.profile_pic}}></a>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-9\" style=\"margin: auto;text-align: right;\">\n\t\t\t\t\t<a routerLink=\"/\" (click)=\"otherUser()\" ><i class=\"material-icons mr-3\" style=\"color: white;\">timeline</i></a>\t\n\t\t\t\t\t<a id=\"chat\" [routerLink]=\"[{outlets: {feed: ['chat']}}]\"><i class=\"material-icons mr-3\" style=\"color: white;\">chat</i></a>\n\t\t\t\t\t<!-- <a class=\"cursor\" [routerLink]=\"[{outlets: {feed: ['notification']}}]\"><i class=\"material-icons mr-3\" style=\"color: white;\">notifications</i></a> -->\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</header>\n\t\n\t\t<!-- This section below is to be displayed when User cliks on Wisper. Starts Here. -->\n\t\n\t\t<!-- <app-wisperchatlist></app-wisperchatlist> -->\n\t\n\t\t<!-- This section below is to be displayed when User cliks on Wisper. Ends Here. -->\n\t\n\t\t<!-- This section below is to be displayed when User cliks on any User Profile Picture. Starts Here. -->\n\t\n\t\t<!-- <app-userprofilelist></app-userprofilelist> -->\n\t\t<!-- <app-userprofilelist></app-userprofilelist> -->\n\t\n\t\t<!-- This section below is to be displayed when User cliks on any User Profile Picture. Ends Here. -->\n\t\t\n\t\t<router-outlet  name='feed'></router-outlet>\n\t\n\t</div>\n\t"
+module.exports = "<div class=\"styleone\">\n\t<header class=\"headerone\" *ngIf = \"login\">\n\t\t<div class=\"row\">\n\t\t\t<div class=\"col-6\">\n\t\t\t\t<a (click)=\"otherUser()\" [routerLink]=\"[{outlets: {feed: ['userprofilelist']}}]\"><img alt=\"\" class=\"userimage\" src={{My_Profile.profile_pic}}></a>\n\t\t\t</div>\n\t\t\t<div class=\"col-6\" style=\"margin: auto;text-align: right;\">\n\t\t\t\t<a routerLink=\"/\" (click)=\"otherUser()\" ><i class=\"material-icons mr-4\" style=\"color: white;\">timeline</i></a>\t\n\t\t\t\t<!-- <a id=\"chat\" [routerLink]=\"[{outlets: {feed: ['chat']}}]\"><i class=\"material-icons mr-4\" style=\"color: white;\">chat</i></a> -->\n\t\t\t\t<!-- <a class=\"cursor\" [routerLink]=\"[{outlets: {feed: ['notification']}}]\"><i class=\"material-icons mr-4\" style=\"color: white;\">notifications</i></a> -->\n\t\t\t</div>\n\t\t</div>\n\t</header>\n\t<router-outlet name='feed'></router-outlet>\n\t\n\t</div>"
 
 /***/ }),
 
@@ -1515,7 +1816,7 @@ var MainapponeComponent = /** @class */ (function () {
     }
     MainapponeComponent.prototype.ngOnInit = function () {
         var _this = this;
-        this.interval = setInterval(function () {
+        this.interval1 = setInterval(function () {
             _this.ms.Check_scatter().then(function (result) {
                 if (_this.login != result) {
                     _this.login = result;
@@ -1528,12 +1829,23 @@ var MainapponeComponent = /** @class */ (function () {
                         else {
                             _this.My_Profile = _this.ms.Acc_Profile[0];
                         }
+                        _this.check_profile();
                     }
                     else {
                         _this.My_Profile = [];
+                        clearInterval(_this.interval2);
                     }
                 }
             });
+        }, 50);
+    };
+    MainapponeComponent.prototype.check_profile = function () {
+        var _this = this;
+        this.interval2 = setInterval(function () {
+            if (JSON.stringify(_this.My_Profile) != JSON.stringify(_this.ms.Acc_Profile[0]) && JSON.stringify(_this.ms.Acc_Profile[0])) {
+                // console.log(this.ms.Acc_Profile[0])
+                _this.My_Profile = _this.ms.Acc_Profile[0];
+            }
         }, 50);
     };
     MainapponeComponent.prototype.otherUser = function () {
@@ -1543,7 +1855,8 @@ var MainapponeComponent = /** @class */ (function () {
         this.ms.Scater_logout();
     };
     MainapponeComponent.prototype.ngOnDestroy = function () {
-        clearInterval(this.interval);
+        clearInterval(this.interval1);
+        clearInterval(this.interval2);
     };
     MainapponeComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
@@ -1712,6 +2025,13 @@ var MurmurService = /** @class */ (function () {
         this.Scatter_account_name = '';
         this.page_count = 0;
         this.config = {};
+        // network: any = {
+        //   blockchain:'eos',
+        //   protocol:'http',
+        //   host: "dev.cryptolions.io", // jungle.cryptolions.io
+        //   port: '38888', // '18888'
+        //   chainId: '038f4b0fc8ff18a4f0842a8f0564611f6e96e8535901dd45e43ac8691a1c4dca' 
+        // };
         this.network = {
             blockchain: 'eos',
             protocol: 'http',
@@ -1751,6 +2071,35 @@ var MurmurService = /** @class */ (function () {
     };
     MurmurService.prototype.goBack = function () {
         this.location.back();
+    };
+    MurmurService.prototype.sign_data = function (buffer) {
+        return __awaiter(this, void 0, void 0, function () {
+            var _this = this;
+            return __generator(this, function (_a) {
+                return [2 /*return*/, new Promise(function (resolve, reject) {
+                        var private_key = localStorage.getItem(_this.Scatter_account_name).split('-')[1];
+                        var public_key = eosjs__WEBPACK_IMPORTED_MODULE_5__["modules"].ecc.privateToPublic(private_key);
+                        if (!private_key || !public_key) {
+                            resolve(null);
+                        }
+                        try {
+                            var signedData = {};
+                            var buf = eosjs__WEBPACK_IMPORTED_MODULE_5__["modules"].ecc.sha256(buffer, "hex");
+                            var sig = eosjs__WEBPACK_IMPORTED_MODULE_5__["modules"].ecc.signHash(buf, private_key);
+                            signedData['buf'] = buf;
+                            signedData['sig'] = sig;
+                            signedData['public_key'] = public_key;
+                            console.log(signedData);
+                            resolve(signedData);
+                        }
+                        catch (e) {
+                            console.log('error while signing data', e);
+                            resolve(null);
+                        }
+                        resolve();
+                    })];
+            });
+        });
     };
     // Using Private Key
     MurmurService.prototype.isPri_Valid = function (privKey) {
@@ -1793,20 +2142,14 @@ var MurmurService = /** @class */ (function () {
     };
     MurmurService.prototype.PKey_login = function (acc_name, privKey) {
         return __awaiter(this, void 0, void 0, function () {
-            var config, eos, flag;
+            var flag;
             var _this = this;
             return __generator(this, function (_a) {
-                config = {
-                    chainId: 'e70aaab8997e1dfce58fbfac80cbbb8fecec7b99cf982a9444273cbc64c41473',
-                    httpEndpoint: 'http://jungle2.cryptolions.io:80',
-                    sign: true,
-                    broadcast: true,
-                };
-                eos = eosjs__WEBPACK_IMPORTED_MODULE_5__(config);
+                console.log(acc_name);
                 flag = 0;
                 return [2 /*return*/, new Promise(function (resolve, reject) {
                         _this.PriToPub(privKey).then(function (pubKey) {
-                            eos.getKeyAccounts(pubKey, function (error, result) {
+                            _this.eos.getKeyAccounts(pubKey, function (error, result) {
                                 if (error)
                                     reject("error");
                                 for (var i = 0; i < result.account_names['length']; i++) {
@@ -2099,6 +2442,11 @@ var MurmurService = /** @class */ (function () {
                             _this.Murmur_Posts = [];
                             var my = [];
                             for (var i = 0; i < mur.length; i++) {
+                                var stus = void 0;
+                                if (mur[i].account_name == localStorage.getItem(_this.Scatter_account_name).split('-')[0])
+                                    stus = true;
+                                else
+                                    stus = false;
                                 if (mur[i].action_type == 'murmur') {
                                     var mur_url = mur[i].murmur.attached_url;
                                     if (mur_url.split('.').length == 1 && mur_url !== '')
@@ -2121,7 +2469,7 @@ var MurmurService = /** @class */ (function () {
                                             snooped: mur[i].murmur.snooped,
                                         },
                                         createdAt: mur[i].createdAt,
-                                        yell: {}
+                                        status: stus,
                                     });
                                 }
                                 else {
@@ -2150,6 +2498,7 @@ var MurmurService = /** @class */ (function () {
                                             snooped: mur[i].yell.snooped,
                                         },
                                         createdAt: mur[i].createdAt,
+                                        status: stus,
                                     });
                                 }
                             }
@@ -2194,6 +2543,11 @@ var MurmurService = /** @class */ (function () {
                             var mur = Object.values(postData)[1];
                             var my = [];
                             for (var i = 0; i < mur.length; i++) {
+                                var stus = void 0;
+                                if (mur[i].account_name == localStorage.getItem(_this.Scatter_account_name).split('-')[0])
+                                    stus = true;
+                                else
+                                    stus = false;
                                 if (mur[i].action_type == 'murmur') {
                                     var mur_url = mur[i].murmur.attached_url;
                                     if (mur_url.split('.').length == 1 && mur_url !== '')
@@ -2216,7 +2570,7 @@ var MurmurService = /** @class */ (function () {
                                             snooped: mur[i].murmur.snooped,
                                         },
                                         createdAt: mur[i].createdAt,
-                                        yell: {}
+                                        status: stus,
                                     });
                                 }
                                 else {
@@ -2245,6 +2599,7 @@ var MurmurService = /** @class */ (function () {
                                             snooped: mur[i].yell.snooped,
                                         },
                                         createdAt: mur[i].createdAt,
+                                        status: stus,
                                     });
                                 }
                             }
@@ -2318,6 +2673,11 @@ var MurmurService = /** @class */ (function () {
                                         img = _this.Acc_Profile[0].profile_pic;
                                     }
                                 }
+                                var stus = void 0;
+                                if (mur[i].account_name == localStorage.getItem(_this.Scatter_account_name).split('-')[0])
+                                    stus = true;
+                                else
+                                    stus = false;
                                 temparray.push({
                                     id: mur[i]._id,
                                     action_type: 'murmur',
@@ -2332,13 +2692,118 @@ var MurmurService = /** @class */ (function () {
                                         yell_count: mur[i].yell_count,
                                         comment_count: mur[i].comment_count,
                                         snoop_count: mur[i].snoop_count,
+                                        snooped: 0 //mur[i].snooped,
                                     },
                                     createdAt: mur[i].createdAt,
+                                    status: stus
                                 });
                             }
                             _this.My_Murmur_Posts = temparray.reverse();
                             // console.log(this.My_Murmur_Posts)
                             resolve(_this.My_Murmur_Posts);
+                            _this.spin.hide();
+                        });
+                    })];
+            });
+        });
+    };
+    MurmurService.prototype.getAccountActivity = function (acc_name) {
+        return __awaiter(this, void 0, void 0, function () {
+            var _this = this;
+            return __generator(this, function (_a) {
+                return [2 /*return*/, new Promise(function (resolve, reject) {
+                        _this.spin.show();
+                        _this.http
+                            .get("http://murmurjapi.wandx.co/api/getAccountActivity?account_name=" + acc_name + "&my_account_name=" + localStorage.getItem(_this.Scatter_account_name).split('-')[0] + "&page=" + (_this.page_count))
+                            .subscribe(function (postData) {
+                            var mur = Object.values(postData)[1];
+                            var my = [];
+                            for (var i = 0; i < mur.length; i++) {
+                                var stus = void 0;
+                                if (mur[i].account_name == localStorage.getItem(_this.Scatter_account_name).split('-')[0])
+                                    stus = true;
+                                else
+                                    stus = false;
+                                if (mur[i].action_type == 'murmur') {
+                                    var mur_url = mur[i].murmur.attached_url;
+                                    if (mur_url.split('.').length == 1 && mur_url !== '')
+                                        mur[i].murmur.attached_url = 'https://ipfs.io/ipfs/' + mur_url;
+                                    my.push({
+                                        id: mur[i]._id,
+                                        action_type: mur[i].action_type,
+                                        account_name: mur[i].account_name,
+                                        Acc_id: '@' + mur[i].account_name,
+                                        image: _this.image,
+                                        murmur: {
+                                            id: mur[i].murmur._id,
+                                            murmur_id: mur[i].murmur.murmur_id,
+                                            message: mur[i].murmur.message,
+                                            attached_url: mur[i].murmur.attached_url,
+                                            visibility: mur[i].murmur.visibility,
+                                            yell_count: mur[i].murmur.yell_count,
+                                            comment_count: mur[i].murmur.comment_count,
+                                            snoop_count: mur[i].murmur.snoop_count,
+                                            snooped: mur[i].murmur.snooped,
+                                        },
+                                        createdAt: mur[i].createdAt,
+                                        status: stus,
+                                    });
+                                }
+                                else {
+                                    var mur_url = mur[i].yell.murmur.attached_url;
+                                    if (mur_url.split('.').length == 1 && mur_url !== '')
+                                        mur[i].yell.murmur.attached_url = 'https://ipfs.io/ipfs/' + mur_url;
+                                    my.push({
+                                        id: mur[i]._id,
+                                        action_type: mur[i].action_type,
+                                        account_name: mur[i].account_name,
+                                        Acc_id: '@' + mur[i].account_name,
+                                        image: _this.image,
+                                        yell: {
+                                            id: mur[i].yell._id,
+                                            yell_id: mur[i].yell.yell_id,
+                                            extra_comment: mur[i].yell.extra_comment,
+                                            murmur_id: mur[i].yell.murmur.murmur_id,
+                                            mur_account_name: mur[i].yell.murmur.account_name,
+                                            mur_acc_id: '@' + mur[i].yell.murmur.account_name,
+                                            mur_acc_image: _this.image,
+                                            message: mur[i].yell.murmur.message,
+                                            attached_url: mur[i].yell.murmur.attached_url,
+                                            visibility: mur[i].yell.visibility,
+                                            comment_count: mur[i].yell.comment_count,
+                                            snoop_count: mur[i].yell.snoop_count,
+                                            snooped: mur[i].yell.snooped,
+                                        },
+                                        createdAt: mur[i].createdAt,
+                                        status: stus,
+                                    });
+                                }
+                            }
+                            var _loop_3 = function (i_3) {
+                                _this.getAccountProfile(my[i_3].account_name).then(function (res) {
+                                    // console.log(res)
+                                    my[i_3].account_name = res[0].account_name;
+                                    if (res[0].profile_pic)
+                                        my[i_3].image = res[0].profile_pic;
+                                    if (my[i_3].action_type == 'yell') {
+                                        _this.getAccountProfile(my[i_3].yell.mur_account_name).then(function (res) {
+                                            // console.log(res)
+                                            my[i_3].yell.mur_account_name = res[0].account_name;
+                                            if (res[0].profile_pic)
+                                                my[i_3].yell.mur_acc_image = res[0].profile_pic;
+                                        });
+                                        // console.log(my)
+                                    }
+                                });
+                                // console.log(my)
+                            };
+                            // console.log(this.page_count)
+                            // console.log(my)
+                            for (var i_3 = 0; i_3 < my.length; i_3++) {
+                                _loop_3(i_3);
+                            }
+                            _this.My_Murmur_Posts = my;
+                            resolve(my);
                             _this.spin.hide();
                         });
                     })];
@@ -2356,6 +2821,11 @@ var MurmurService = /** @class */ (function () {
                             .subscribe(function (postData) {
                             var mur = Object.values(postData)[1].comments;
                             for (var i = 0; i < mur.length; i++) {
+                                var stus = void 0;
+                                if (mur[i].account_name == localStorage.getItem(_this.Scatter_account_name).split('-')[0])
+                                    stus = true;
+                                else
+                                    stus = false;
                                 my.push({
                                     id: mur[i]._id,
                                     comment_id: mur[i].comment_id,
@@ -2364,20 +2834,20 @@ var MurmurService = /** @class */ (function () {
                                     image: _this.image,
                                     comment: mur[i].comment,
                                     createdAt: mur[i].createdAt,
-                                    yell: {}
+                                    status: stus,
                                 });
                             }
-                            var _loop_3 = function (i_3) {
-                                _this.getAccountProfile(my[i_3].account_name).then(function (res) {
+                            var _loop_4 = function (i_4) {
+                                _this.getAccountProfile(my[i_4].account_name).then(function (res) {
                                     // console.log(res)
-                                    my[i_3].account_name = res[0].account_name;
-                                    my[i_3].image = res[0].profile_pic;
+                                    my[i_4].account_name = res[0].account_name;
+                                    my[i_4].image = res[0].profile_pic;
                                 });
                                 // console.log(my)
                             };
                             // console.log(my)
-                            for (var i_3 = 0; i_3 < my.length; i_3++) {
-                                _loop_3(i_3);
+                            for (var i_4 = 0; i_4 < my.length; i_4++) {
+                                _loop_4(i_4);
                             }
                         });
                         // console.log(my)
@@ -2398,6 +2868,11 @@ var MurmurService = /** @class */ (function () {
                             .subscribe(function (postData) {
                             var mur = Object.values(postData)[1].comments;
                             for (var i = 0; i < mur.length; i++) {
+                                var stus = void 0;
+                                if (mur[i].account_name == localStorage.getItem(_this.Scatter_account_name).split('-')[0])
+                                    stus = true;
+                                else
+                                    stus = false;
                                 my.push({
                                     id: mur[i]._id,
                                     comment_id: mur[i].comment_id,
@@ -2406,20 +2881,20 @@ var MurmurService = /** @class */ (function () {
                                     image: _this.image,
                                     comment: mur[i].comment,
                                     createdAt: mur[i].createdAt,
-                                    yell: {}
+                                    status: stus,
                                 });
                             }
-                            var _loop_4 = function (i_4) {
-                                _this.getAccountProfile(my[i_4].account_name).then(function (res) {
+                            var _loop_5 = function (i_5) {
+                                _this.getAccountProfile(my[i_5].account_name).then(function (res) {
                                     // console.log(res)
-                                    my[i_4].account_name = res[0].account_name;
-                                    my[i_4].image = res[0].profile_pic;
+                                    my[i_5].account_name = res[0].account_name;
+                                    my[i_5].image = res[0].profile_pic;
                                 });
                                 // console.log(my)
                             };
                             // console.log(my)
-                            for (var i_4 = 0; i_4 < my.length; i_4++) {
-                                _loop_4(i_4);
+                            for (var i_5 = 0; i_5 < my.length; i_5++) {
+                                _loop_5(i_5);
                             }
                         });
                         // console.log(my)
@@ -2688,16 +3163,16 @@ var MurmurService = /** @class */ (function () {
                                     Name: '',
                                     profile_pic: ''
                                 });
-                                var _loop_5 = function (i_5) {
-                                    _this.getAccountProfile(testarray[i_5].account_name).then(function (res) {
+                                var _loop_6 = function (i_6) {
+                                    _this.getAccountProfile(testarray[i_6].account_name).then(function (res) {
                                         // console.log(res)
-                                        testarray[i_5].Name = res[0].account_name;
-                                        testarray[i_5].profile_pic = res[0].profile_pic;
+                                        testarray[i_6].Name = res[0].account_name;
+                                        testarray[i_6].profile_pic = res[0].profile_pic;
                                     });
                                     // console.log(my)
                                 };
-                                for (var i_5 = 0; i_5 < testarray.length; i_5++) {
-                                    _loop_5(i_5);
+                                for (var i_6 = 0; i_6 < testarray.length; i_6++) {
+                                    _loop_6(i_6);
                                 }
                             }
                             _this.ChatHomePage = testarray;
@@ -2745,13 +3220,18 @@ var MurmurService = /** @class */ (function () {
                                     to_account_name: ''
                                 });
                             }
-                            var _loop_6 = function (i) {
+                            var _loop_7 = function (i) {
                                 _this.AccToPub(from_acc).then(function (res) {
                                     if (res == temp[i].from_public_key) {
                                         testarray[i].from_account_name = from_acc;
                                         testarray[i].to_account_name = to_acc;
                                         var encrypted_message = JSON.parse(temp[i].message);
-                                        decrypted_message = ecc.Aes.decrypt(localStorage.getItem(_this.Scatter_account_name).split('-')[1], temp[i].to_public_key, encrypted_message.nonce, encrypted_message.message, encrypted_message.checksum);
+                                        try {
+                                            decrypted_message = ecc.Aes.decrypt(localStorage.getItem(_this.Scatter_account_name).split('-')[1], temp[i].to_public_key, encrypted_message.nonce, encrypted_message.message, encrypted_message.checksum);
+                                        }
+                                        catch (e) {
+                                            console.log(e);
+                                        }
                                         mess = decrypted_message.toString();
                                         testarray[i].message = mess;
                                     }
@@ -2759,7 +3239,12 @@ var MurmurService = /** @class */ (function () {
                                         testarray[i].from_account_name = to_acc;
                                         testarray[i].to_account_name = from_acc;
                                         var encrypted_message = JSON.parse(temp[i].message);
-                                        decrypted_message = ecc.Aes.decrypt(localStorage.getItem(_this.Scatter_account_name).split('-')[1], temp[i].from_public_key, encrypted_message.nonce, encrypted_message.message, encrypted_message.checksum);
+                                        try {
+                                            decrypted_message = ecc.Aes.decrypt(localStorage.getItem(_this.Scatter_account_name).split('-')[1], temp[i].from_public_key, encrypted_message.nonce, encrypted_message.message, encrypted_message.checksum);
+                                        }
+                                        catch (e) {
+                                            console.log(e);
+                                        }
                                         mess = decrypted_message.toString();
                                         testarray[i].message = mess;
                                     }
@@ -2768,7 +3253,7 @@ var MurmurService = /** @class */ (function () {
                             };
                             // console.log(testarray)
                             for (var i = 0; i < testarray.length; i++) {
-                                _loop_6(i);
+                                _loop_7(i);
                             }
                             _this.User_both_list = testarray;
                             // console.log(testarray)
@@ -2787,8 +3272,7 @@ var MurmurService = /** @class */ (function () {
                         _this.http.post("http://murmurjapi.wandx.co/api/update_profile", fd)
                             .subscribe(function (postData) {
                             console.log(postData);
-                            var data = postData;
-                            resolve(data['status']);
+                            resolve(postData['status']);
                         });
                     })];
             });
@@ -2814,8 +3298,12 @@ var MurmurService = /** @class */ (function () {
                                     // console.log(`Transaction ID: ${trx.transaction_id}`);
                                     resolve({ Error: false, transId: trx.transaction_id });
                                 }).catch(function (error) {
+                                    error = JSON.parse(error);
                                     console.error("Error in cont: ", error);
-                                    resolve({ Error: true, errMesg: error.message });
+                                    if (error.code == 500)
+                                        resolve({ Error: true, errMesg: error.error.details[0].message });
+                                    else
+                                        resolve({ Error: true, errMesg: error.message });
                                     // resolve(error.message)
                                 });
                             }).catch(function (error) {
@@ -2832,8 +3320,12 @@ var MurmurService = /** @class */ (function () {
                                     // console.log(`Transaction ID: ${trx.transaction_id}`);
                                     resolve({ Error: false, transId: trx.transaction_id });
                                 }).catch(function (error) {
+                                    error = JSON.parse(error);
                                     console.error(error);
-                                    resolve({ Error: true, errMesg: error.message });
+                                    if (error.code == 500)
+                                        resolve({ Error: true, errMesg: error.error.details[0].message });
+                                    else
+                                        resolve({ Error: true, errMesg: error.message });
                                     // reject(error);
                                 });
                             });
@@ -2860,9 +3352,16 @@ var MurmurService = /** @class */ (function () {
                             }
                         }
                         else {
-                            id = _this.My_Murmur_Posts[id].murmur.murmur_id;
-                            // console.log("My Mur id "+id)
-                            _this.snoopmurmur(id).then(function (res) { return resolve(res); });
+                            if (_this.My_Murmur_Posts[id].action_type == 'murmur') {
+                                id = _this.My_Murmur_Posts[id].murmur.murmur_id;
+                                // console.log("Mur id "+id)
+                                _this.snoopmurmur(id).then(function (res) { return resolve(res); });
+                            }
+                            else {
+                                id = _this.My_Murmur_Posts[id].yell.yell_id;
+                                // console.log("Yell id "+id)
+                                _this.snoopyell(id).then(function (res) { return resolve(res); });
+                            }
                         }
                     })];
             });
@@ -2887,9 +3386,12 @@ var MurmurService = /** @class */ (function () {
                                     // console.log(`Transaction ID: ${trx.transaction_id}`);
                                     resolve({ Error: false, transId: trx.transaction_id });
                                 }).catch(function (error) {
+                                    error = JSON.parse(error);
                                     console.error(error);
-                                    resolve({ Error: true, errMesg: error.message });
-                                    // reject(error);
+                                    if (error.code == 500)
+                                        resolve({ Error: true, errMesg: error.error.details[0].message });
+                                    else
+                                        resolve({ Error: true, errMesg: error.message });
                                 });
                             }).catch(function (error) {
                                 console.error("Error in Scatter: ", error);
@@ -2904,9 +3406,12 @@ var MurmurService = /** @class */ (function () {
                                     // console.log(`Transaction ID: ${trx.transaction_id}`);
                                     resolve({ Error: false, transId: trx.transaction_id });
                                 }).catch(function (error) {
+                                    error = JSON.parse(error);
                                     console.error(error);
-                                    resolve({ Error: true, errMesg: error.message });
-                                    // reject(error);
+                                    if (error.code == 500)
+                                        resolve({ Error: true, errMesg: error.error.details[0].message });
+                                    else
+                                        resolve({ Error: true, errMesg: error.message });
                                 });
                             });
                         }
@@ -2933,9 +3438,12 @@ var MurmurService = /** @class */ (function () {
                                     // console.log(`Transaction ID: ${trx.transaction_id}`);
                                     resolve({ Error: false, transId: trx.transaction_id });
                                 }).catch(function (error) {
+                                    error = JSON.parse(error);
                                     console.error(error);
-                                    resolve({ Error: true, errMesg: error.message });
-                                    // reject(error);
+                                    if (error.code == 500)
+                                        resolve({ Error: true, errMesg: error.error.details[0].message });
+                                    else
+                                        resolve({ Error: true, errMesg: error.message });
                                 });
                             }).catch(function (error) {
                                 console.error("Error in Scatter: ", error);
@@ -2950,9 +3458,12 @@ var MurmurService = /** @class */ (function () {
                                     // console.log(`Transaction ID: ${trx.transaction_id}`);
                                     resolve({ Error: false, transId: trx.transaction_id });
                                 }).catch(function (error) {
+                                    error = JSON.parse(error);
                                     console.error(error);
-                                    resolve({ Error: true, errMesg: error.message });
-                                    // reject(error);
+                                    if (error.code == 500)
+                                        resolve({ Error: true, errMesg: error.error.details[0].message });
+                                    else
+                                        resolve({ Error: true, errMesg: error.message });
                                 });
                             });
                         }
@@ -2979,9 +3490,12 @@ var MurmurService = /** @class */ (function () {
                                     // console.log(`Transaction ID: ${trx.transaction_id}`);
                                     resolve({ Error: false, transId: trx.transaction_id });
                                 }).catch(function (error) {
+                                    error = JSON.parse(error);
                                     console.error(error);
-                                    resolve({ Error: true, errMesg: error.message });
-                                    // reject(error);
+                                    if (error.code == 500)
+                                        resolve({ Error: true, errMesg: error.error.details[0].message });
+                                    else
+                                        resolve({ Error: true, errMesg: error.message });
                                 });
                             }).catch(function (error) {
                                 console.error("Error in Scatter: ", error);
@@ -2996,9 +3510,12 @@ var MurmurService = /** @class */ (function () {
                                     // console.log(`Transaction ID: ${trx.transaction_id}`);
                                     resolve({ Error: false, transId: trx.transaction_id });
                                 }).catch(function (error) {
+                                    error = JSON.parse(error);
                                     console.error(error);
-                                    resolve({ Error: true, errMesg: error.message });
-                                    // reject(error);
+                                    if (error.code == 500)
+                                        resolve({ Error: true, errMesg: error.error.details[0].message });
+                                    else
+                                        resolve({ Error: true, errMesg: error.message });
                                 });
                             });
                         }
@@ -3025,9 +3542,12 @@ var MurmurService = /** @class */ (function () {
                                     // console.log(`Transaction ID: ${trx.transaction_id}`);
                                     resolve({ Error: false, transId: trx.transaction_id });
                                 }).catch(function (error) {
+                                    error = JSON.parse(error);
                                     console.error(error);
-                                    resolve({ Error: true, errMesg: error.message });
-                                    // reject(error);
+                                    if (error.code == 500)
+                                        resolve({ Error: true, errMesg: error.error.details[0].message });
+                                    else
+                                        resolve({ Error: true, errMesg: error.message });
                                 });
                             }).catch(function (error) {
                                 console.error("Error in Scatter: ", error);
@@ -3042,9 +3562,12 @@ var MurmurService = /** @class */ (function () {
                                     // console.log(`Transaction ID: ${trx.transaction_id}`);
                                     resolve({ Error: false, transId: trx.transaction_id });
                                 }).catch(function (error) {
+                                    error = JSON.parse(error);
                                     console.error(error);
-                                    resolve({ Error: true, errMesg: error.message });
-                                    // reject(error);
+                                    if (error.code == 500)
+                                        resolve({ Error: true, errMesg: error.error.details[0].message });
+                                    else
+                                        resolve({ Error: true, errMesg: error.message });
                                 });
                             });
                         }
@@ -3071,9 +3594,12 @@ var MurmurService = /** @class */ (function () {
                                     // console.log(`Transaction ID: ${trx.transaction_id}`);
                                     resolve({ Error: false, transId: trx.transaction_id });
                                 }).catch(function (error) {
+                                    error = JSON.parse(error);
                                     console.error(error);
-                                    resolve({ Error: true, errMesg: error.message });
-                                    // reject(error);
+                                    if (error.code == 500)
+                                        resolve({ Error: true, errMesg: error.error.details[0].message });
+                                    else
+                                        resolve({ Error: true, errMesg: error.message });
                                 });
                             }).catch(function (error) {
                                 console.error("Error in Scatter: ", error);
@@ -3088,9 +3614,12 @@ var MurmurService = /** @class */ (function () {
                                     // console.log(`Transaction ID: ${trx.transaction_id}`);
                                     resolve({ Error: false, transId: trx.transaction_id });
                                 }).catch(function (error) {
+                                    error = JSON.parse(error);
                                     console.error(error);
-                                    resolve({ Error: true, errMesg: error.message });
-                                    // reject(error);
+                                    if (error.code == 500)
+                                        resolve({ Error: true, errMesg: error.error.details[0].message });
+                                    else
+                                        resolve({ Error: true, errMesg: error.message });
                                 });
                             });
                         }
@@ -3116,9 +3645,12 @@ var MurmurService = /** @class */ (function () {
                                     // console.log(`Transaction ID: ${trx.transaction_id}`);
                                     resolve({ Error: false, transId: trx.transaction_id });
                                 }).catch(function (error) {
+                                    error = JSON.parse(error);
                                     console.error(error);
-                                    resolve({ Error: true, errMesg: error.message });
-                                    // reject(error);
+                                    if (error.code == 500)
+                                        resolve({ Error: true, errMesg: error.error.details[0].message });
+                                    else
+                                        resolve({ Error: true, errMesg: error.message });
                                 });
                             }).catch(function (error) {
                                 console.error("Error in Scatter: ", error);
@@ -3133,9 +3665,12 @@ var MurmurService = /** @class */ (function () {
                                     // console.log(`Transaction ID: ${trx.transaction_id}`);
                                     resolve({ Error: false, transId: trx.transaction_id });
                                 }).catch(function (error) {
+                                    error = JSON.parse(error);
                                     console.error(error);
-                                    resolve({ Error: true, errMesg: error.message });
-                                    reject(error);
+                                    if (error.code == 500)
+                                        resolve({ Error: true, errMesg: error.error.details[0].message });
+                                    else
+                                        resolve({ Error: true, errMesg: error.message });
                                 });
                             });
                         }
@@ -3161,9 +3696,12 @@ var MurmurService = /** @class */ (function () {
                                     // console.log(`Transaction ID: ${trx.transaction_id}`);
                                     resolve({ Error: false, transId: trx.transaction_id });
                                 }).catch(function (error) {
+                                    error = JSON.parse(error);
                                     console.error(error);
-                                    resolve({ Error: true, errMesg: error.message });
-                                    // reject(error);
+                                    if (error.code == 500)
+                                        resolve({ Error: true, errMesg: error.error.details[0].message });
+                                    else
+                                        resolve({ Error: true, errMesg: error.message });
                                 });
                             }).catch(function (error) {
                                 console.error("Error in Scatter: ", error);
@@ -3178,8 +3716,12 @@ var MurmurService = /** @class */ (function () {
                                     // console.log(`Transaction ID: ${trx.transaction_id}`);
                                     resolve({ Error: false, transId: trx.transaction_id });
                                 }).catch(function (error) {
+                                    error = JSON.parse(error);
                                     console.error(error);
-                                    resolve({ Error: true, errMesg: error.message });
+                                    if (error.code == 500)
+                                        resolve({ Error: true, errMesg: error.error.details[0].message });
+                                    else
+                                        resolve({ Error: true, errMesg: error.message });
                                     // reject(error);
                                 });
                             });
@@ -3206,17 +3748,334 @@ var MurmurService = /** @class */ (function () {
                                         eos.transaction('murmurdappco', function (contract) {
                                             contract.whisper(localStorage.getItem(_this.Scatter_account_name).split('-')[0], to_account_name, myPub, toPub, encrypted_message);
                                         }, _this.config).then(function (trx) {
-                                            // console.log(`Transaction ID: ${trx.transaction_id}`);
                                             resolve({ Error: false, transId: trx.transaction_id });
                                         }).catch(function (error) {
+                                            error = JSON.parse(error);
                                             console.error(error);
-                                            resolve({ Error: true, errMesg: error.message });
+                                            if (error.code == 500)
+                                                resolve({ Error: true, errMesg: error.error.details[0].message });
+                                            else
+                                                resolve({ Error: true, errMesg: error.message });
                                             // reject(error);
                                         });
                                     });
                                 }
                             });
                         });
+                    })];
+            });
+        });
+    };
+    // remove funcionality --> contract call
+    MurmurService.prototype.deleteMurmur = function (id) {
+        return __awaiter(this, void 0, void 0, function () {
+            var _this = this;
+            return __generator(this, function (_a) {
+                return [2 /*return*/, new Promise(function (resolve, reject) {
+                        // console.log("Murmur ID: " + id);
+                        if (localStorage.getItem(_this.Scatter_account_name).split('-').length == 1) {
+                            var scatter_9 = window.scatter;
+                            scatter_9.getIdentity({ accounts: [_this.network] }).then(function () {
+                                var account = scatter_9.identity.accounts.find(function (x) { return x.blockchain === 'eos'; });
+                                var eosOptions = { expireInSeconds: 60 };
+                                var eos = scatter_9.eos(_this.network, eosjs__WEBPACK_IMPORTED_MODULE_5__, eosOptions);
+                                var transactionOptions = { authorization: [account.name + "@" + account.authority] };
+                                eos.transaction('murmurdappco', function (contract) {
+                                    contract.deletemurmur(account.name, id, transactionOptions);
+                                }).then(function (trx) {
+                                    // console.log(`Transaction ID: ${trx.transaction_id}`);
+                                    resolve({ Error: false, transId: trx.transaction_id });
+                                }).catch(function (error) {
+                                    console.error("Error in cont: ", error);
+                                    resolve({ Error: true, errMesg: error.message });
+                                    // resolve(error.message)
+                                });
+                            }).catch(function (error) {
+                                console.error("Error in Scatter: ", error);
+                                reject(error);
+                                resolve();
+                            });
+                        }
+                        else {
+                            _this.SetConfig().then(function (eos) {
+                                eos.transaction('murmurdappco', function (contract) {
+                                    contract.deletemurmur(localStorage.getItem(_this.Scatter_account_name).split('-')[0], id);
+                                }, _this.config).then(function (trx) {
+                                    // console.log(`Transaction ID: ${trx.transaction_id}`);
+                                    resolve({ Error: false, transId: trx.transaction_id });
+                                }).catch(function (error) {
+                                    console.error(error);
+                                    resolve({ Error: true, errMesg: error.message });
+                                    // reject(error);
+                                });
+                            });
+                        }
+                    })];
+            });
+        });
+    };
+    MurmurService.prototype.unSnoop = function (id, type) {
+        return __awaiter(this, void 0, void 0, function () {
+            var _this = this;
+            return __generator(this, function (_a) {
+                return [2 /*return*/, new Promise(function (resolve, reject) {
+                        if (type == 'murmur') {
+                            if (_this.Murmur_Posts[id].action_type == 'murmur') {
+                                id = _this.Murmur_Posts[id].murmur.murmur_id;
+                                // console.log("Mur id "+id)
+                                _this.unsnoopmurmur(id).then(function (res) { return resolve(res); });
+                            }
+                            else {
+                                id = _this.Murmur_Posts[id].yell.yell_id;
+                                // console.log("Yell id "+id)
+                                _this.unsnoopyell(id).then(function (res) { return resolve(res); });
+                            }
+                        }
+                        else {
+                            if (_this.My_Murmur_Posts[id].action_type == 'murmur') {
+                                id = _this.My_Murmur_Posts[id].murmur.murmur_id;
+                                // console.log("My Mur id "+id)
+                                _this.unsnoopmurmur(id).then(function (res) { return resolve(res); });
+                            }
+                            else {
+                                id = _this.My_Murmur_Posts[id].yell.yell_id;
+                                // console.log("My Yell id "+id)
+                                _this.unsnoopyell(id).then(function (res) { return resolve(res); });
+                            }
+                            // id = this.My_Murmur_Posts[id].murmur.murmur_id
+                            // // console.log("My Mur id "+id)
+                            // this.unsnoopmurmur(id).then(res => resolve(res))
+                        }
+                    })];
+            });
+        });
+    };
+    MurmurService.prototype.unsnoopmurmur = function (id) {
+        return __awaiter(this, void 0, void 0, function () {
+            var _this = this;
+            return __generator(this, function (_a) {
+                return [2 /*return*/, new Promise(function (resolve, reject) {
+                        // console.log("Snoop murmur "+  id);
+                        if (localStorage.getItem(_this.Scatter_account_name).split('-').length == 1) {
+                            var scatter_10 = window.scatter;
+                            scatter_10.getIdentity({ accounts: [_this.network] }).then(function () {
+                                var account = scatter_10.identity.accounts.find(function (x) { return x.blockchain === 'eos'; });
+                                var eosOptions = { expireInSeconds: 60 };
+                                var eos = scatter_10.eos(_this.network, eosjs__WEBPACK_IMPORTED_MODULE_5__, eosOptions);
+                                var transactionOptions = { authorization: [account.name + "@" + account.authority] };
+                                eos.transaction('murmurdappco', function (contract) {
+                                    contract.usnoopmurmur(account.name, id, 1, transactionOptions);
+                                }).then(function (trx) {
+                                    // console.log(`Transaction ID: ${trx.transaction_id}`);
+                                    resolve({ Error: false, transId: trx.transaction_id });
+                                }).catch(function (error) {
+                                    console.error(error);
+                                    resolve({ Error: true, errMesg: error.message });
+                                    // reject(error);
+                                });
+                            }).catch(function (error) {
+                                console.error("Error in Scatter: ", error);
+                                reject(error);
+                            });
+                        }
+                        else {
+                            _this.SetConfig().then(function (eos) {
+                                eos.transaction('murmurdappco', function (contract) {
+                                    contract.usnoopmurmur(localStorage.getItem(_this.Scatter_account_name).split('-')[0], id, 1);
+                                }, _this.config).then(function (trx) {
+                                    // console.log(`Transaction ID: ${trx.transaction_id}`);
+                                    resolve({ Error: false, transId: trx.transaction_id });
+                                }).catch(function (error) {
+                                    console.error(error);
+                                    resolve({ Error: true, errMesg: error.message });
+                                    // reject(error);
+                                });
+                            });
+                        }
+                    })];
+            });
+        });
+    };
+    MurmurService.prototype.unsnoopyell = function (id) {
+        return __awaiter(this, void 0, void 0, function () {
+            var _this = this;
+            return __generator(this, function (_a) {
+                return [2 /*return*/, new Promise(function (resolve, reject) {
+                        // console.log("Snoop yell "+  id);
+                        if (localStorage.getItem(_this.Scatter_account_name).split('-').length == 1) {
+                            var scatter_11 = window.scatter;
+                            scatter_11.getIdentity({ accounts: [_this.network] }).then(function () {
+                                var account = scatter_11.identity.accounts.find(function (x) { return x.blockchain === 'eos'; });
+                                var eosOptions = { expireInSeconds: 60 };
+                                var eos = scatter_11.eos(_this.network, eosjs__WEBPACK_IMPORTED_MODULE_5__, eosOptions);
+                                var transactionOptions = { authorization: [account.name + "@" + account.authority] };
+                                eos.transaction('murmurdappco', function (contract) {
+                                    contract.unsnoopyell(account.name, id, 1, transactionOptions);
+                                }).then(function (trx) {
+                                    // console.log(`Transaction ID: ${trx.transaction_id}`);
+                                    resolve({ Error: false, transId: trx.transaction_id });
+                                }).catch(function (error) {
+                                    console.error(error);
+                                    resolve({ Error: true, errMesg: error.message });
+                                    // reject(error);
+                                });
+                            }).catch(function (error) {
+                                console.error("Error in Scatter: ", error);
+                                reject(error);
+                            });
+                        }
+                        else {
+                            _this.SetConfig().then(function (eos) {
+                                eos.transaction('murmurdappco', function (contract) {
+                                    contract.unsnoopyell(localStorage.getItem(_this.Scatter_account_name).split('-')[0], id, 1);
+                                }, _this.config).then(function (trx) {
+                                    // console.log(`Transaction ID: ${trx.transaction_id}`);
+                                    resolve({ Error: false, transId: trx.transaction_id });
+                                }).catch(function (error) {
+                                    console.error(error);
+                                    resolve({ Error: true, errMesg: error.message });
+                                    // reject(error);
+                                });
+                            });
+                        }
+                    })];
+            });
+        });
+    };
+    MurmurService.prototype.uncommentmurmur = function (id) {
+        return __awaiter(this, void 0, void 0, function () {
+            var _this = this;
+            return __generator(this, function (_a) {
+                return [2 /*return*/, new Promise(function (resolve, reject) {
+                        // console.log("comment murmur "+  id);
+                        if (localStorage.getItem(_this.Scatter_account_name).split('-').length == 1) {
+                            var scatter_12 = window.scatter;
+                            scatter_12.getIdentity({ accounts: [_this.network] }).then(function () {
+                                var account = scatter_12.identity.accounts.find(function (x) { return x.blockchain === 'eos'; });
+                                var eosOptions = { expireInSeconds: 60 };
+                                var eos = scatter_12.eos(_this.network, eosjs__WEBPACK_IMPORTED_MODULE_5__, eosOptions);
+                                var transactionOptions = { authorization: [account.name + "@" + account.authority] };
+                                eos.transaction('murmurdappco', function (contract) {
+                                    contract.uncommentmur(account.name, id, transactionOptions);
+                                }).then(function (trx) {
+                                    // console.log(`Transaction ID: ${trx.transaction_id}`);
+                                    resolve({ Error: false, transId: trx.transaction_id });
+                                }).catch(function (error) {
+                                    console.error(error);
+                                    resolve({ Error: true, errMesg: error.message });
+                                    // reject(error);
+                                });
+                            }).catch(function (error) {
+                                console.error("Error in Scatter: ", error);
+                                reject(error);
+                            });
+                        }
+                        else {
+                            _this.SetConfig().then(function (eos) {
+                                eos.transaction('murmurdappco', function (contract) {
+                                    contract.uncommentmur(localStorage.getItem(_this.Scatter_account_name).split('-')[0], id);
+                                }, _this.config).then(function (trx) {
+                                    // console.log(`Transaction ID: ${trx.transaction_id}`);
+                                    resolve({ Error: false, transId: trx.transaction_id });
+                                }).catch(function (error) {
+                                    console.error(error);
+                                    resolve({ Error: true, errMesg: error.message });
+                                    // reject(error);
+                                });
+                            });
+                        }
+                    })];
+            });
+        });
+    };
+    MurmurService.prototype.uncommentyell = function (id) {
+        return __awaiter(this, void 0, void 0, function () {
+            var _this = this;
+            return __generator(this, function (_a) {
+                return [2 /*return*/, new Promise(function (resolve, reject) {
+                        // console.log("Comment yell "+  id);
+                        if (localStorage.getItem(_this.Scatter_account_name).split('-').length == 1) {
+                            var scatter_13 = window.scatter;
+                            scatter_13.getIdentity({ accounts: [_this.network] }).then(function () {
+                                var account = scatter_13.identity.accounts.find(function (x) { return x.blockchain === 'eos'; });
+                                var eosOptions = { expireInSeconds: 60 };
+                                var eos = scatter_13.eos(_this.network, eosjs__WEBPACK_IMPORTED_MODULE_5__, eosOptions);
+                                var transactionOptions = { authorization: [account.name + "@" + account.authority] };
+                                eos.transaction('murmurdappco', function (contract) {
+                                    contract.uncomentyell(account.name, id, transactionOptions);
+                                }).then(function (trx) {
+                                    // console.log(`Transaction ID: ${trx.transaction_id}`);
+                                    resolve({ Error: false, transId: trx.transaction_id });
+                                }).catch(function (error) {
+                                    console.error(error);
+                                    resolve({ Error: true, errMesg: error.message });
+                                    // reject(error);
+                                });
+                            }).catch(function (error) {
+                                console.error("Error in Scatter: ", error);
+                                reject(error);
+                            });
+                        }
+                        else {
+                            _this.SetConfig().then(function (eos) {
+                                eos.transaction('murmurdappco', function (contract) {
+                                    contract.uncomentyell(localStorage.getItem(_this.Scatter_account_name).split('-')[0], id);
+                                }, _this.config).then(function (trx) {
+                                    // console.log(`Transaction ID: ${trx.transaction_id}`);
+                                    resolve({ Error: false, transId: trx.transaction_id });
+                                }).catch(function (error) {
+                                    console.error(error);
+                                    resolve({ Error: true, errMesg: error.message });
+                                    // reject(error);
+                                });
+                            });
+                        }
+                    })];
+            });
+        });
+    };
+    MurmurService.prototype.unyell = function (id) {
+        return __awaiter(this, void 0, void 0, function () {
+            var _this = this;
+            return __generator(this, function (_a) {
+                return [2 /*return*/, new Promise(function (resolve, reject) {
+                        // console.log("yell contract call "+  id);
+                        if (localStorage.getItem(_this.Scatter_account_name).split('-').length == 1) {
+                            var scatter_14 = window.scatter;
+                            scatter_14.getIdentity({ accounts: [_this.network] }).then(function () {
+                                var account = scatter_14.identity.accounts.find(function (x) { return x.blockchain === 'eos'; });
+                                var eosOptions = { expireInSeconds: 60 };
+                                var eos = scatter_14.eos(_this.network, eosjs__WEBPACK_IMPORTED_MODULE_5__, eosOptions);
+                                var transactionOptions = { authorization: [account.name + "@" + account.authority] };
+                                eos.transaction('murmurdappco', function (contract) {
+                                    contract.unyell(account.name, id, transactionOptions);
+                                }).then(function (trx) {
+                                    // console.log(`Transaction ID: ${trx.transaction_id}`);
+                                    resolve({ Error: false, transId: trx.transaction_id });
+                                }).catch(function (error) {
+                                    console.error(error);
+                                    resolve({ Error: true, errMesg: error.message });
+                                    // reject(error);
+                                });
+                            }).catch(function (error) {
+                                console.error("Error in Scatter: ", error);
+                                reject(error);
+                            });
+                        }
+                        else {
+                            _this.SetConfig().then(function (eos) {
+                                eos.transaction('murmurdappco', function (contract) {
+                                    contract.unyell(localStorage.getItem(_this.Scatter_account_name).split('-')[0], id);
+                                }, _this.config).then(function (trx) {
+                                    // console.log(`Transaction ID: ${trx.transaction_id}`);
+                                    resolve({ Error: false, transId: trx.transaction_id });
+                                }).catch(function (error) {
+                                    console.error(error);
+                                    resolve({ Error: true, errMesg: error.message });
+                                    // reject(error);
+                                });
+                            });
+                        }
                     })];
             });
         });
@@ -3315,7 +4174,7 @@ module.exports = ".styleone{\n\n\t/*display: flex;*/\n\t/*flex-direction: column
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!-- This sesction is for Detailed User Feed of people. Starts Here -->\n\n<div class=\"styleone\">\n\n\t<!-- This header is open header for Other Users psersonal Profile. Starts Here -->\n\t<header class=\"headerone\">\n\t\t<a class=\"cursor\" (click)=\"goBack()\"><i class=\"material-icons mt-2\">keyboard_backspace</i></a>\n\t</header>\n\t<!-- This header is open header for Other Users psersonal Profile. Starts Here -->\n\n\t<div style=\"display: block;height: 94%;overflow-y: auto;-ms-overflow-style: -ms-autohiding-scrollbar;padding-bottom: 20px;\">\n\t\t<div class=\"card mt-0\">\n\t\t  <div class=\"card-body\">\n\t\t    <div class=\"row\">\n\t\t    \t<div class=\"col-1\">\n\t\t    \t\t<a><img class=\"userimage\" src={{My_Profile.profile_pic}}></a>\n\t\t    \t</div>\t\t\t\n\t\t\t\t<div class=\"col-9\" style=\"margin: auto;\">\n\t\t\t\t\t<textarea class=\"form-control formcolor\"  (ngModelChange)=\"create()\"  [(ngModel)] = \"murmur\" id=\"exampleFormControlTextarea1\" type=\"text\" placeholder=\"Type a message here\" rows=\"3\"></textarea>\n\t\t\t\t\t<div *ngIf=\"errormsg\">\n\t\t\t\t\t\t<span style=\"color:red\"><i>{{ errorcomments }} </i></span>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t<div class=\"row\" >\n\t\t\t\t\t\t\t<label for=\"fileToUpload\">\n\t\t\t\t\t\t\t\t<a><i class=\"material-icons mt-3 cursor\" style=\"color: #a09fed;\">image</i></a>\n\t\t\t\t\t\t\t</label>\n\t\t\t\t\t\t\t<a style=\"padding: 15px\">&nbsp;{{fileName}}&nbsp;</a>\n\t\t\t\t\t\t\t<label *ngIf = \"File_select\">\n\t\t\t\t\t\t\t\t<a><i class=\"material-icons mt-3 cursor\" (click)=\"file_clear()\" style=\"color: #a09fed;\">clear</i></a>\n\t\t\t\t\t\t\t</label>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<input id=\"fileToUpload\" type=\"file\" (change)=\"onFileChanged($event)\" accept=\"image/*\" style=\"display:none;\">\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-2 mt-4\" style=\"margin: auto;text-align: center;\">\n\t\t\t\t\t<button type=\"button\" [disabled] = \"errormsg\" (click)=\"post()\" class=\"btn btn-secondary\" style=\"background-color: #a09fed;border-color: #a09fed;\">murmur</button>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"row\" *ngIf=\"url != ''\">\n                <div class=\"col-3\"></div>\n                <div class=\"col-6\">\n\t\t\t\t\t<a><img style=\"width: 100%;height:100%; border-radius: 40px;padding: 10px 16px;\" alt=\"\" class=\"mb-4\" src={{url}}></a>\n\t\t\t\t</div>\n            </div>\n\t\t\t<!-- <a><img style=\"width: 100%; border-radius: 10px;\" alt=\"\" class=\"mb-4\" src={{url}}></a> -->\n\t\t  </div>\n\t\t</div>\n\t\t<ngx-spinner\n\t\t\tbdColor=\"rgba(51,51,51,0.8)\"\n\t\t\tsize=\"medium\"\n\t\t\tcolor=\"#fff\"\n\t\t\tloadingText=\"Loading...\"\n\t\t\ttype=\"ball-scale-multiple\">\n\t\t</ngx-spinner>\n\t</div>\n</div>\n\n<!-- This sesction is for Detailed User Feed of people. Ends Here -->\n<button id=\"openModalButton\" [hidden]=\"true\" data-toggle=\"modal\" data-target=\"#exampleModalCenter\">Open Modal</button>\n\n<!-- Modal -->\n<div class=\"modal fade\" id=\"exampleModalCenter\"   tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"exampleModalCenterTitle\" aria-hidden=\"true\" #closeBtn>\n\t<div class=\"modal-dialog modal-dialog-centered\" role=\"document\">\n\t\t<div class=\"modal-content\">\n\t\t<div class=\"modal-body\" style=\"font-size: 20px;margin: auto;\">\n\t\t\t{{resMes}}\n\t\t</div>\n\t\t<div class=\"modal-footer\" style=\"margin: auto;\">\n\t\t\t<button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Close</button>\n\t\t</div>\n\t\t</div>\n\t</div>\n</div>  \n"
+module.exports = "<!-- This sesction is for Detailed User Feed of people. Starts Here -->\n\n<div class=\"styleone\">\n\n\t<!-- This header is open header for Other Users psersonal Profile. Starts Here -->\n\t<header class=\"headerone\">\n\t\t<a class=\"cursor\" (click)=\"goBack()\"><i class=\"material-icons mt-2\">keyboard_backspace</i></a>\n\t</header>\n\t<!-- This header is open header for Other Users psersonal Profile. Starts Here -->\n\n\t<div style=\"display: block;height: 94%;overflow-y: auto;-ms-overflow-style: -ms-autohiding-scrollbar;padding-bottom: 20px;\">\n\t\t<div class=\"card mt-0\">\n\t\t  <div class=\"card-body\">\n\t\t    <div class=\"row\">\n\t\t    \t<div class=\"col-1\">\n\t\t    \t\t<a><img class=\"userimage\" src={{My_Profile.profile_pic}}></a>\n\t\t    \t</div>\t\t\t\n\t\t\t\t<div class=\"col-9\" style=\"margin: auto;\">\n\t\t\t\t\t<textarea class=\"form-control formcolor\"  (ngModelChange)=\"check_length()\"  [(ngModel)] = \"murmur\" id=\"exampleFormControlTextarea1\" type=\"text\" placeholder=\"Type a message here\" rows=\"3\"></textarea>\n\t\t\t\t\t<div *ngIf=\"errormsg\">\n\t\t\t\t\t\t<span style=\"color:red\"><i>{{ errorcomments }} </i></span>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t<div class=\"row\" >\n\t\t\t\t\t\t\t<label for=\"fileToUpload\">\n\t\t\t\t\t\t\t\t<a><i class=\"material-icons mt-3 cursor\" style=\"color: #a09fed;\">image</i></a>\n\t\t\t\t\t\t\t</label>\n\t\t\t\t\t\t\t<a style=\"padding: 15px\">&nbsp;{{fileName}}&nbsp;</a>\n\t\t\t\t\t\t\t<label *ngIf = \"File_select\">\n\t\t\t\t\t\t\t\t<a><i class=\"material-icons mt-3 cursor\" (click)=\"file_clear()\" style=\"color: #a09fed;\">clear</i></a>\n\t\t\t\t\t\t\t</label>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<input id=\"fileToUpload\" type=\"file\" (change)=\"onFileChanged($event)\" accept=\"image/*\" style=\"display:none;\">\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-2 mt-4\" style=\"margin: auto;text-align: center;\">\n\t\t\t\t\t<button type=\"button\" [disabled] = \"errormsg\" (click)=\"post()\" class=\"btn btn-secondary\" style=\"background-color: #a09fed;border-color: #a09fed;\">murmur</button>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"row\" *ngIf=\"url != ''\">\n                <div class=\"col-3\"></div>\n                <div class=\"col-6\">\n\t\t\t\t\t<a><img style=\"width: 100%;height:100%; border-radius: 40px;padding: 10px 16px;\" alt=\"\" class=\"mb-4\" src={{url}}></a>\n\t\t\t\t</div>\n            </div>\n\t\t\t<!-- <a><img style=\"width: 100%; border-radius: 10px;\" alt=\"\" class=\"mb-4\" src={{url}}></a> -->\n\t\t  </div>\n\t\t</div>\n\t\t<ngx-spinner\n\t\t\tbdColor=\"rgba(51,51,51,0.8)\"\n\t\t\tsize=\"medium\"\n\t\t\tcolor=\"#fff\"\n\t\t\tloadingText=\"Loading...\"\n\t\t\ttype=\"ball-scale-multiple\">\n\t\t</ngx-spinner>\n\t</div>\n</div>\n\n<!-- This sesction is for Detailed User Feed of people. Ends Here -->\n<button id=\"openModalButton\" [hidden]=\"true\" data-toggle=\"modal\" data-target=\"#exampleModalCenter\">Open Modal</button>\n\n<!-- Modal -->\n<div class=\"modal fade\" id=\"exampleModalCenter\"   tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"exampleModalCenterTitle\" aria-hidden=\"true\" #closeBtn>\n\t<div class=\"modal-dialog modal-dialog-centered\" role=\"document\">\n\t\t<div class=\"modal-content\">\n\t\t<div class=\"modal-body\" style=\"font-size: 20px;margin: auto;\">\n\t\t\t{{resMes}}\n\t\t</div>\n\t\t<div class=\"modal-footer\" style=\"margin: auto;\">\n\t\t\t<button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Close</button>\n\t\t</div>\n\t\t</div>\n\t</div>\n</div>  \n"
 
 /***/ }),
 
@@ -3393,7 +4252,7 @@ var PostmurmurComponent = /** @class */ (function () {
         this.fileName = "";
         console.log("Cleared");
     };
-    PostmurmurComponent.prototype.post = function () {
+    PostmurmurComponent.prototype.post_murmur = function () {
         var _this = this;
         if (this.File_select && this.murmur.trim() != '') {
             this.spin.show();
@@ -3419,6 +4278,7 @@ var PostmurmurComponent = /** @class */ (function () {
                         _this.File_select = false;
                         _this.murmur = '';
                         _this.url = '';
+                        _this.fileName = '';
                         _this.spin.hide();
                         _this.resMes = 'Your Murmur is submitted into blockchain';
                         document.getElementById("openModalButton").click();
@@ -3455,7 +4315,13 @@ var PostmurmurComponent = /** @class */ (function () {
             this.errorcomments = "Please enter feeds description";
         }
     };
-    PostmurmurComponent.prototype.create = function () {
+    PostmurmurComponent.prototype.post = function () {
+        if (this.murmur.toString().length <= 256)
+            this.post_murmur();
+        else
+            this.check_length();
+    };
+    PostmurmurComponent.prototype.check_length = function () {
         if (this.murmur.toString().length > 256) {
             this.errormsg = true;
             this.errorcomments = "Max 256 charecters only allowed";
@@ -3489,7 +4355,7 @@ var PostmurmurComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".styleone{\n    /*display: flex;*/\n    /*flex-direction: column;*/\n    height: 100%;\n    font: inherit;\n    font-size: 100%;\n    vertical-align: baseline;\n    outline: none;\n    margin: 0;\n    padding: 0;\n    border: 0;\n}\n.headerone{\n    background-color: #ffffff;\n    padding: 10px 16px;\n    height: 6%;\n    width: 100%;\n    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);\n    margin-bottom: 10px;\n}\n.userimage {\n    width: 40px;\n    height: 40px;\n    border-radius: 50%;\n}\n.userimage1{\n    width: 40px;\n    height: 40px;\n    border-radius: 50%;\n}\n.footerone {\n    background-color: #ffffff;\n    position: absolute;\n    bottom: 0;\n    min-height: 80px;\n    width: 100%;\n}\n.formcolor{\n    background-color: #f7f8fa;\n    border: 1px solid #f7f8fa;\n}\n.threeicons {\n    font-size: 20px;\n}\n.threeicons:hover {\n    color: #a09fed;\n}\n.countdiv {\n    padding: 0;\n    margin: auto;\n    text-align: left;\n}\n.countdivp{\n    margin: 0;\n}\n.icon {\n    max-width: 80%;\n}\n.icondiv {\n    padding-right: 0;\n}\n.countselected {\n    color: #a09fed;\n}\n.cursor{\n    cursor: pointer;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvc2hhcmVwb3N0L3NoYXJlcG9zdC5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksa0JBQWtCO0lBQ2xCLDJCQUEyQjtJQUMzQixhQUFhO0lBQ2IsY0FBYztJQUNkLGdCQUFnQjtJQUNoQix5QkFBeUI7SUFDekIsY0FBYztJQUNkLFVBQVU7SUFDVixXQUFXO0lBQ1gsVUFBVTtDQUNiO0FBQ0Q7SUFDSSwwQkFBMEI7SUFDMUIsbUJBQW1CO0lBQ25CLFdBQVc7SUFDWCxZQUFZO0lBQ1osNEVBQTRFO0lBQzVFLG9CQUFvQjtDQUN2QjtBQUNEO0lBQ0ksWUFBWTtJQUNaLGFBQWE7SUFDYixtQkFBbUI7Q0FDdEI7QUFDRDtJQUNJLFlBQVk7SUFDWixhQUFhO0lBQ2IsbUJBQW1CO0NBQ3RCO0FBQ0Q7SUFDSSwwQkFBMEI7SUFDMUIsbUJBQW1CO0lBQ25CLFVBQVU7SUFDVixpQkFBaUI7SUFDakIsWUFBWTtDQUNmO0FBQ0Q7SUFDSSwwQkFBMEI7SUFDMUIsMEJBQTBCO0NBQzdCO0FBQ0Q7SUFDSSxnQkFBZ0I7Q0FDbkI7QUFDRDtJQUNJLGVBQWU7Q0FDbEI7QUFDRDtJQUNJLFdBQVc7SUFDWCxhQUFhO0lBQ2IsaUJBQWlCO0NBQ3BCO0FBQ0Q7SUFDSSxVQUFVO0NBQ2I7QUFDRDtJQUNJLGVBQWU7Q0FDbEI7QUFDRDtJQUNJLGlCQUFpQjtDQUNwQjtBQUNEO0lBQ0ksZUFBZTtDQUNsQjtBQUVEO0lBQ0ksZ0JBQWdCO0NBQ25CIiwiZmlsZSI6InNyYy9hcHAvc2hhcmVwb3N0L3NoYXJlcG9zdC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnN0eWxlb25le1xuICAgIC8qZGlzcGxheTogZmxleDsqL1xuICAgIC8qZmxleC1kaXJlY3Rpb246IGNvbHVtbjsqL1xuICAgIGhlaWdodDogMTAwJTtcbiAgICBmb250OiBpbmhlcml0O1xuICAgIGZvbnQtc2l6ZTogMTAwJTtcbiAgICB2ZXJ0aWNhbC1hbGlnbjogYmFzZWxpbmU7XG4gICAgb3V0bGluZTogbm9uZTtcbiAgICBtYXJnaW46IDA7XG4gICAgcGFkZGluZzogMDtcbiAgICBib3JkZXI6IDA7XG59XG4uaGVhZGVyb25le1xuICAgIGJhY2tncm91bmQtY29sb3I6ICNmZmZmZmY7XG4gICAgcGFkZGluZzogMTBweCAxNnB4O1xuICAgIGhlaWdodDogNiU7XG4gICAgd2lkdGg6IDEwMCU7XG4gICAgYm94LXNoYWRvdzogMCAxcHggMXB4IDAgcmdiYSgwLCAwLCAwLCAwLjA2KSwgMCAycHggNXB4IDAgcmdiYSgwLCAwLCAwLCAwLjIpO1xuICAgIG1hcmdpbi1ib3R0b206IDEwcHg7XG59XG4udXNlcmltYWdlIHtcbiAgICB3aWR0aDogNDBweDtcbiAgICBoZWlnaHQ6IDQwcHg7XG4gICAgYm9yZGVyLXJhZGl1czogNTAlO1xufVxuLnVzZXJpbWFnZTF7XG4gICAgd2lkdGg6IDQwcHg7XG4gICAgaGVpZ2h0OiA0MHB4O1xuICAgIGJvcmRlci1yYWRpdXM6IDUwJTtcbn1cbi5mb290ZXJvbmUge1xuICAgIGJhY2tncm91bmQtY29sb3I6ICNmZmZmZmY7XG4gICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgIGJvdHRvbTogMDtcbiAgICBtaW4taGVpZ2h0OiA4MHB4O1xuICAgIHdpZHRoOiAxMDAlO1xufVxuLmZvcm1jb2xvcntcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZjdmOGZhO1xuICAgIGJvcmRlcjogMXB4IHNvbGlkICNmN2Y4ZmE7XG59XG4udGhyZWVpY29ucyB7XG4gICAgZm9udC1zaXplOiAyMHB4O1xufVxuLnRocmVlaWNvbnM6aG92ZXIge1xuICAgIGNvbG9yOiAjYTA5ZmVkO1xufVxuLmNvdW50ZGl2IHtcbiAgICBwYWRkaW5nOiAwO1xuICAgIG1hcmdpbjogYXV0bztcbiAgICB0ZXh0LWFsaWduOiBsZWZ0O1xufVxuLmNvdW50ZGl2cHtcbiAgICBtYXJnaW46IDA7XG59XG4uaWNvbiB7XG4gICAgbWF4LXdpZHRoOiA4MCU7XG59XG4uaWNvbmRpdiB7XG4gICAgcGFkZGluZy1yaWdodDogMDtcbn1cbi5jb3VudHNlbGVjdGVkIHtcbiAgICBjb2xvcjogI2EwOWZlZDtcbn1cblxuLmN1cnNvcntcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG59Il19 */"
+module.exports = ".styleone{\n    /*display: flex;*/\n    /*flex-direction: column;*/\n    height: 100%;\n    font: inherit;\n    font-size: 100%;\n    vertical-align: baseline;\n    outline: none;\n    margin: 0;\n    padding: 0;\n    border: 0;\n}\n.headerone{\n    background-color: #ffffff;\n    padding: 10px 16px;\n    height: 6%;\n    width: 100%;\n    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);\n    margin-bottom: 10px;\n}\n.userimage {\n    width: 40px;\n    height: 40px;\n    border-radius: 50%;\n}\n.userimage1{\n    width: 40px;\n    height: 40px;\n    border-radius: 50%;\n}\n.footerone {\n    background-color: #ffffff;\n    position: absolute;\n    bottom: 0;\n    min-height: 80px;\n    width: 100%;\n}\n.formcolor{\n    background-color: #f7f8fa;\n    border: 1px solid #f7f8fa;\n}\n.threeicons {\n    font-size: 20px;\n}\n.threeicons:hover {\n    color: #a09fed;\n}\n.countdiv {\n    padding: 0;\n    margin: auto;\n    text-align: left;\n}\n.countdivp{\n    margin: 0;\n}\n.icon {\n    max-width: 70%;\n}\n.icondiv {\n    padding-right: 0;\n}\n.countselected {\n    color: #a09fed;\n}\n.cursor{\n    cursor: pointer;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvc2hhcmVwb3N0L3NoYXJlcG9zdC5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksa0JBQWtCO0lBQ2xCLDJCQUEyQjtJQUMzQixhQUFhO0lBQ2IsY0FBYztJQUNkLGdCQUFnQjtJQUNoQix5QkFBeUI7SUFDekIsY0FBYztJQUNkLFVBQVU7SUFDVixXQUFXO0lBQ1gsVUFBVTtDQUNiO0FBQ0Q7SUFDSSwwQkFBMEI7SUFDMUIsbUJBQW1CO0lBQ25CLFdBQVc7SUFDWCxZQUFZO0lBQ1osNEVBQTRFO0lBQzVFLG9CQUFvQjtDQUN2QjtBQUNEO0lBQ0ksWUFBWTtJQUNaLGFBQWE7SUFDYixtQkFBbUI7Q0FDdEI7QUFDRDtJQUNJLFlBQVk7SUFDWixhQUFhO0lBQ2IsbUJBQW1CO0NBQ3RCO0FBQ0Q7SUFDSSwwQkFBMEI7SUFDMUIsbUJBQW1CO0lBQ25CLFVBQVU7SUFDVixpQkFBaUI7SUFDakIsWUFBWTtDQUNmO0FBQ0Q7SUFDSSwwQkFBMEI7SUFDMUIsMEJBQTBCO0NBQzdCO0FBQ0Q7SUFDSSxnQkFBZ0I7Q0FDbkI7QUFDRDtJQUNJLGVBQWU7Q0FDbEI7QUFDRDtJQUNJLFdBQVc7SUFDWCxhQUFhO0lBQ2IsaUJBQWlCO0NBQ3BCO0FBQ0Q7SUFDSSxVQUFVO0NBQ2I7QUFDRDtJQUNJLGVBQWU7Q0FDbEI7QUFDRDtJQUNJLGlCQUFpQjtDQUNwQjtBQUNEO0lBQ0ksZUFBZTtDQUNsQjtBQUVEO0lBQ0ksZ0JBQWdCO0NBQ25CIiwiZmlsZSI6InNyYy9hcHAvc2hhcmVwb3N0L3NoYXJlcG9zdC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnN0eWxlb25le1xuICAgIC8qZGlzcGxheTogZmxleDsqL1xuICAgIC8qZmxleC1kaXJlY3Rpb246IGNvbHVtbjsqL1xuICAgIGhlaWdodDogMTAwJTtcbiAgICBmb250OiBpbmhlcml0O1xuICAgIGZvbnQtc2l6ZTogMTAwJTtcbiAgICB2ZXJ0aWNhbC1hbGlnbjogYmFzZWxpbmU7XG4gICAgb3V0bGluZTogbm9uZTtcbiAgICBtYXJnaW46IDA7XG4gICAgcGFkZGluZzogMDtcbiAgICBib3JkZXI6IDA7XG59XG4uaGVhZGVyb25le1xuICAgIGJhY2tncm91bmQtY29sb3I6ICNmZmZmZmY7XG4gICAgcGFkZGluZzogMTBweCAxNnB4O1xuICAgIGhlaWdodDogNiU7XG4gICAgd2lkdGg6IDEwMCU7XG4gICAgYm94LXNoYWRvdzogMCAxcHggMXB4IDAgcmdiYSgwLCAwLCAwLCAwLjA2KSwgMCAycHggNXB4IDAgcmdiYSgwLCAwLCAwLCAwLjIpO1xuICAgIG1hcmdpbi1ib3R0b206IDEwcHg7XG59XG4udXNlcmltYWdlIHtcbiAgICB3aWR0aDogNDBweDtcbiAgICBoZWlnaHQ6IDQwcHg7XG4gICAgYm9yZGVyLXJhZGl1czogNTAlO1xufVxuLnVzZXJpbWFnZTF7XG4gICAgd2lkdGg6IDQwcHg7XG4gICAgaGVpZ2h0OiA0MHB4O1xuICAgIGJvcmRlci1yYWRpdXM6IDUwJTtcbn1cbi5mb290ZXJvbmUge1xuICAgIGJhY2tncm91bmQtY29sb3I6ICNmZmZmZmY7XG4gICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgIGJvdHRvbTogMDtcbiAgICBtaW4taGVpZ2h0OiA4MHB4O1xuICAgIHdpZHRoOiAxMDAlO1xufVxuLmZvcm1jb2xvcntcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZjdmOGZhO1xuICAgIGJvcmRlcjogMXB4IHNvbGlkICNmN2Y4ZmE7XG59XG4udGhyZWVpY29ucyB7XG4gICAgZm9udC1zaXplOiAyMHB4O1xufVxuLnRocmVlaWNvbnM6aG92ZXIge1xuICAgIGNvbG9yOiAjYTA5ZmVkO1xufVxuLmNvdW50ZGl2IHtcbiAgICBwYWRkaW5nOiAwO1xuICAgIG1hcmdpbjogYXV0bztcbiAgICB0ZXh0LWFsaWduOiBsZWZ0O1xufVxuLmNvdW50ZGl2cHtcbiAgICBtYXJnaW46IDA7XG59XG4uaWNvbiB7XG4gICAgbWF4LXdpZHRoOiA3MCU7XG59XG4uaWNvbmRpdiB7XG4gICAgcGFkZGluZy1yaWdodDogMDtcbn1cbi5jb3VudHNlbGVjdGVkIHtcbiAgICBjb2xvcjogI2EwOWZlZDtcbn1cblxuLmN1cnNvcntcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG59Il19 */"
 
 /***/ }),
 
@@ -3500,7 +4366,7 @@ module.exports = ".styleone{\n    /*display: flex;*/\n    /*flex-direction: colu
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n<!-- This sesction is for Detailed User Feed of people. Starts Here -->\n\n<div class=\"styleone\">\n\n\t<!-- This header is open header for Other Users psersonal Profile. Starts Here -->\n\t<header class=\"headerone\">\n\t\t<a class=\"cursor\" (click)=\"goBack()\"><i class=\"material-icons mt-2\">keyboard_backspace</i></a>\n\t</header>\n\t<!-- This header is open header for Other Users psersonal Profile. Starts Here -->\n\n\t<div style=\"display: block;height: 94%;overflow-y: auto;-ms-overflow-style: -ms-autohiding-scrollbar;padding-bottom: 20px;\">\n\n\t\t<div class=\"card mt-0\" *ngFor=\"let mur of Murmur_Posts; let i = index\">\n\t\t\t<div class=\"card-body\" *ngIf = \"mur.action_type == 'murmur'\">\n\t\t\t\t<div class=\"row\">\n\t\t\t\t\t<div class=\"col-1\">\n\t\t\t\t\t\t<a class=\"cursor\" (click)=\"otherUser(mur.Acc_id)\"><img class=\"userimage\" src={{mur.image}}></a>\n\t\t\t\t\t</div>\t\t\t\n\t\t\t\t\t<div class=\"col-11\" style=\"margin: auto;\">\n\t\t\t\t\t\t<div class=\"col-9\">\n\t\t\t\t\t\t\t<a><h5 class=\"mb-1\" style=\"font-weight: 600;\">{{mur.account_name}}<span class=\"ml-2\" style=\"color: #a09fed;\">{{mur.Acc_id}}</span></h5></a>\n\t\t\t\t\t\t\t<a><p>{{mur.murmur.message}}</p></a>\n\t\t\t\t\t\t\t<a *ngIf = \" mur.murmur.attached_url !== ''\" ><img alt=\"\" style=\"width: 100%;border-radius: 10px;\" class=\"mb-4\" src={{mur.murmur.attached_url}}></a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<!-- <div class=\"row col-6\">\n\t\t\t\t\t\t\t<div class=\"col-4\"><a routerLink=\"\" style=\"color: #0b0c0e;\"><i class=\"threeicons material-icons\">thumb_up</i></a>{{mur.murmur.snoop_count}}</div>\n\t\t\t\t\t\t\t<div class=\"col-4\"><a routerLink=\"/share\"  style=\"color: #0b0c0e;\"><i class=\"threeicons material-icons\">share</i></a>{{mur.murmur.yell_count}}</div>\n\t\t\t\t\t\t\t<div class=\"col-4\"><a routerLink=\"/comment\" (click)=\"cmt_ID(i)\" style=\"color: #0b0c0e;\"><i class=\"threeicons material-icons\">comment</i></a>{{mur.murmur.comment_count}}</div>\n\t\t\t\t\t\t</div> -->\n\t\t\t\t\t\t<div class=\"row col-6\">\n\t\t\t\t\t\t\t<div class=\"col-4\">\n\t\t\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 icondiv\" *ngIf=\"!mur.murmur.snooped\"><a class=\"cursor\" (click)=\"snoop(i)\"><img class=\"icon\" src=\"assets/img/like.svg\"></a></div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 icondiv\" *ngIf=\"mur.murmur.snooped\"><a class=\"cursor\" (click)=\"snooped()\"><img class=\"icon\" src=\"assets/img/like_color.png\"></a></div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 countdiv\">\n\t\t\t\t\t\t\t\t\t\t<p class=\"countdivp\">{{mur.murmur.snoop_count}}</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-4\">\n\t\t\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 icondiv\"><a routerLink=\"/comment\" ><img class=\"icon\" src=\"assets/img/comment.svg\"></a></div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 countdiv\">\n\t\t\t\t\t\t\t\t\t\t<p class=\"countdivp\">{{mur.murmur.comment_count}}</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-4\">\n\t\t\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 icondiv\"><a class=\"cursor\"><img class=\"icon\" src=\"assets/img/share.svg\"></a></div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 countdiv\">\n\t\t\t\t\t\t\t\t\t\t<p class=\"countdivp\">{{mur.murmur.yell_count}}</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t\t\n\t\t<div class=\"card mt-0\">\n\t\t  <div class=\"card-body\" style=\"background-color: #dcdcdc;\">\n\t\t    <div class=\"row\">\n\t\t    \t<div class=\"col-1\" style=\"margin: auto;text-align: right;padding: 0;\">\n\t\t    \t\t<a><img class=\"userimage1\" src={{My_Profile.profile_pic}}></a>\n\t\t    \t</div>\t\t\t\n\t\t\t\t<div class=\"col-9\" style=\"margin: auto;\">\n\t\t\t\t\t<input class=\"form-control form-control-lg formcolor\" type=\"text\" [(ngModel)]=\"yell\" placeholder=\"Type a message here\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-2\" style=\"margin: auto;\">\n\t\t\t\t\t<button type=\"button\" (click)=\"post_yell()\" class=\"btn btn-secondary\" style=\"background-color: #a09fed;border-color: #a09fed;\">Share</button>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t  </div>\n\t\t</div>\n\t</div>\n</div>\n\n<!-- This sesction is for Detailed User Feed of people. Ends Here -->\n\n<button id=\"openModalButton\" [hidden]=\"true\" data-toggle=\"modal\" data-target=\"#exampleModalCenter\">Open Modal</button>\n\n<!-- Modal -->\n<div class=\"modal fade\" id=\"exampleModalCenter\"   tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"exampleModalCenterTitle\" aria-hidden=\"true\" #closeBtn>\n\t<div class=\"modal-dialog modal-dialog-centered\" role=\"document\">\n\t\t<div class=\"modal-content\">\n\t\t<div class=\"modal-body\" style=\"font-size: 20px;margin: auto;\">\n\t\t\t{{resMes}}\n\t\t</div>\n\t\t<div class=\"modal-footer\" style=\"margin: auto;\">\n\t\t\t<button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Close</button>\n\t\t</div>\n\t\t</div>\n\t</div>\n</div>  "
+module.exports = "\n<!-- This sesction is for Detailed User Feed of people. Starts Here -->\n\n<div class=\"styleone\">\n\n\t<!-- This header is open header for Other Users psersonal Profile. Starts Here -->\n\t<header class=\"headerone\">\n\t\t<a class=\"cursor\" (click)=\"goBack()\"><i class=\"material-icons mt-2\">keyboard_backspace</i></a>\n\t</header>\n\t<!-- This header is open header for Other Users psersonal Profile. Starts Here -->\n\n\t<div style=\"display: block;height: 94%;overflow-y: auto;-ms-overflow-style: -ms-autohiding-scrollbar;padding-bottom: 20px;\">\n\n\t\t<div class=\"card mt-0\" *ngFor=\"let mur of Murmur_Posts; let i = index\">\n\t\t\t<div class=\"card-body\" *ngIf = \"mur.action_type == 'murmur'\">\n\t\t\t\t<div class=\"row\">\n\t\t\t\t\t<div class=\"col-1\">\n\t\t\t\t\t\t<a class=\"cursor\" (click)=\"otherUser(mur.Acc_id)\"><img class=\"userimage\" src={{mur.image}}></a>\n\t\t\t\t\t</div>\t\t\t\n\t\t\t\t\t<div class=\"col-11\" style=\"margin: auto;\">\n\t\t\t\t\t\t<div class=\"col-9\">\n\t\t\t\t\t\t\t<a><h5 class=\"mb-1\" style=\"font-weight: 600;\">{{mur.account_name}}<span class=\"ml-2\" style=\"color: #a09fed;\">{{mur.Acc_id}}</span></h5></a>\n\t\t\t\t\t\t\t<a><p>{{mur.murmur.message}}</p></a>\n\t\t\t\t\t\t\t<a *ngIf = \" mur.murmur.attached_url !== ''\" ><img alt=\"\" style=\"width: 100%;border-radius: 10px;\" class=\"mb-4\" src={{mur.murmur.attached_url}}></a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<!-- <div class=\"row col-6\">\n\t\t\t\t\t\t\t<div class=\"col-4\"><a routerLink=\"\" style=\"color: #0b0c0e;\"><i class=\"threeicons material-icons\">thumb_up</i></a>{{mur.murmur.snoop_count}}</div>\n\t\t\t\t\t\t\t<div class=\"col-4\"><a routerLink=\"/share\"  style=\"color: #0b0c0e;\"><i class=\"threeicons material-icons\">share</i></a>{{mur.murmur.yell_count}}</div>\n\t\t\t\t\t\t\t<div class=\"col-4\"><a routerLink=\"/comment\" (click)=\"cmt_ID(i)\" style=\"color: #0b0c0e;\"><i class=\"threeicons material-icons\">comment</i></a>{{mur.murmur.comment_count}}</div>\n\t\t\t\t\t\t</div> -->\n\t\t\t\t\t\t<div class=\"row col-6\">\n\t\t\t\t\t\t\t<div class=\"col-4\">\n\t\t\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 icondiv\" *ngIf=\"!mur.murmur.snooped\"><a class=\"cursor\" (click)=\"snoop(i)\"><img class=\"icon\" src=\"assets/img/like.svg\"></a></div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 icondiv\" *ngIf=\"mur.murmur.snooped\"><a class=\"cursor\" (click)=\"snooped()\"><img class=\"icon\" src=\"assets/img/like_color.png\"></a></div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 countdiv\">\n\t\t\t\t\t\t\t\t\t\t<p class=\"countdivp\">{{mur.murmur.snoop_count}}</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-4\">\n\t\t\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 icondiv\"><a routerLink=\"/comment\" ><img class=\"icon\" src=\"assets/img/comment.svg\"></a></div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 countdiv\">\n\t\t\t\t\t\t\t\t\t\t<p class=\"countdivp\">{{mur.murmur.comment_count}}</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-4\">\n\t\t\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 icondiv\"><a class=\"cursor\"><img class=\"icon\" src=\"assets/img/share.svg\"></a></div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 countdiv\">\n\t\t\t\t\t\t\t\t\t\t<p class=\"countdivp\">{{mur.murmur.yell_count}}</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t\t\n\t\t<div class=\"card mt-0\">\n\t\t  <div class=\"card-body\" style=\"background-color: #dcdcdc;\">\n\t\t    <div class=\"row\">\n\t\t    \t<div class=\"col-1\" style=\"margin: auto;text-align: right;padding: 0;\">\n\t\t    \t\t<a><img class=\"userimage1\" src={{My_Profile.profile_pic}}></a>\n\t\t    \t</div>\t\t\t\n\t\t\t\t<div class=\"col-9\" style=\"margin: auto;\">\n\t\t\t\t\t<input class=\"form-control form-control-lg formcolor\" type=\"text\" (ngModelChange)=\"check_length()\" [(ngModel)]=\"yell\" placeholder=\"Type a message here\">\n\t\t\t\t\t<div *ngIf=\"errormsg\">\n\t\t\t\t\t\t<span style=\"color:red\"><i>{{ errorcomments }} </i></span>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-2\" style=\"margin: auto;\">\n\t\t\t\t\t<button type=\"button\" [disabled] = \"errormsg\" (click)=\"yell_murmur()\" class=\"btn btn-secondary\" style=\"background-color: #a09fed;border-color: #a09fed;\">Share</button>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t  </div>\n\t\t</div>\n\t</div>\n</div>\n\n<!-- This sesction is for Detailed User Feed of people. Ends Here -->\n\n<button id=\"openModalButton\" [hidden]=\"true\" data-toggle=\"modal\" data-target=\"#exampleModalCenter\">Open Modal</button>\n\n<!-- Modal -->\n<div class=\"modal fade\" id=\"exampleModalCenter\"   tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"exampleModalCenterTitle\" aria-hidden=\"true\" #closeBtn>\n\t<div class=\"modal-dialog modal-dialog-centered\" role=\"document\">\n\t\t<div class=\"modal-content\">\n\t\t<div class=\"modal-body\" style=\"font-size: 20px;margin: auto;\">\n\t\t\t{{resMes}}\n\t\t</div>\n\t\t<div class=\"modal-footer\" style=\"margin: auto;\">\n\t\t\t<button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Close</button>\n\t\t</div>\n\t\t</div>\n\t</div>\n</div>  "
 
 /***/ }),
 
@@ -3539,6 +4405,8 @@ var SharepostComponent = /** @class */ (function () {
         this.Murmur_Posts = [];
         this.yell = '';
         this.My_Profile = {};
+        this.errormsg = false;
+        this.errorcomments = "Max 256 charecters only allowed";
     }
     SharepostComponent.prototype.ngOnInit = function () {
         var _this = this;
@@ -3592,16 +4460,47 @@ var SharepostComponent = /** @class */ (function () {
                     console.log(res['transId']);
                     _this.resMes = 'Your Snoop is submitted into blockchain'; // 'Transaction ID: '+res['transId']
                     document.getElementById("openModalButton").click();
-                    _this.Murmur_Posts[0].murmur.snopped = 1;
-                    _this.Murmur_Posts[0].murmur.snoop_count += 1;
-                    // this.ms.setSnoopedMurmur(res['id'], res['type'])
+                    if (_this.Murmur_Posts[0].action_type == 'murmur') {
+                        _this.Murmur_Posts[0].murmur.snooped = 1;
+                        _this.Murmur_Posts[0].murmur.snoop_count += 1;
+                        // this.ms.setSnoopedMurmur(res['id'], res['type'])
+                    }
+                    else {
+                        _this.Murmur_Posts[0].yell.snooped = 1;
+                        _this.Murmur_Posts[0].yell.snoop_count += 1;
+                        // this.ms.setSnoopedMurmur(res['id'], res['type'])
+                    }
                 }
             });
         });
     };
     SharepostComponent.prototype.snooped = function () {
-        this.resMes = 'You are already snooped';
-        document.getElementById("openModalButton").click();
+        var _this = this;
+        this.ms.getCommentData().then(function (res) {
+            _this.ms.unSnoop(res['id'], res['type']).then(function (res) {
+                console.log(res);
+                if (res['Error']) {
+                    if (res['errMesg'] == undefined)
+                        res['errMesg'] = 'Internal Server Error';
+                    console.log(res['errMesg']);
+                    _this.resMes = 'Error Message: ' + res['errMesg'];
+                    document.getElementById("openModalButton").click();
+                }
+                else {
+                    console.log(res['transId']);
+                    _this.resMes = 'Your UnSnoop is submitted into blockchain'; // 'Transaction ID: '+res['transId']
+                    document.getElementById("openModalButton").click();
+                    if (_this.Murmur_Posts[0].action_type == 'murmur') {
+                        _this.Murmur_Posts[0].murmur.snooped = 0;
+                        _this.Murmur_Posts[0].murmur.snoop_count -= 1;
+                    }
+                    else {
+                        _this.Murmur_Posts[0].yell.snooped = 0;
+                        _this.Murmur_Posts[0].yell.snoop_count -= 1;
+                    }
+                }
+            });
+        });
     };
     SharepostComponent.prototype.otherUser = function (name) {
         this.ms.setOtherUserName(name.split('@')[1]);
@@ -3666,6 +4565,18 @@ var SharepostComponent = /** @class */ (function () {
                 _this.router.navigate(['/']);
             }
         });
+    };
+    SharepostComponent.prototype.yell_murmur = function () {
+        if (this.yell.toString().length <= 256)
+            this.post_yell();
+        else
+            this.check_length();
+    };
+    SharepostComponent.prototype.check_length = function () {
+        if (this.yell.toString().length > 256)
+            this.errormsg = true;
+        else
+            this.errormsg = false;
     };
     SharepostComponent.prototype.goBack = function () {
         this.ms.goBack();
@@ -3845,7 +4756,7 @@ var UserchatComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".styleone{\n\n\t/*display: flex;*/\n\t/*flex-direction: column;*/\n\theight: 100%;\n\tfont: inherit;\n    font-size: 100%;\n    vertical-align: baseline;\n    outline: none;\n    margin: 0;\n    padding: 0;\n\tborder: 0;\n    bottom: 0;\n}\n\n.headerone{\n\n\tbackground-color: #ffffff;\n\tpadding: 10px 16px;\n\theight: 6%;\n\twidth: 100%;\n    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);\n    margin-bottom: 10px;\n\n}\n\n.userimage {\n\n\twidth: 40px;\n    height: 40px;\n    border-radius: 50%;\n}\n\n.footerone {\n\n\tbackground-color: #ffffff;\n\tposition: absolute;\n\tbottom: 0;\n\tmin-height: 80px;\n    width: 100%;\n}\n\n.formcolor{\n\n\tbackground-color: #f7f8fa;\n\tborder: 1px solid #f7f8fa;\n}\n\n.threeicons {\n\tfont-size: 20px;\n}\n\n.threeicons:hover {\n\tcolor: #a09fed;\n}\n\n.icon {\n    max-width: 80%;\n}\n\n.countdiv {\n\n\tpadding: 0;\n    margin: auto;\n    text-align: left;\n}\n\n.countdivp{\n\tmargin: 0;\n}\n\n.icondiv {\n\tpadding-right: 0;\n}\n\n.cursor{\n    cursor: pointer;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvdXNlcnBlcnNvbmFsZmVlZC91c2VycGVyc29uYWxmZWVkLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7O0NBRUMsa0JBQWtCO0NBQ2xCLDJCQUEyQjtDQUMzQixhQUFhO0NBQ2IsY0FBYztJQUNYLGdCQUFnQjtJQUNoQix5QkFBeUI7SUFDekIsY0FBYztJQUNkLFVBQVU7SUFDVixXQUFXO0NBQ2QsVUFBVTtJQUNQLFVBQVU7Q0FDYjs7QUFFRDs7Q0FFQywwQkFBMEI7Q0FDMUIsbUJBQW1CO0NBQ25CLFdBQVc7Q0FDWCxZQUFZO0lBQ1QsNEVBQTRFO0lBQzVFLG9CQUFvQjs7Q0FFdkI7O0FBRUQ7O0NBRUMsWUFBWTtJQUNULGFBQWE7SUFDYixtQkFBbUI7Q0FDdEI7O0FBRUQ7O0NBRUMsMEJBQTBCO0NBQzFCLG1CQUFtQjtDQUNuQixVQUFVO0NBQ1YsaUJBQWlCO0lBQ2QsWUFBWTtDQUNmOztBQUVEOztDQUVDLDBCQUEwQjtDQUMxQiwwQkFBMEI7Q0FDMUI7O0FBR0Q7Q0FDQyxnQkFBZ0I7Q0FDaEI7O0FBRUQ7Q0FDQyxlQUFlO0NBQ2Y7O0FBRUQ7SUFDSSxlQUFlO0NBQ2xCOztBQUVEOztDQUVDLFdBQVc7SUFDUixhQUFhO0lBQ2IsaUJBQWlCO0NBQ3BCOztBQUVEO0NBQ0MsVUFBVTtDQUNWOztBQUVEO0NBQ0MsaUJBQWlCO0NBQ2pCOztBQUVEO0lBQ0ksZ0JBQWdCO0NBQ25CIiwiZmlsZSI6InNyYy9hcHAvdXNlcnBlcnNvbmFsZmVlZC91c2VycGVyc29uYWxmZWVkLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuc3R5bGVvbmV7XG5cblx0LypkaXNwbGF5OiBmbGV4OyovXG5cdC8qZmxleC1kaXJlY3Rpb246IGNvbHVtbjsqL1xuXHRoZWlnaHQ6IDEwMCU7XG5cdGZvbnQ6IGluaGVyaXQ7XG4gICAgZm9udC1zaXplOiAxMDAlO1xuICAgIHZlcnRpY2FsLWFsaWduOiBiYXNlbGluZTtcbiAgICBvdXRsaW5lOiBub25lO1xuICAgIG1hcmdpbjogMDtcbiAgICBwYWRkaW5nOiAwO1xuXHRib3JkZXI6IDA7XG4gICAgYm90dG9tOiAwO1xufVxuXG4uaGVhZGVyb25le1xuXG5cdGJhY2tncm91bmQtY29sb3I6ICNmZmZmZmY7XG5cdHBhZGRpbmc6IDEwcHggMTZweDtcblx0aGVpZ2h0OiA2JTtcblx0d2lkdGg6IDEwMCU7XG4gICAgYm94LXNoYWRvdzogMCAxcHggMXB4IDAgcmdiYSgwLCAwLCAwLCAwLjA2KSwgMCAycHggNXB4IDAgcmdiYSgwLCAwLCAwLCAwLjIpO1xuICAgIG1hcmdpbi1ib3R0b206IDEwcHg7XG5cbn1cblxuLnVzZXJpbWFnZSB7XG5cblx0d2lkdGg6IDQwcHg7XG4gICAgaGVpZ2h0OiA0MHB4O1xuICAgIGJvcmRlci1yYWRpdXM6IDUwJTtcbn1cblxuLmZvb3Rlcm9uZSB7XG5cblx0YmFja2dyb3VuZC1jb2xvcjogI2ZmZmZmZjtcblx0cG9zaXRpb246IGFic29sdXRlO1xuXHRib3R0b206IDA7XG5cdG1pbi1oZWlnaHQ6IDgwcHg7XG4gICAgd2lkdGg6IDEwMCU7XG59XG5cbi5mb3JtY29sb3J7XG5cblx0YmFja2dyb3VuZC1jb2xvcjogI2Y3ZjhmYTtcblx0Ym9yZGVyOiAxcHggc29saWQgI2Y3ZjhmYTtcbn1cblxuXG4udGhyZWVpY29ucyB7XG5cdGZvbnQtc2l6ZTogMjBweDtcbn1cblxuLnRocmVlaWNvbnM6aG92ZXIge1xuXHRjb2xvcjogI2EwOWZlZDtcbn1cblxuLmljb24ge1xuICAgIG1heC13aWR0aDogODAlO1xufVxuXG4uY291bnRkaXYge1xuXG5cdHBhZGRpbmc6IDA7XG4gICAgbWFyZ2luOiBhdXRvO1xuICAgIHRleHQtYWxpZ246IGxlZnQ7XG59XG5cbi5jb3VudGRpdnB7XG5cdG1hcmdpbjogMDtcbn1cblxuLmljb25kaXYge1xuXHRwYWRkaW5nLXJpZ2h0OiAwO1xufVxuXG4uY3Vyc29ye1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbn0iXX0= */"
+module.exports = ".styleone{\n\n\t/*display: flex;*/\n\t/*flex-direction: column;*/\n\theight: 100%;\n\tfont: inherit;\n    font-size: 100%;\n    vertical-align: baseline;\n    outline: none;\n    margin: 0;\n    padding: 0;\n\tborder: 0;\n    bottom: 0;\n}\n\n.headerone{\n\n\tbackground-color: #ffffff;\n\tpadding: 10px 16px;\n\theight: 6%;\n\twidth: 100%;\n    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);\n    margin-bottom: 10px;\n\n}\n\n.userimage {\n\n\twidth: 40px;\n    height: 40px;\n    border-radius: 50%;\n}\n\n.footerone {\n\n\tbackground-color: #ffffff;\n\tposition: absolute;\n\tbottom: 0;\n\tmin-height: 80px;\n    width: 100%;\n}\n\n.formcolor{\n\n\tbackground-color: #f7f8fa;\n\tborder: 1px solid #f7f8fa;\n}\n\n.threeicons {\n\tfont-size: 20px;\n}\n\n.threeicons:hover {\n\tcolor: #a09fed;\n}\n\n.icon {\n    max-width: 70%;\n}\n\n.countdiv {\n\n\tpadding: 0;\n    margin: auto;\n    text-align: left;\n}\n\n.countdivp{\n\tmargin: 0;\n}\n\n.icondiv {\n\tpadding-right: 0;\n}\n\n.cursor{\n    cursor: pointer;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvdXNlcnBlcnNvbmFsZmVlZC91c2VycGVyc29uYWxmZWVkLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7O0NBRUMsa0JBQWtCO0NBQ2xCLDJCQUEyQjtDQUMzQixhQUFhO0NBQ2IsY0FBYztJQUNYLGdCQUFnQjtJQUNoQix5QkFBeUI7SUFDekIsY0FBYztJQUNkLFVBQVU7SUFDVixXQUFXO0NBQ2QsVUFBVTtJQUNQLFVBQVU7Q0FDYjs7QUFFRDs7Q0FFQywwQkFBMEI7Q0FDMUIsbUJBQW1CO0NBQ25CLFdBQVc7Q0FDWCxZQUFZO0lBQ1QsNEVBQTRFO0lBQzVFLG9CQUFvQjs7Q0FFdkI7O0FBRUQ7O0NBRUMsWUFBWTtJQUNULGFBQWE7SUFDYixtQkFBbUI7Q0FDdEI7O0FBRUQ7O0NBRUMsMEJBQTBCO0NBQzFCLG1CQUFtQjtDQUNuQixVQUFVO0NBQ1YsaUJBQWlCO0lBQ2QsWUFBWTtDQUNmOztBQUVEOztDQUVDLDBCQUEwQjtDQUMxQiwwQkFBMEI7Q0FDMUI7O0FBR0Q7Q0FDQyxnQkFBZ0I7Q0FDaEI7O0FBRUQ7Q0FDQyxlQUFlO0NBQ2Y7O0FBRUQ7SUFDSSxlQUFlO0NBQ2xCOztBQUVEOztDQUVDLFdBQVc7SUFDUixhQUFhO0lBQ2IsaUJBQWlCO0NBQ3BCOztBQUVEO0NBQ0MsVUFBVTtDQUNWOztBQUVEO0NBQ0MsaUJBQWlCO0NBQ2pCOztBQUVEO0lBQ0ksZ0JBQWdCO0NBQ25CIiwiZmlsZSI6InNyYy9hcHAvdXNlcnBlcnNvbmFsZmVlZC91c2VycGVyc29uYWxmZWVkLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuc3R5bGVvbmV7XG5cblx0LypkaXNwbGF5OiBmbGV4OyovXG5cdC8qZmxleC1kaXJlY3Rpb246IGNvbHVtbjsqL1xuXHRoZWlnaHQ6IDEwMCU7XG5cdGZvbnQ6IGluaGVyaXQ7XG4gICAgZm9udC1zaXplOiAxMDAlO1xuICAgIHZlcnRpY2FsLWFsaWduOiBiYXNlbGluZTtcbiAgICBvdXRsaW5lOiBub25lO1xuICAgIG1hcmdpbjogMDtcbiAgICBwYWRkaW5nOiAwO1xuXHRib3JkZXI6IDA7XG4gICAgYm90dG9tOiAwO1xufVxuXG4uaGVhZGVyb25le1xuXG5cdGJhY2tncm91bmQtY29sb3I6ICNmZmZmZmY7XG5cdHBhZGRpbmc6IDEwcHggMTZweDtcblx0aGVpZ2h0OiA2JTtcblx0d2lkdGg6IDEwMCU7XG4gICAgYm94LXNoYWRvdzogMCAxcHggMXB4IDAgcmdiYSgwLCAwLCAwLCAwLjA2KSwgMCAycHggNXB4IDAgcmdiYSgwLCAwLCAwLCAwLjIpO1xuICAgIG1hcmdpbi1ib3R0b206IDEwcHg7XG5cbn1cblxuLnVzZXJpbWFnZSB7XG5cblx0d2lkdGg6IDQwcHg7XG4gICAgaGVpZ2h0OiA0MHB4O1xuICAgIGJvcmRlci1yYWRpdXM6IDUwJTtcbn1cblxuLmZvb3Rlcm9uZSB7XG5cblx0YmFja2dyb3VuZC1jb2xvcjogI2ZmZmZmZjtcblx0cG9zaXRpb246IGFic29sdXRlO1xuXHRib3R0b206IDA7XG5cdG1pbi1oZWlnaHQ6IDgwcHg7XG4gICAgd2lkdGg6IDEwMCU7XG59XG5cbi5mb3JtY29sb3J7XG5cblx0YmFja2dyb3VuZC1jb2xvcjogI2Y3ZjhmYTtcblx0Ym9yZGVyOiAxcHggc29saWQgI2Y3ZjhmYTtcbn1cblxuXG4udGhyZWVpY29ucyB7XG5cdGZvbnQtc2l6ZTogMjBweDtcbn1cblxuLnRocmVlaWNvbnM6aG92ZXIge1xuXHRjb2xvcjogI2EwOWZlZDtcbn1cblxuLmljb24ge1xuICAgIG1heC13aWR0aDogNzAlO1xufVxuXG4uY291bnRkaXYge1xuXG5cdHBhZGRpbmc6IDA7XG4gICAgbWFyZ2luOiBhdXRvO1xuICAgIHRleHQtYWxpZ246IGxlZnQ7XG59XG5cbi5jb3VudGRpdnB7XG5cdG1hcmdpbjogMDtcbn1cblxuLmljb25kaXYge1xuXHRwYWRkaW5nLXJpZ2h0OiAwO1xufVxuXG4uY3Vyc29ye1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbn0iXX0= */"
 
 /***/ }),
 
@@ -3856,7 +4767,7 @@ module.exports = ".styleone{\n\n\t/*display: flex;*/\n\t/*flex-direction: column
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!-- This sesction is for Detailed User Feed of people. Starts Here -->\n\n<div class=\"styleone\">\n\t<!-- This header is open header for User psersonal Profile. Starts Here -->\n\t<header class=\"headerone\">\n\t\t<a class=\"cursor\" (click)=\"otherUser()\"><i class=\"material-icons mt-2\">keyboard_backspace</i></a>\n\t</header>\n\t<!-- This header is open header for User psersonal Profile. Ends Here -->\n\n\t<div style=\"display: block;height: 94%;overflow-y: auto;-ms-overflow-style: -ms-autohiding-scrollbar; padding-bottom: 20px;\">\n\n\t\t<div class=\"card mt-0\" *ngFor=\"let mur of My_Murmur_Posts; let i = index\">\n\t\t\t<div class=\"card-body\" >\n\t\t\t\t<div class=\"row\">\n\t\t\t\t\t<div class=\"col-1\">\n\t\t\t\t\t\t<a><img class=\"userimage\" alt=\"\" src={{My_Profile.profile_pic}}></a>\n\t\t\t\t\t</div>\t\t\t\n\t\t\t\t\t<div class=\"col-11\" style=\"margin: auto;\">\n\t\t\t\t\t\t<div class=\"col-9\">\n\t\t\t\t\t\t\t<a><h5 class=\"mb-1\" style=\"font-weight: 600;\">{{My_Profile.account_name}}<span class=\"ml-2\" style=\"color: #a09fed;\">{{mur.Acc_id}}</span></h5></a>\n\t\t\t\t\t\t\t<a><p>{{mur.murmur.message}}</p></a>\n\t\t\t\t\t\t\t<a *ngIf = \" mur.murmur.attached_url !== ''\" ><img alt=\"\" style=\"width: 100%;border-radius: 10px;\" class=\"mb-4\" src={{mur.murmur.attached_url}}></a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"row col-6\">\n\t\t\t\t\t\t\t<div class=\"col-4\">\n\t\t\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 icondiv\" *ngIf=\"!mur.murmur.snooped\"><a class=\"cursor\" (click)=\"snoop(i)\"><img class=\"icon\" src=\"assets/img/like.svg\"></a></div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 icondiv\" *ngIf=\"mur.murmur.snooped\"><a class=\"cursor\" (click)=\"snooped()\"><img class=\"icon\" src=\"assets/img/like_color.png\"></a></div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 countdiv\">\n\t\t\t\t\t\t\t\t\t\t<p class=\"countdivp\">{{mur.murmur.snoop_count}}</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-4\">\n\t\t\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 icondiv\"><a class=\"cursor\" routerLink=\"/comment\" (click)=\"cmt_Data(i)\"><img class=\"icon\" src=\"assets/img/comment.svg\"></a></div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 countdiv\">\n\t\t\t\t\t\t\t\t\t\t<p class=\"countdivp\">{{mur.murmur.comment_count}}</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-4\">\n\t\t\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 icondiv\"><a class=\"cursor\" routerLink=\"/share\" (click)=\"cmt_Data(i)\"><img class=\"icon\" src=\"assets/img/share.svg\"></a></div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 countdiv\">\n\t\t\t\t\t\t\t\t\t\t<p class=\"countdivp\">{{mur.murmur.yell_count}}</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t\t<div *ngIf=\"load\" style=\"text-align: center;padding-top: 5px;padding-bottom: 5px;\">\n\t\t\t<button type=\"button\" class=\"btn btn-secondary\" disabled style=\"border-radius: 30px;background-color: #a09fed;border-color: #a09fed;\">No more feeds found</button>\n\t\t</div>\n\t\t<ngx-spinner\n\t\t\tbdColor=\"rgba(51,51,51,0.8)\"\n\t\t\tsize=\"medium\"\n\t\t\tcolor=\"#fff\"\n\t\t\tloadingText=\"Loading...\"\n\t\t\ttype=\"ball-scale-multiple\">\n\t\t</ngx-spinner>\n\t</div>\n\t<router-outlet></router-outlet>\n</div>\n\n<!-- This sesction is for Detailed User Feed of people. Ends Here -->\n\n<button id=\"openModalButton\" [hidden]=\"true\" data-toggle=\"modal\" data-target=\"#exampleModalCenter\">Open Modal</button>\n\n<!-- Modal -->\n<div class=\"modal fade\" id=\"exampleModalCenter\"   tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"exampleModalCenterTitle\" aria-hidden=\"true\" #closeBtn>\n\t<div class=\"modal-dialog modal-dialog-centered\" role=\"document\">\n\t\t<div class=\"modal-content\">\n\t\t<div class=\"modal-body\" style=\"font-size: 20px;margin: auto;\">\n\t\t\t{{resMes}}\n\t\t</div>\n\t\t<div class=\"modal-footer\" style=\"margin: auto;\">\n\t\t\t<button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Close</button>\n\t\t</div>\n\t\t</div>\n\t</div>\n</div>"
+module.exports = "<!-- This sesction is for Detailed User Feed of people. Starts Here -->\n\n<div class=\"styleone\">\n\t<!-- This header is open header for User psersonal Profile. Starts Here -->\n\t<header class=\"headerone\">\n\t\t<a class=\"cursor\" (click)=\"goback()\"><i class=\"material-icons mt-2\">keyboard_backspace</i></a>\n\t</header>\n\t<!-- This header is open header for User psersonal Profile. Ends Here -->\n\n\t<div id = \"divscroll\" style=\"display: block;height: 94%;overflow-y: auto;-ms-overflow-style: -ms-autohiding-scrollbar;padding-bottom: 20px;\" >\n\n\t\t<div class=\"card mt-0\" *ngFor=\"let mur of My_Murmur_Posts; let i = index\" >\n\t\t\t<div class=\"card-body\" *ngIf = \"mur.action_type == 'murmur'\">\n\t\t\t\t<div class=\"row\">\n\t\t\t\t\t<div class=\"col-1\">\n\t\t\t\t\t\t<a><img class=\"userimage\" alt=\"\" src={{My_Profile.profile_pic}}></a>\n\t\t\t\t\t\t<!-- <a *ngIf=\"!name\" class=\"cursor\" (click)=\"deleteMurmur(i)\"><i class=\"material-icons mt-2\">delete</i></a> -->\n\t\t\t\t\t</div>\t\t\t\n\t\t\t\t\t<div class=\"col-11\" style=\"margin: auto;\">\n\t\t\t\t\t\t<div class=\"col-9\">\n\t\t\t\t\t\t\t<a><h6 class=\"mb-1\" style=\"font-weight: 600;\">{{mur.account_name}}<span class=\"ml-2\" style=\"color: #a09fed;\">{{mur.Acc_id}}</span>\n\t\t\t\t\t\t\t\t<!-- <a *ngIf=\"mur.status\" style=\"float:right;\" class=\"cursor\" (click)=\"deletePost(i)\"><i class=\"material-icons mt-2\">delete</i></a> -->\n\t\t\t\t\t\t\t</h6></a>\n\t\t\t\t\t\t\t<a><p>{{mur.murmur.message}}</p></a>\n\t\t\t\t\t\t\t<a *ngIf = \" mur.murmur.attached_url !== ''\" ><img style=\"width: 100%;border-radius: 10px;\" alt=\"\" class=\"mb-4\" src={{mur.murmur.attached_url}}></a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"row col-6\">\n\t\t\t\t\t\t\t<div class=\"col-4\">\n\t\t\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 icondiv\" *ngIf=\"!mur.murmur.snooped\"><a class=\"cursor\" (click)=\"snoop(i)\"><img class=\"icon\" src=\"assets/img/like.svg\"></a></div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 icondiv\" *ngIf=\"mur.murmur.snooped\"><a class=\"cursor\" (click)=\"snooped(i)\"><img class=\"icon\" src=\"assets/img/like_color.png\"></a></div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 countdiv\">\n\t\t\t\t\t\t\t\t\t\t<p class=\"countdivp\">{{mur.murmur.snoop_count}}</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-4\">\n\t\t\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 icondiv\"><a class=\"cursor\" routerLink=\"/comment\" (click)=\"cmt_Data(i)\"><img class=\"icon\" src=\"assets/img/comment.svg\"></a></div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 countdiv\">\n\t\t\t\t\t\t\t\t\t\t<p class=\"countdivp\">{{mur.murmur.comment_count}}</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-4\">\n\t\t\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 icondiv\"><a class=\"cursor\" routerLink=\"/share\" (click)=\"cmt_Data(i)\"><img class=\"icon\" src=\"assets/img/share.svg\"></a></div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 countdiv\">\n\t\t\t\t\t\t\t\t\t\t<p class=\"countdivp\">{{mur.murmur.yell_count}}</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\n\t\t\t<div class=\"card-body\" *ngIf = \"mur.action_type == 'yell'\">\n\t\t\t\t<div class=\"row\">\n                    <div class=\"col-1\">\n\t\t\t\t\t\t<a class=\"cursor\" (click)=\"otherUser(mur.Acc_id)\"><img class=\"userimage\" src={{mur.image}}></a>\n\t\t\t\t\t\t<!-- <a *ngIf=\"mur.status\" class=\"cursor\" (click)=\"deletePost(i)\"><i class=\"material-icons mt-2\">delete</i></a> -->\n                    </div>            \n\t\t\t\t\t<div class=\"col-11\" style=\"margin: auto;\">\n\t\t\t\t\t\t<div class=\"col-9\">\n\t\t\t\t\t\t\t<a><h6 class=\"mb-1\" style=\"font-weight: 600;\">{{mur.account_name}}<span class=\"ml-2\" style=\"color: #a09fed;\">{{mur.Acc_id}}</span>\n\t\t\t\t\t\t\t\t<!-- <a *ngIf=\"mur.status\" style=\"float:right;\" class=\"cursor\" (click)=\"deletePost(i)\"><i class=\"material-icons mt-2\">delete</i></a> -->\n\t\t\t\t\t\t\t</h6></a>\n\t\t\t\t\t\t\t<a><p>{{mur.yell.extra_comment}}</p></a>\n\t\t\t\t\t\t\t \n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-12 mb-4\">\n\t\t\t\t\t\t\t<div class=\"card mt-0\" style=\"border-radius: 10px;\">\n\t\t\t\t\t\t\t\t<div class=\"card-body\">\n\t\t\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-1\">\n\t\t\t\t\t\t\t\t\t\t<a class=\"cursor\" (click)=\"otherUser(mur.yell.mur_acc_id)\"><img alt=\"\" class=\"userimage\" src={{mur.yell.mur_acc_image}}></a>\n\t\t\t\t\t\t\t\t\t</div>            \n\t\t\t\t\t\t\t\t\t<div class=\"col-11\" style=\"margin: auto;\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"col-9\">\n\t\t\t\t\t\t\t\t\t\t\t<a><h6 class=\"mb-1\" style=\"font-weight: 600;\">{{mur.yell.mur_account_name}}<span class=\"ml-2\" style=\"color: #a09fed;\">{{mur.yell.mur_acc_id}}</span></h6></a>\n\t\t\t\t\t\t\t\t\t\t\t<a><p>{{mur.yell.message}}</p></a>\n\t\t\t\t\t\t\t\t\t\t\t<a *ngIf = \" mur.yell.attached_url !== ''\" ><img alt=\"\" style=\"width: 100%;border-radius: 10px;\" class=\"mb-4\" src={{mur.yell.attached_url}}></a>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"row col-6\">\n\t\t\t\t\t\t\t<div class=\"col-4\">\n\t\t\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 icondiv\" *ngIf=\"!mur.yell.snooped\"><a class=\"cursor\" (click)=\"snoop(i)\"><img class=\"icon\" src=\"assets/img/like.svg\"></a></div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 icondiv\" *ngIf=\"mur.yell.snooped\"><a class=\"cursor\" (click)=\"snooped(i)\"><img class=\"icon\" src=\"assets/img/like_color.png\"></a></div>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 countdiv\">\n\t\t\t\t\t\t\t\t\t\t<p class=\"countdivp\">{{mur.yell.snoop_count}}</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-4\">\n\t\t\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 icondiv\"><a class=\"cursor\" routerLink=\"/comment\" (click)=\"cmt_Data(i)\"><img class=\"icon\" src=\"assets/img/comment.svg\"></a></div>\n\t\t\t\t\t\t\t\t\t<div class=\"col-6 countdiv\">\n\t\t\t\t\t\t\t\t\t\t<p class=\"countdivp\">{{mur.yell.comment_count}}</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n                </div>\n\t\t\t</div>\n\n\t\t</div>\n\t\t<div *ngIf=\"load\" style=\"text-align: center;padding-top: 5px;padding-bottom: 5px;\">\n\t\t\t<button type=\"button\" class=\"btn btn-secondary\" (click)=\"LoadFeeds()\" style=\"border-radius: 30px;background-color: #a09fed;border-color: #a09fed;\">{{ notificationMessage }}</button>\n\t\t</div>\n\t\t<ngx-spinner\n\t\t\tbdColor=\"rgba(51,51,51,0.8)\"\n\t\t\tsize=\"medium\"\n\t\t\tcolor=\"#fff\"\n\t\t\tloadingText=\"Loading...\"\n\t\t\ttype=\"ball-scale-multiple\">\n\t\t</ngx-spinner>\n\t</div>\n\t<router-outlet></router-outlet>\n</div>\n\n<!-- This sesction is for Detailed User Feed of people. Ends Here -->\n\n<button id=\"openModalButton\" [hidden]=\"true\" data-toggle=\"modal\" data-target=\"#exampleModalCenter\">Open Modal</button>\n\n<!-- Modal -->\n<div class=\"modal fade\" id=\"exampleModalCenter\"   tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"exampleModalCenterTitle\" aria-hidden=\"true\" #closeBtn>\n\t<div class=\"modal-dialog modal-dialog-centered\" role=\"document\">\n\t\t<div class=\"modal-content\">\n\t\t<div class=\"modal-body\" style=\"font-size: 20px;margin: auto;\">\n\t\t\t{{resMes}}\n\t\t</div>\n\t\t<div class=\"modal-footer\" style=\"margin: auto;\">\n\t\t\t<button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Close</button>\n\t\t</div>\n\t\t</div>\n\t</div>\n</div>"
 
 /***/ }),
 
@@ -3872,6 +4783,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UserpersonalfeedComponent", function() { return UserpersonalfeedComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _murmur_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../murmur.service */ "./src/app/murmur.service.ts");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -3883,21 +4795,28 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 };
 
 
+
 var UserpersonalfeedComponent = /** @class */ (function () {
-    function UserpersonalfeedComponent(ms) {
+    function UserpersonalfeedComponent(ms, router) {
         this.ms = ms;
+        this.router = router;
         this.My_Murmur_Posts = [];
         this.My_Profile = {};
         this.name = '';
+        this.user = '';
         this.load = false;
+        this.last_resp = 1;
+        this.notificationMessage = "Load Feed";
     }
     UserpersonalfeedComponent.prototype.ngOnInit = function () {
         var _this = this;
         this.interval = setInterval(function () {
             _this.ms.getOtherUserName().then(function (res) {
                 if (_this.name != res) {
+                    _this.ms.page_count = 0;
                     _this.name = res;
                     if (res == undefined) {
+                        _this.user = localStorage.getItem(_this.ms.Scatter_account_name).split('-')[0];
                         if (_this.ms.Acc_Profile.length == 0) {
                             _this.ms.getAccountDetail(localStorage.getItem(_this.ms.Scatter_account_name).split('-')[0]).then(function (res) {
                                 _this.My_Profile = res[0];
@@ -3906,32 +4825,30 @@ var UserpersonalfeedComponent = /** @class */ (function () {
                         else {
                             _this.My_Profile = _this.ms.Acc_Profile[0];
                         }
-                        _this.ms.getMyMurmurs(localStorage.getItem(_this.ms.Scatter_account_name).split('-')[0]).then(function (resp) {
+                        _this.ms.getAccountActivity(localStorage.getItem(_this.ms.Scatter_account_name).split('-')[0]).then(function (resp) {
                             _this.My_Murmur_Posts = resp;
-                            if (_this.My_Murmur_Posts.length == 0) {
+                            if (_this.My_Murmur_Posts.length != 0)
                                 _this.load = true;
-                                // this.resMes = 'There is no more feeds! Please create any murmur!'
-                                // document.getElementById("openModalButton").click();
-                            }
                             else
                                 _this.load = false;
-                            // console.log(res)
+                            if (_this.My_Murmur_Posts.length < 10)
+                                _this.notificationMessage = "No more feeds found";
                         });
                     }
                     else {
+                        _this.user = res;
                         _this.ms.getAccountProfile(res).then(function (res) {
                             _this.My_Profile = res[0];
                             // console.log(res)
                         });
-                        _this.ms.getMyMurmurs(res).then(function (resp) {
+                        _this.ms.getAccountActivity(res).then(function (resp) {
                             _this.My_Murmur_Posts = resp;
-                            if (_this.My_Murmur_Posts.length == 0) {
+                            if (_this.My_Murmur_Posts.length != 0)
                                 _this.load = true;
-                                // this.resMes = 'There is no more feeds found!'
-                                // document.getElementById("openModalButton").click();
-                            }
                             else
                                 _this.load = false;
+                            if (_this.My_Murmur_Posts.length < 10)
+                                _this.notificationMessage = "No more feeds found";
                             // console.log(res)
                         });
                     }
@@ -3954,18 +4871,120 @@ var UserpersonalfeedComponent = /** @class */ (function () {
                 console.log(res['transId']);
                 _this.resMes = 'Your Snoop is submitted into blockchain';
                 document.getElementById("openModalButton").click();
+                if (_this.My_Murmur_Posts[id].action_type == 'murmur') {
+                    _this.My_Murmur_Posts[id].murmur.snooped = 1;
+                    _this.My_Murmur_Posts[id].murmur.snoop_count += 1;
+                }
+                else {
+                    _this.My_Murmur_Posts[id].yell.snooped = 1;
+                    _this.My_Murmur_Posts[id].yell.snoop_count += 1;
+                }
             }
         });
+    };
+    UserpersonalfeedComponent.prototype.snooped = function (id) {
+        var _this = this;
+        this.ms.unSnoop(id, 'mymurmur').then(function (res) {
+            console.log(res);
+            if (res['Error']) {
+                if (res['errMesg'] == undefined)
+                    res['errMesg'] = 'Internal Server Error';
+                console.log(res['errMesg']);
+                _this.resMes = 'Error Message: ' + res['errMesg'];
+                document.getElementById("openModalButton").click();
+            }
+            else {
+                console.log(res['transId']);
+                _this.resMes = 'Your UnSnoop is submitted into blockchain';
+                document.getElementById("openModalButton").click();
+                if (_this.My_Murmur_Posts[id].action_type == 'murmur') {
+                    _this.My_Murmur_Posts[id].murmur.snooped = 0;
+                    _this.My_Murmur_Posts[id].murmur.snoop_count -= 1;
+                }
+                else {
+                    _this.My_Murmur_Posts[id].yell.snooped = 0;
+                    _this.My_Murmur_Posts[id].yell.snoop_count -= 1;
+                }
+            }
+        });
+        // this.resMes = 'You are already snooped'
+        // document.getElementById("openModalButton").click();
     };
     UserpersonalfeedComponent.prototype.cmt_Data = function (id) {
         this.ms.setCommentData(id, 'mymurmur');
     };
-    UserpersonalfeedComponent.prototype.otherUser = function () {
+    UserpersonalfeedComponent.prototype.goback = function () {
         this.ms.setOtherUserName(undefined);
         this.ms.goBack();
     };
+    UserpersonalfeedComponent.prototype.otherUser = function (name) {
+        if (name.split('@')[1] != this.user) {
+            this.ms.setOtherUserName(name.split('@')[1]);
+            this.router.navigate([{ outlets: { primary: ['userpost'], feed: ['userprofilelist'] } }]);
+        }
+    };
+    UserpersonalfeedComponent.prototype.deleteMurmur = function (id) {
+        var _this = this;
+        if (this.My_Murmur_Posts[id].action_type == "murmur") {
+            // console.log(this.Murmur_Posts[id].murmur.murmur_id);
+            this.ms.deleteMurmur(this.My_Murmur_Posts[id].murmur.murmur_id).then(function (res) {
+                console.log(res);
+                if (res['Error']) {
+                    if (res['errMesg'] == undefined)
+                        res['errMesg'] = 'Internal Server Error';
+                    console.log(res['errMesg']);
+                    _this.resMes = 'Error Message: ' + res['errMesg'];
+                    document.getElementById("openModalButton").click();
+                }
+                else {
+                    console.log(res['transId']);
+                    _this.resMes = 'Your Delete Murmur is submitted to blockchain';
+                    document.getElementById("openModalButton").click();
+                }
+            });
+        }
+        else {
+            // console.log(this.Murmur_Posts[id].yell.yell_id);
+            this.ms.unyell(this.My_Murmur_Posts[id].yell.yell_id).then(function (res) {
+                console.log(res);
+                if (res['Error']) {
+                    if (res['errMesg'] == undefined)
+                        res['errMesg'] = 'Internal Server Error';
+                    console.log(res['errMesg']);
+                    _this.resMes = 'Error Message: ' + res['errMesg'];
+                    document.getElementById("openModalButton").click();
+                }
+                else {
+                    console.log(res['transId']);
+                    _this.resMes = 'Your Unyell is submitted to blockchain';
+                    document.getElementById("openModalButton").click();
+                }
+            });
+        }
+    };
+    UserpersonalfeedComponent.prototype.LoadFeeds = function () {
+        var _this = this;
+        if (this.notificationMessage != "No more feeds found") {
+            var meta = this;
+            meta.ms.page_count++;
+            meta.ms.getAccountActivity(this.user).then(function (res) {
+                meta.last_resp = res['length'];
+                if (res['length'] !== 0)
+                    for (var i = 0; i < res['length']; i++)
+                        meta.My_Murmur_Posts.push(res[i]);
+                else if (res['length'] == 0) {
+                    _this.notificationMessage = "No Feeds Found";
+                    _this.interval1 = setInterval(function () {
+                        if (meta.last_resp == 0)
+                            meta.load = false;
+                    }, 50);
+                }
+            });
+        }
+    };
     UserpersonalfeedComponent.prototype.ngOnDestroy = function () {
         clearInterval(this.interval);
+        clearInterval(this.interval1);
     };
     UserpersonalfeedComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
@@ -3973,7 +4992,7 @@ var UserpersonalfeedComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./userpersonalfeed.component.html */ "./src/app/userpersonalfeed/userpersonalfeed.component.html"),
             styles: [__webpack_require__(/*! ./userpersonalfeed.component.css */ "./src/app/userpersonalfeed/userpersonalfeed.component.css")]
         }),
-        __metadata("design:paramtypes", [_murmur_service__WEBPACK_IMPORTED_MODULE_1__["MurmurService"]])
+        __metadata("design:paramtypes", [_murmur_service__WEBPACK_IMPORTED_MODULE_1__["MurmurService"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"]])
     ], UserpersonalfeedComponent);
     return UserpersonalfeedComponent;
 }());
@@ -4057,6 +5076,12 @@ var UserprofilelistComponent = /** @class */ (function () {
                     }
                 }
             });
+            if (_this.name == undefined) {
+                if (JSON.stringify(_this.My_Profile) != JSON.stringify(_this.ms.Acc_Profile[0]) && JSON.stringify(_this.ms.Acc_Profile[0])) {
+                    // console.log(this.ms.Acc_Profile[0])
+                    _this.My_Profile = _this.ms.Acc_Profile[0];
+                }
+            }
             if (_this.ms.Acc_Profile.length != 0 && name == undefined)
                 if (_this.ms.Acc_Profile[0].following != _this.My_Profile.following) {
                     _this.My_Profile.following = _this.ms.Acc_Profile[0].following;
@@ -4100,7 +5125,7 @@ var UserprofilelistComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".styleone{\n\n\t/*display: flex;*/\n\t/*flex-direction: column;*/\n\theight: 100%;\n\tfont: inherit;\n    font-size: 100%;\n    vertical-align: baseline;\n    outline: none;\n    margin: 0;\n    padding: 0;\n    border: 0;\n    background: #232937;\n    /* background: #333254; */\n}\n\n.headerone{\n\n    /*background-color: #000000;*/\n    padding: 10px 16px;\n    height: 59px;\n    width: 100%;\n\n}\n\n.tablerowdata{\n\n    /*background-color: #000000;*/\n    /*padding: 10px 16px;*/\n    height: 72px;\n    width: 100%;\n\n}\n\n.inputone {\n    \n    width: 100%;\n}\n\n.form-control {\n\n    background-color: #171d2b;\n    border: 1px solid #171d2b;\n}\n\n.userimage {\n\n    width: 49px;\n    height: 49px;\n    border-radius: 50%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvd2lzcGVyY2hhdGxpc3Qvd2lzcGVyY2hhdGxpc3QuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7Q0FFQyxrQkFBa0I7Q0FDbEIsMkJBQTJCO0NBQzNCLGFBQWE7Q0FDYixjQUFjO0lBQ1gsZ0JBQWdCO0lBQ2hCLHlCQUF5QjtJQUN6QixjQUFjO0lBQ2QsVUFBVTtJQUNWLFdBQVc7SUFDWCxVQUFVO0lBQ1Ysb0JBQW9CO0lBQ3BCLDBCQUEwQjtDQUM3Qjs7QUFFRDs7SUFFSSw4QkFBOEI7SUFDOUIsbUJBQW1CO0lBQ25CLGFBQWE7SUFDYixZQUFZOztDQUVmOztBQUVEOztJQUVJLDhCQUE4QjtJQUM5Qix1QkFBdUI7SUFDdkIsYUFBYTtJQUNiLFlBQVk7O0NBRWY7O0FBRUQ7O0lBRUksWUFBWTtDQUNmOztBQUVEOztJQUVJLDBCQUEwQjtJQUMxQiwwQkFBMEI7Q0FDN0I7O0FBRUQ7O0lBRUksWUFBWTtJQUNaLGFBQWE7SUFDYixtQkFBbUI7Q0FDdEIiLCJmaWxlIjoic3JjL2FwcC93aXNwZXJjaGF0bGlzdC93aXNwZXJjaGF0bGlzdC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnN0eWxlb25le1xuXG5cdC8qZGlzcGxheTogZmxleDsqL1xuXHQvKmZsZXgtZGlyZWN0aW9uOiBjb2x1bW47Ki9cblx0aGVpZ2h0OiAxMDAlO1xuXHRmb250OiBpbmhlcml0O1xuICAgIGZvbnQtc2l6ZTogMTAwJTtcbiAgICB2ZXJ0aWNhbC1hbGlnbjogYmFzZWxpbmU7XG4gICAgb3V0bGluZTogbm9uZTtcbiAgICBtYXJnaW46IDA7XG4gICAgcGFkZGluZzogMDtcbiAgICBib3JkZXI6IDA7XG4gICAgYmFja2dyb3VuZDogIzIzMjkzNztcbiAgICAvKiBiYWNrZ3JvdW5kOiAjMzMzMjU0OyAqL1xufVxuXG4uaGVhZGVyb25le1xuXG4gICAgLypiYWNrZ3JvdW5kLWNvbG9yOiAjMDAwMDAwOyovXG4gICAgcGFkZGluZzogMTBweCAxNnB4O1xuICAgIGhlaWdodDogNTlweDtcbiAgICB3aWR0aDogMTAwJTtcblxufVxuXG4udGFibGVyb3dkYXRhe1xuXG4gICAgLypiYWNrZ3JvdW5kLWNvbG9yOiAjMDAwMDAwOyovXG4gICAgLypwYWRkaW5nOiAxMHB4IDE2cHg7Ki9cbiAgICBoZWlnaHQ6IDcycHg7XG4gICAgd2lkdGg6IDEwMCU7XG5cbn1cblxuLmlucHV0b25lIHtcbiAgICBcbiAgICB3aWR0aDogMTAwJTtcbn1cblxuLmZvcm0tY29udHJvbCB7XG5cbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMTcxZDJiO1xuICAgIGJvcmRlcjogMXB4IHNvbGlkICMxNzFkMmI7XG59XG5cbi51c2VyaW1hZ2Uge1xuXG4gICAgd2lkdGg6IDQ5cHg7XG4gICAgaGVpZ2h0OiA0OXB4O1xuICAgIGJvcmRlci1yYWRpdXM6IDUwJTtcbn0iXX0= */"
+module.exports = ".styleone{\n\n\t/*display: flex;*/\n\t/*flex-direction: column;*/\n\theight: 100%;\n\tfont: inherit;\n    font-size: 100%;\n    vertical-align: baseline;\n    outline: none;\n    margin: 0;\n    padding: 0;\n    border: 0;\n    /* background: #232937; */\n    background: #333254;\n}\n\n.headerone{\n\n    /*background-color: #000000;*/\n    padding: 10px 16px;\n    height: 59px;\n    width: 100%;\n\n}\n\n.tablerowdata{\n\n    /*background-color: #000000;*/\n    /*padding: 10px 16px;*/\n    height: 72px;\n    width: 100%;\n\n}\n\n.inputone {\n    \n    width: 100%;\n}\n\n.form-control {\n\n    background-color: #171d2b;\n    border: 1px solid #171d2b;\n}\n\n.userimage {\n\n    width: 49px;\n    height: 49px;\n    border-radius: 50%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvd2lzcGVyY2hhdGxpc3Qvd2lzcGVyY2hhdGxpc3QuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7Q0FFQyxrQkFBa0I7Q0FDbEIsMkJBQTJCO0NBQzNCLGFBQWE7Q0FDYixjQUFjO0lBQ1gsZ0JBQWdCO0lBQ2hCLHlCQUF5QjtJQUN6QixjQUFjO0lBQ2QsVUFBVTtJQUNWLFdBQVc7SUFDWCxVQUFVO0lBQ1YsMEJBQTBCO0lBQzFCLG9CQUFvQjtDQUN2Qjs7QUFFRDs7SUFFSSw4QkFBOEI7SUFDOUIsbUJBQW1CO0lBQ25CLGFBQWE7SUFDYixZQUFZOztDQUVmOztBQUVEOztJQUVJLDhCQUE4QjtJQUM5Qix1QkFBdUI7SUFDdkIsYUFBYTtJQUNiLFlBQVk7O0NBRWY7O0FBRUQ7O0lBRUksWUFBWTtDQUNmOztBQUVEOztJQUVJLDBCQUEwQjtJQUMxQiwwQkFBMEI7Q0FDN0I7O0FBRUQ7O0lBRUksWUFBWTtJQUNaLGFBQWE7SUFDYixtQkFBbUI7Q0FDdEIiLCJmaWxlIjoic3JjL2FwcC93aXNwZXJjaGF0bGlzdC93aXNwZXJjaGF0bGlzdC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnN0eWxlb25le1xuXG5cdC8qZGlzcGxheTogZmxleDsqL1xuXHQvKmZsZXgtZGlyZWN0aW9uOiBjb2x1bW47Ki9cblx0aGVpZ2h0OiAxMDAlO1xuXHRmb250OiBpbmhlcml0O1xuICAgIGZvbnQtc2l6ZTogMTAwJTtcbiAgICB2ZXJ0aWNhbC1hbGlnbjogYmFzZWxpbmU7XG4gICAgb3V0bGluZTogbm9uZTtcbiAgICBtYXJnaW46IDA7XG4gICAgcGFkZGluZzogMDtcbiAgICBib3JkZXI6IDA7XG4gICAgLyogYmFja2dyb3VuZDogIzIzMjkzNzsgKi9cbiAgICBiYWNrZ3JvdW5kOiAjMzMzMjU0O1xufVxuXG4uaGVhZGVyb25le1xuXG4gICAgLypiYWNrZ3JvdW5kLWNvbG9yOiAjMDAwMDAwOyovXG4gICAgcGFkZGluZzogMTBweCAxNnB4O1xuICAgIGhlaWdodDogNTlweDtcbiAgICB3aWR0aDogMTAwJTtcblxufVxuXG4udGFibGVyb3dkYXRhe1xuXG4gICAgLypiYWNrZ3JvdW5kLWNvbG9yOiAjMDAwMDAwOyovXG4gICAgLypwYWRkaW5nOiAxMHB4IDE2cHg7Ki9cbiAgICBoZWlnaHQ6IDcycHg7XG4gICAgd2lkdGg6IDEwMCU7XG5cbn1cblxuLmlucHV0b25lIHtcbiAgICBcbiAgICB3aWR0aDogMTAwJTtcbn1cblxuLmZvcm0tY29udHJvbCB7XG5cbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMTcxZDJiO1xuICAgIGJvcmRlcjogMXB4IHNvbGlkICMxNzFkMmI7XG59XG5cbi51c2VyaW1hZ2Uge1xuXG4gICAgd2lkdGg6IDQ5cHg7XG4gICAgaGVpZ2h0OiA0OXB4O1xuICAgIGJvcmRlci1yYWRpdXM6IDUwJTtcbn0iXX0= */"
 
 /***/ }),
 
@@ -4336,7 +5361,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/Gowtham/projects/my own/Murmur_web/src/main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! /home/chainflux/123/GV/murmur_web/src/main.ts */"./src/main.ts");
 
 
 /***/ }),
